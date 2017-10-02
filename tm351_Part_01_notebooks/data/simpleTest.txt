@@ -1,0 +1,9 @@
+
+This is a
+simple test to
+let you try 
+a basic 
+python
+file 
+reading stream.
+

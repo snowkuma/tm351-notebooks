@@ -1,0 +1,274 @@
+Economy,Region,Country,GDP_2010,country,Country code,Pop_2010,Location_trimmed,Location,numeric code,LE_2010
+Afghanistan,South Asia,Afghanistan,15936784436.1811,Afghanistan,4.0,27962.207,Afghanistan, Afghanistan,4.0,59.82
+Albania,Europe & Central Asia,Albania,11858166294.8409,Albania,8.0,2901.883,Albania,         Albania,8.0,77.49
+Algeria,Middle East & North Africa,Algeria,161207304960.455,Algeria,12.0,36036.159,Algeria,         Algeria,12.0,74.42
+American Samoa,East Asia & Pacific,American Samoa,..,American Samoa,16.0,55.636,,,,
+Andorra,Europe & Central Asia,Andorra,..,Andorra,20.0,84.419,,,,
+Angola,Sub-Saharan Africa,Angola,82470894868.33371,Angola,24.0,21219.954,Angola,         Angola,24.0,51.68
+Antigua and Barbuda,Latin America & Caribbean,Antigua and Barbuda,1161528615.92593,Antigua and Barbuda,28.0,87.233,Antigua and Barbuda,         Antigua and Barbuda,28.0,75.82
+Argentina,Latin America & Caribbean,Argentina,368736062143.669,Argentina,32.0,41222.875,Argentina,         Argentina,32.0,76.01
+Armenia,Europe & Central Asia,Armenia,9260297329.12273,Armenia,51.0,2963.496,Armenia,         Armenia,51.0,74.56
+Aruba,Latin America & Caribbean,Aruba,2467703910.61453,Aruba,533.0,101.597,Aruba,         Aruba,533.0,75.39
+Australia,East Asia & Pacific,Australia,1141793593834.25,Australia,36.0,22162.863,Australia,         Australia,36.0,82.1
+Austria,Europe & Central Asia,Austria,375217439473.684,Austria,40.0,8391.986,Austria,         Austria,40.0,81.09
+Azerbaijan,Europe & Central Asia,Azerbaijan,52905998878.71429,Azerbaijan,31.0,9099.893,Azerbaijan,         Azerbaijan,31.0,70.62
+"Bahamas, The",Latin America & Caribbean,,,,,,,,,
+Bolivia,Latin America & Caribbean,,,,,,,,,
+"Congo, Dem. Rep.",Sub-Saharan Africa,,,,,,,,,
+"Congo, Rep.",Sub-Saharan Africa,,,,,,,,,
+"Egypt, Arab Rep.",Middle East & North Africa,,,,,,,,,
+"Gambia, The",Sub-Saharan Africa,,,,,,,,,
+"Hong Kong SAR, China",East Asia & Pacific,,,,,,,,,
+"Iran, Islamic Rep.",Middle East & North Africa,,,,,,,,,
+"Korea, Dem. Rep.",East Asia & Pacific,,,,,,,,,
+"Korea, Rep.",East Asia & Pacific,,,,,,,,,
+Kosovo,Europe & Central Asia,,,,,,,,,
+Kyrgyz Republic,Europe & Central Asia,,,,,,,,,
+Lao PDR,East Asia & Pacific,,,,,,,,,
+"Macao SAR, China",East Asia & Pacific,,,,,,,,,
+"Macedonia, FYR",Europe & Central Asia,,,,,,,,,
+"Micronesia, Fed. Sts.",East Asia & Pacific,,,,,,,,,
+Moldova,Europe & Central Asia,,,,,,,,,
+S?o Tom? and Principe,Sub-Saharan Africa,,,,,,,,,
+Slovak Republic,Europe & Central Asia,,,,,,,,,
+St. Kitts and Nevis,Latin America & Caribbean,,,,,,,,,
+St. Lucia,Latin America & Caribbean,,,,,,,,,
+St. Martin (French part),Latin America & Caribbean,,,,,,,,,
+St. Vincent and the Grenadines,Latin America & Caribbean,,,,,,,,,
+"Taiwan, China",East Asia & Pacific,,,,,,,,,
+Tanzania,Sub-Saharan Africa,,,,,,,,,
+United Kingdom,Europe & Central Asia,,,,,,,,,
+United States,North America,,,,,,,,,
+"Venezuela, RB",Latin America & Caribbean,,,,,,,,,
+Vietnam,East Asia & Pacific,,,,,,,,,
+Virgin Islands (U.S.),Latin America & Caribbean,,,,,,,,,
+West Bank and Gaza,Middle East & North Africa,,,,,,,,,
+"Yemen, Rep.",Middle East & North Africa,,,,,,,,,
+Bahrain,Middle East & North Africa,Bahrain,25713571420.9726,Bahrain,48.0,1261.319,Bahrain,         Bahrain,48.0,76.38
+Bangladesh,South Asia,Bangladesh,100357022443.833,Bangladesh,50.0,151616.777,Bangladesh,            Bangladesh,50.0,71.01
+Barbados,Latin America & Caribbean,Barbados,4433700000,Barbados,52.0,279.566,Barbados,         Barbados,52.0,75.37
+Belarus,Europe & Central Asia,Belarus,55220932613.958,Belarus,112.0,9492.122,Belarus,         Belarus,112.0,71.08
+Belgium,Europe & Central Asia,Belgium,468078947368.421,Belgium,56.0,10929.978,Belgium,         Belgium,56.0,80.53
+Belize,Latin America & Caribbean,Belize,1397900000,Belize,84.0,321.609,Belize,         Belize,84.0,69.76
+Benin,Sub-Saharan Africa,Benin,6558416322.12,Benin,204.0,9509.798,Benin,         Benin,204.0,59.2
+Bermuda,North America,Bermuda,5744414000,Bermuda,60.0,63.954,,,,
+Bhutan,South Asia,Bhutan,1585319109.1083,Bhutan,64.0,720.246,Bhutan,            Bhutan,64.0,68.88
+Bosnia and Herzegovina,Europe & Central Asia,Bosnia and Herzegovina,16775469777.6516,Bosnia and Herzegovina,70.0,3835.258,Bosnia and Herzegovina,         Bosnia and Herzegovina,70.0,76.26
+Botswana,Sub-Saharan Africa,Botswana,13746712705.5936,Botswana,72.0,2047.831,Botswana,         Botswana,72.0,64.12
+Brazil,Latin America & Caribbean,Brazil,2143035333258.24,Brazil,76.0,198614.208,Brazil,         Brazil,76.0,74.05
+Brunei Darussalam,East Asia & Pacific,Brunei Darussalam,12369708858.9029,Brunei Darussalam,96.0,393.302,Brunei Darussalam,         Brunei Darussalam,96.0,78.44
+Bulgaria,Europe & Central Asia,Bulgaria,47727325908.633,Bulgaria,100.0,7407.297,Bulgaria,         Bulgaria,100.0,74.04
+Burkina Faso,Sub-Saharan Africa,Burkina Faso,9209288383.08711,Burkina Faso,854.0,15632.066,Burkina Faso,         Burkina Faso,854.0,58.07
+Burundi,Sub-Saharan Africa,Burundi,2026864414.46871,Burundi,108.0,9461.117,Burundi,         Burundi,108.0,56.07
+Cabo Verde,Sub-Saharan Africa,Cabo Verde,1664310632.03162,Cabo Verde,132.0,490.379,Cabo Verde,         Cabo Verde,132.0,72.97
+Cambodia,East Asia & Pacific,Cambodia,11242266333.9246,Cambodia,116.0,14363.586,Cambodia,         Cambodia,116.0,67.61
+Cameroon,Sub-Saharan Africa,Cameroon,22493301699.3672,Cameroon,120.0,20590.666,Cameroon,         Cameroon,120.0,54.87
+Canada,North America,Canada,1577040082217.76,Canada,124.0,34126.173,Canada,      Canada,124.0,81.78
+Cayman Islands,Latin America & Caribbean,Cayman Islands,..,Cayman Islands,136.0,55.509,,,,
+Central African Republic,Sub-Saharan Africa,Central African Republic,1986014759.19785,Central African Republic,140.0,4444.973,Central African Republic,         Central African Republic,140.0,49.53
+Chad,Sub-Saharan Africa,Chad,10657705072.3284,Chad,148.0,11896.38,Chad,         Chad,148.0,51.13
+Channel Islands,Europe & Central Asia,Channel Islands,..,Channel Islands,830.0,159.583,Channel Islands,         Channel Islands,830.0,80.45
+Chile,Latin America & Caribbean,Chile,217556229881.153,Chile,152.0,17015.048,Chile,         Chile,152.0,81.21
+China,East Asia & Pacific,China,5930529470799.17,China,156.0,1340968.737,China,         China,156.0,75.43
+Colombia,Latin America & Caribbean,Colombia,287000940839.272,Colombia,170.0,45918.101,Colombia,         Colombia,170.0,73.75
+Comoros,Sub-Saharan Africa,Comoros,543376206.06227,Comoros,174.0,698.695,Comoros,         Comoros,174.0,62.83
+Costa Rica,Latin America & Caribbean,Costa Rica,36298327620.413,Costa Rica,188.0,4545.273,Costa Rica,         Costa Rica,188.0,79.16
+C?te d'Ivoire,Sub-Saharan Africa,C?te d'Ivoire,22920779597.555,C?te d'Ivoire,384.0,20131.707,C?te d'Ivoire,         C?te d'Ivoire,384.0,50.97
+Croatia,Europe & Central Asia,Croatia,58873839434.9834,Croatia,191.0,4316.425,Croatia,         Croatia,191.0,77.05
+Cuba,Latin America & Caribbean,Cuba,64328220000,Cuba,192.0,11308.133,Cuba,         Cuba,192.0,79.16
+Cura?ao,Latin America & Caribbean,Cura?ao,..,Cura?ao,531.0,147.605,Cura?ao,         Cura?ao,531.0,77.77
+Cyprus,Europe & Central Asia,Cyprus,23132450331.1258,Cyprus,196.0,1103.685,Cyprus,         Cyprus,196.0,79.9
+Czech Republic,Europe & Central Asia,Czech Republic,198475392670.157,Czech Republic,203.0,10506.617,Czech Republic,         Czech Republic,203.0,78.35
+Denmark,Europe & Central Asia,Denmark,313365836298.932,Denmark,208.0,5550.959,Denmark,         Denmark,208.0,79.99
+Djibouti,Middle East & North Africa,Djibouti,..,Djibouti,262.0,830.802,Djibouti,         Djibouti,262.0,61.61
+Dominica,Latin America & Caribbean,Dominica,471851098.51852,Dominica,212.0,71.167,,,,
+Dominican Republic,Latin America & Caribbean,Dominican Republic,51748279416.0089,Dominican Republic,214.0,9897.983,Dominican Republic,         Dominican Republic,214.0,73.19
+Ecuador,Latin America & Caribbean,Ecuador,67513698000,Ecuador,218.0,14934.692,Ecuador,         Ecuador,218.0,75.54
+El Salvador,Latin America & Caribbean,El Salvador,21418300000,El Salvador,222.0,6038.306,El Salvador,         El Salvador,222.0,72.64
+Equatorial Guinea,Sub-Saharan Africa,Equatorial Guinea,12261420852.3549,Equatorial Guinea,226.0,728.71,Equatorial Guinea,         Equatorial Guinea,226.0,57.13
+Eritrea,Sub-Saharan Africa,Eritrea,2117039510.70194,Eritrea,232.0,4689.664,Eritrea,         Eritrea,232.0,63.07
+Estonia,Europe & Central Asia,Estonia,18909381436.8421,Estonia,233.0,1332.089,Estonia,         Estonia,233.0,76.52
+Ethiopia,Sub-Saharan Africa,Ethiopia,26311310604.9888,Ethiopia,231.0,87561.814,Ethiopia,         Ethiopia,231.0,63.13
+Faeroe Islands,Europe & Central Asia,Faeroe Islands,..,Faeroe Islands,234.0,48.567,,,,
+Fiji,East Asia & Pacific,Fiji,3225095136.31862,Fiji,242.0,859.952,Fiji,         Fiji,242.0,69.72
+Finland,Europe & Central Asia,Finland,235163157894.737,Finland,246.0,5367.693,Finland,         Finland,246.0,80.53
+France,Europe & Central Asia,France,2548315434210.53,France,250.0,62961.136,France,         France,250.0,81.85
+French Polynesia,East Asia & Pacific,French Polynesia,..,French Polynesia,258.0,268.065,French Polynesia,         French Polynesia,258.0,76.12
+Gabon,Sub-Saharan Africa,Gabon,14507032805.9824,Gabon,266.0,1541.936,Gabon,         Gabon,266.0,63.65
+Georgia,Europe & Central Asia,Georgia,11638236642.8476,Georgia,268.0,4250.132,Georgia,         Georgia,268.0,74.64
+Germany,Europe & Central Asia,Germany,3282894736842.11,Germany,276.0,80435.307,Germany,         Germany,276.0,80.66
+Ghana,Sub-Saharan Africa,Ghana,32174210792.9631,Ghana,288.0,24317.734,Ghana,         Ghana,288.0,61.03
+Greece,Europe & Central Asia,Greece,292304602598.684,Greece,300.0,11177.509,Greece,         Greece,300.0,80.6
+Greenland,Europe & Central Asia,Greenland,..,Greenland,304.0,56.546,,,,
+Grenada,Latin America & Caribbean,Grenada,783602099.12405,Grenada,308.0,104.677,Grenada,         Grenada,308.0,73.17
+Guam,East Asia & Pacific,Guam,..,Guam,316.0,159.44,Guam,         Guam,316.0,78.72
+Guatemala,Latin America & Caribbean,Guatemala,41338161799.1082,Guatemala,320.0,14732.261,Guatemala,         Guatemala,320.0,71.47
+Guinea,Sub-Saharan Africa,Guinea,4735956475.83803,Guinea,324.0,11012.406,Guinea,         Guinea,324.0,58.04
+Guinea-Bissau,Sub-Saharan Africa,Guinea-Bissau,835390892.98832,Guinea-Bissau,624.0,1634.196,Guinea-Bissau,         Guinea-Bissau,624.0,54.72
+Guyana,Latin America & Caribbean,Guyana,2259288026.41972,Guyana,328.0,753.362,Guyana,         Guyana,328.0,66.24
+Haiti,Latin America & Caribbean,Haiti,6634579143.36112,Haiti,332.0,9999.617,Haiti,         Haiti,332.0,62.29
+Honduras,Latin America & Caribbean,Honduras,15729644901.1459,Honduras,340.0,7503.875,Honduras,         Honduras,340.0,72.83
+Hungary,Europe & Central Asia,Hungary,127503279792.248,Hungary,348.0,10014.633,Hungary,         Hungary,348.0,74.98
+Iceland,Europe & Central Asia,Iceland,12564891657.7225,Iceland,352.0,318.042,Iceland,         Iceland,352.0,82.3
+India,South Asia,India,1710908768959.8,India,356.0,1230984.504,India,            India,356.0,67.47
+Indonesia,East Asia & Pacific,Indonesia,709190822690.739,Indonesia,360.0,241613.126,Indonesia,         Indonesia,360.0,68.59
+Iraq,Middle East & North Africa,Iraq,135488471367.521,Iraq,368.0,30868.156,Iraq,         Iraq,368.0,69.19
+Ireland,Europe & Central Asia,Ireland,208022028243.421,Ireland,372.0,4617.334,Ireland,         Ireland,372.0,80.57
+Isle of Man,Europe & Central Asia,Isle of Man,..,Isle of Man,833.0,84.327,,,,
+Israel,Middle East & North Africa,Israel,231674511901.578,Israel,376.0,7420.368,Israel,         Israel,376.0,82.07
+Italy,Europe & Central Asia,Italy,2041954747600,Italy,380.0,59588.007,Italy,         Italy,380.0,82.84
+Jamaica,Latin America & Caribbean,Jamaica,13202998397.8027,Jamaica,388.0,2741.253,Jamaica,         Jamaica,388.0,75.44
+Japan,East Asia & Pacific,Japan,5495379357484.62,Japan,392.0,127319.802,Japan,         Japan,392.0,83.31
+Jordan,Middle East & North Africa,Jordan,26425379366.6132,Jordan,400.0,6517.912,Jordan,         Jordan,400.0,73.79
+Kazakhstan,Europe & Central Asia,Kazakhstan,148052371903.631,Kazakhstan,398.0,16310.624,Kazakhstan,            Kazakhstan,398.0,69.07
+Kenya,Sub-Saharan Africa,Kenya,32198151217.2214,Kenya,404.0,40328.313,Kenya,         Kenya,404.0,60.62
+Kiribati,East Asia & Pacific,Kiribati,150431113.55715,Kiribati,296.0,102.648,Kiribati,         Kiribati,296.0,65.74
+Kuwait,Middle East & North Africa,Kuwait,119934674734.616,Kuwait,414.0,3059.473,Kuwait,         Kuwait,414.0,74.28
+Latvia,Europe & Central Asia,Latvia,24009680459.9868,Latvia,428.0,2090.519,Latvia,         Latvia,428.0,73.95
+Lebanon,Middle East & North Africa,Lebanon,37124378109.4527,Lebanon,422.0,4337.156,Lebanon,         Lebanon,422.0,78.86
+Lesotho,Sub-Saharan Africa,Lesotho,2203835214.2935,Lesotho,426.0,2010.586,Lesotho,         Lesotho,426.0,49.5
+Liberia,Sub-Saharan Africa,Liberia,1292696475.95873,Liberia,430.0,3957.99,Liberia,         Liberia,430.0,60.25
+Libya,Middle East & North Africa,Libya,..,Libya,434.0,6265.697,Libya,         Libya,434.0,71.47
+Liechtenstein,Europe & Central Asia,Liechtenstein,..,Liechtenstein,438.0,36.276,,,,
+Lithuania,Europe & Central Asia,Lithuania,36306384146.1075,Lithuania,440.0,3122.835,Lithuania,         Lithuania,440.0,73.07
+Luxembourg,Europe & Central Asia,Luxembourg,51713947368.4211,Luxembourg,442.0,507.889,Luxembourg,         Luxembourg,442.0,81.34
+Madagascar,Sub-Saharan Africa,Madagascar,8837041787.49382,Madagascar,450.0,21079.532,Madagascar,         Madagascar,450.0,64.5
+Malawi,Sub-Saharan Africa,Malawi,5398616984.59149,Malawi,454.0,14769.824,Malawi,         Malawi,454.0,60.97
+Malaysia,East Asia & Pacific,Malaysia,247533525517.698,Malaysia,458.0,28119.5,Malaysia,         Malaysia,458.0,74.5
+Maldives,South Asia,Maldives,2134104883.7014,Maldives,462.0,332.575,Maldives,            Maldives,462.0,76.36
+Mali,Sub-Saharan Africa,Mali,9422267259.9894,Mali,466.0,15167.286,Mali,         Mali,466.0,57.23
+Malta,Middle East & North Africa,Malta,8163841059.60265,Malta,470.0,412.064,Malta,         Malta,470.0,80.3
+Marshall Islands,East Asia & Pacific,Marshall Islands,163200000,Marshall Islands,584.0,52.428,,,,
+Mauritania,Sub-Saharan Africa,Mauritania,3671380305.41277,Mauritania,478.0,3591.4,Mauritania,         Mauritania,478.0,62.77
+Mauritius,Sub-Saharan Africa,Mauritius,9718331362.63822,Mauritius,480.0,1247.951,Mauritius,         Mauritius,480.0,74.15
+Mexico,Latin America & Caribbean,Mexico,1047368841686.06,Mexico,484.0,118617.542,Mexico,         Mexico,484.0,76.48
+Monaco,Europe & Central Asia,Monaco,5350993377.48344,Monaco,492.0,36.845,,,,
+Mongolia,East Asia & Pacific,Mongolia,6200357070.114801,Mongolia,496.0,2712.657,Mongolia,         Mongolia,496.0,68.89
+Montenegro,Europe & Central Asia,Montenegro,4114780573.5,Montenegro,499.0,621.952,Montenegro,         Montenegro,499.0,76.02
+Morocco,Middle East & North Africa,Morocco,90770671431.6696,Morocco,504.0,32107.739,Morocco,         Morocco,504.0,73.61
+Mozambique,Sub-Saharan Africa,Mozambique,9274448731.91612,Mozambique,508.0,24321.457,Mozambique,         Mozambique,508.0,54.63
+Myanmar,East Asia & Pacific,Myanmar,..,Myanmar,104.0,51733.013,Myanmar,         Myanmar,104.0,65.64
+Namibia,Sub-Saharan Africa,Namibia,11065912279.3816,Namibia,516.0,2193.643,Namibia,         Namibia,516.0,64.34
+Nepal,South Asia,Nepal,16010389261.745,Nepal,524.0,26875.91,Nepal,            Nepal,524.0,69.03
+Netherlands,Europe & Central Asia,Netherlands,772090789473.684,Netherlands,528.0,16631.571,Netherlands,         Netherlands,528.0,81.31
+New Caledonia,East Asia & Pacific,New Caledonia,..,New Caledonia,540.0,246.345,New Caledonia,         New Caledonia,540.0,76.19
+New Zealand,East Asia & Pacific,New Zealand,143246762589.928,New Zealand,554.0,4369.027,New Zealand,         New Zealand,554.0,81.56
+Nicaragua,Latin America & Caribbean,Nicaragua,8586295846.08302,Nicaragua,558.0,5737.722,Nicaragua,         Nicaragua,558.0,74.47
+Niger,Sub-Saharan Africa,Niger,5718589550.16349,Niger,562.0,16291.99,Niger,         Niger,562.0,60.65
+Nigeria,Sub-Saharan Africa,Nigeria,229507890739.083,Nigeria,566.0,159424.742,Nigeria,         Nigeria,566.0,52.29
+Northern Mariana Islands,East Asia & Pacific,Northern Mariana Islands,..,Northern Mariana Islands,580.0,53.86,,,,
+Norway,Europe & Central Asia,Norway,421236092715.2319,Norway,578.0,4891.251,Norway,         Norway,578.0,81.32
+Oman,Middle East & North Africa,Oman,58813004375.26,Oman,512.0,2943.747,Oman,         Oman,512.0,76.33
+Pakistan,South Asia,Pakistan,177406854514.885,Pakistan,586.0,170043.918,Pakistan,            Pakistan,586.0,65.88
+Palau,East Asia & Pacific,Palau,196543326.07974,Palau,585.0,20.47,,,,
+Panama,Latin America & Caribbean,Panama,26589600000,Panama,591.0,3620.506,Panama,         Panama,591.0,77.32
+Papua New Guinea,East Asia & Pacific,Papua New Guinea,9480047958.80839,Papua New Guinea,598.0,6847.517,Papua New Guinea,         Papua New Guinea,598.0,62.31
+Paraguay,Latin America & Caribbean,Paraguay,20028375553.9077,Paraguay,600.0,6209.877,Paraguay,         Paraguay,600.0,72.74
+Peru,Latin America & Caribbean,Peru,157609814184.397,Peru,604.0,29373.644,Peru,         Peru,604.0,74.15
+Philippines,East Asia & Pacific,Philippines,199589447424.074,Philippines,608.0,93038.902,Philippines,         Philippines,608.0,67.99
+Poland,Europe & Central Asia,Poland,469736810690.719,Poland,616.0,38574.682,Poland,         Poland,616.0,77.14
+Portugal,Europe & Central Asia,Portugal,227446710526.316,Portugal,620.0,10584.837,Portugal,         Portugal,620.0,80.55
+Puerto Rico,Latin America & Caribbean,Puerto Rico,97147300000,Puerto Rico,630.0,3709.671,Puerto Rico,         Puerto Rico,630.0,79.22
+Qatar,Middle East & North Africa,Qatar,125122249141.251,Qatar,634.0,1765.513,Qatar,         Qatar,634.0,77.89
+Romania,Europe & Central Asia,Romania,164435979735.045,Romania,642.0,20298.838,Romania,         Romania,642.0,74.46
+Russian Federation,Europe & Central Asia,Russian Federation,1524916698233.31,Russian Federation,643.0,143158.099,Russian Federation,         Russian Federation,643.0,69.83
+Rwanda,Sub-Saharan Africa,Rwanda,5624506157.41067,Rwanda,646.0,10293.669,Rwanda,         Rwanda,646.0,63.14
+Samoa,East Asia & Pacific,Samoa,572160378.28785,Samoa,882.0,186.029,Samoa,         Samoa,882.0,73.02
+San Marino,Europe & Central Asia,San Marino,..,San Marino,674.0,30.69,,,,
+Saudi Arabia,Middle East & North Africa,Saudi Arabia,526811466666.667,Saudi Arabia,682.0,28090.647,Saudi Arabia,         Saudi Arabia,682.0,74.08
+Senegal,Sub-Saharan Africa,Senegal,12932427724.3508,Senegal,686.0,12956.791,Senegal,         Senegal,686.0,65.81
+Serbia,Europe & Central Asia,Serbia,36990001283.5323,Serbia,688.0,9059.046,Serbia,         Serbia,688.0,74.65
+Seychelles,Sub-Saharan Africa,Seychelles,969973774.81818,Seychelles,690.0,93.081,Seychelles,         Seychelles,690.0,72.94
+Sierra Leone,Sub-Saharan Africa,Sierra Leone,2575466372.26831,Sierra Leone,694.0,5775.902,Sierra Leone,         Sierra Leone,694.0,50.19
+Singapore,East Asia & Pacific,Singapore,217200123752.449,Singapore,702.0,5078.961,Singapore,         Singapore,702.0,82.64
+Sint Maarten (Dutch part),Latin America & Caribbean,Sint Maarten (Dutch part),..,Sint Maarten (Dutch part),534.0,33.125,,,,
+Slovenia,Europe & Central Asia,Slovenia,46908328071.2701,Slovenia,705.0,2052.48,Slovenia,         Slovenia,705.0,80.08
+Solomon Islands,East Asia & Pacific,Solomon Islands,678625481.68675,Solomon Islands,90.0,526.177,Solomon Islands,         Solomon Islands,90.0,67.53
+Somalia,Sub-Saharan Africa,Somalia,..,Somalia,706.0,9581.714,Somalia,         Somalia,706.0,54.88
+South Africa,Sub-Saharan Africa,South Africa,363240728680.384,South Africa,710.0,51621.594,South Africa,         South Africa,710.0,57.11
+South Sudan,Sub-Saharan Africa,South Sudan,15178973598.0733,South Sudan,728.0,10056.475,South Sudan,         South Sudan,728.0,55.06
+Spain,Europe & Central Asia,Spain,1375815789473.68,Spain,724.0,46601.492,Spain,         Spain,724.0,82.28
+Sri Lanka,South Asia,Sri Lanka,49567521669.9098,Sri Lanka,144.0,20201.312,Sri Lanka,            Sri Lanka,144.0,74.64
+Sudan,Sub-Saharan Africa,Sudan,64849930757.6995,Sudan,729.0,36114.885,Sudan,         Sudan,729.0,63.08
+Suriname,Latin America & Caribbean,Suriname,4368007284.81569,Suriname,740.0,518.141,Suriname,         Suriname,740.0,70.9
+Swaziland,Sub-Saharan Africa,Swaziland,3691050502.68749,Swaziland,748.0,1193.148,Swaziland,         Swaziland,748.0,49.18
+Sweden,Europe & Central Asia,Sweden,462903051317.614,Sweden,752.0,9382.297,Sweden,         Sweden,752.0,81.93
+Switzerland,Europe & Central Asia,Switzerland,550638974461.538,Switzerland,756.0,7830.534,Switzerland,         Switzerland,756.0,82.66
+Syrian Arab Republic,Middle East & North Africa,Syrian Arab Republic,59147033451.8525,Syrian Arab Republic,760.0,20720.602,Syrian Arab Republic,         Syrian Arab Republic,760.0,69.51
+Tajikistan,Europe & Central Asia,Tajikistan,5642221528.67114,Tajikistan,762.0,7581.696,Tajikistan,            Tajikistan,762.0,69.07
+Thailand,East Asia & Pacific,Thailand,318907930075.712,Thailand,764.0,66692.024,Thailand,         Thailand,764.0,74.14
+Timor-Leste,East Asia & Pacific,Timor-Leste,934300000,Timor-Leste,626.0,1057.122,Timor-Leste,         Timor-Leste,626.0,67.73
+Togo,Sub-Saharan Africa,Togo,3172945282.32304,Togo,768.0,6390.851,Togo,         Togo,768.0,59.01
+Tonga,East Asia & Pacific,Tonga,369212477.46289,Tonga,776.0,103.947,Tonga,         Tonga,776.0,72.6
+Trinidad and Tobago,Latin America & Caribbean,Trinidad and Tobago,20667611846.2508,Trinidad and Tobago,780.0,1328.095,Trinidad and Tobago,         Trinidad and Tobago,780.0,70.23
+Tunisia,Middle East & North Africa,Tunisia,44377742070.7,Tunisia,788.0,10639.194,Tunisia,         Tunisia,788.0,74.6
+Turkey,Europe & Central Asia,Turkey,731144392556.339,Turkey,792.0,72310.416,Turkey,         Turkey,792.0,74.84
+Turkmenistan,Europe & Central Asia,Turkmenistan,22148070175.4386,Turkmenistan,795.0,5041.995,Turkmenistan,            Turkmenistan,795.0,65.39
+Turks and Caicos Islands,Latin America & Caribbean,Turks and Caicos Islands,..,Turks and Caicos Islands,796.0,30.993,,,,
+Tuvalu,East Asia & Pacific,Tuvalu,31824701.27833,Tuvalu,798.0,9.827,,,,
+Uganda,Sub-Saharan Africa,Uganda,17197111223.1324,Uganda,800.0,33149.417,Uganda,         Uganda,800.0,57.25
+Ukraine,Europe & Central Asia,Ukraine,136418622767.355,Ukraine,804.0,45647.497,Ukraine,         Ukraine,804.0,70.76
+United Arab Emirates,Middle East & North Africa,United Arab Emirates,287421927883.393,United Arab Emirates,784.0,8329.453,United Arab Emirates,         United Arab Emirates,784.0,76.67
+Uruguay,Latin America & Caribbean,Uruguay,38846222984.5698,Uruguay,858.0,3374.414,Uruguay,         Uruguay,858.0,76.96
+Uzbekistan,Europe & Central Asia,Uzbekistan,39332771014.013,Uzbekistan,860.0,27739.764,Uzbekistan,            Uzbekistan,860.0,68.25
+Vanuatu,East Asia & Pacific,Vanuatu,700804045.16412,Vanuatu,548.0,236.299,Vanuatu,         Vanuatu,548.0,71.48
+Zambia,Sub-Saharan Africa,Zambia,16190196832.0872,Zambia,894.0,13917.439,Zambia,         Zambia,894.0,58.75
+Zimbabwe,Sub-Saharan Africa,Zimbabwe,7433314459.73933,Zimbabwe,716.0,13973.897,Zimbabwe,         Zimbabwe,716.0,54.78
+,,Anguilla,..,Anguilla,660.0,13.768,,,,
+,,Bahamas,7888087000,Bahamas,44.0,360.83,Bahamas,         Bahamas,44.0,75.15
+,,Bolivia (Plurinational State of),19649724655.5819,Bolivia (Plurinational State of),68.0,9918.245,Bolivia (Plurinational State of),         Bolivia (Plurinational State of),68.0,67.72
+,,British Virgin Islands,..,British Virgin Islands,92.0,27.223,,,,
+,,"China, Hong Kong Special Administrative Region",228695747309.89,,,,,,,
+,,"China, Macao Special Administrative Region",28359706123.0951,,,,,,,
+,,Congo,12007880067.3847,Congo,178.0,4066.078,Congo,         Congo,178.0,61.42
+,,Cook Islands,..,Cook Islands,184.0,20.284,,,,
+,,Democratic People's Republic of Korea,..,,,,,,,
+,,Democratic Republic of the Congo,13138775753.2026,Democratic Republic of the Congo,180.0,65938.712,Democratic Republic of the Congo,         Democratic Republic of the Congo,180.0,58.1
+,,Egypt,218887812549.851,Egypt,818.0,82040.994,Egypt,         Egypt,818.0,70.84
+,,French Guiana,..,French Guiana,254.0,233.795,French Guiana,         French Guiana,254.0,78.98
+,,Gambia,951805801.35401,Gambia,270.0,1693.002,Gambia,         Gambia,270.0,59.83
+,,Gibraltar,..,Gibraltar,292.0,30.732,,,,
+,,Guadeloupe,..,Guadeloupe,312.0,456.822,Guadeloupe,         Guadeloupe,312.0,80.56
+,,Iran (Islamic Republic of),422567967404.512,Iran (Islamic Republic of),364.0,74253.373,Iran (Islamic Republic of),            Iran (Islamic Republic of),364.0,75.06
+,,Kyrgyzstan,4794361821.20611,Kyrgyzstan,417.0,5464.567,Kyrgyzstan,            Kyrgyzstan,417.0,70.26
+,,Lao People's Democratic Republic,7181441151.89789,Lao People's Democratic Republic,418.0,6260.544,Lao People's Democratic Republic,         Lao People's Democratic Republic,418.0,65.51
+,,Martinique,..,Martinique,474.0,394.69,Martinique,         Martinique,474.0,81.18
+,,Mayotte,..,Mayotte,175.0,208.723,Mayotte,         Mayotte,175.0,79.34
+,,Micronesia (Federated States of),294117230.49711,,,,,,,
+,,Montserrat,..,Montserrat,500.0,4.953,,,,
+,,Nauru,..,Nauru,520.0,10.025,,,,
+,,Niue,..,Niue,570.0,1.621,,,,
+,,Palestine,..,,,,,,,
+,,Republic of Korea,1014890141871.14,Republic of Korea,410.0,49090.041,Republic of Korea,         Republic of Korea,410.0,81.43
+,,Republic of Moldova,5811622393.98689,Republic of Moldova,498.0,4084.483,Republic of Moldova,         Republic of Moldova,498.0,71.33
+,,R?union,..,R?union,638.0,830.516,R?union,         R?union,638.0,79.54
+,,Saint Kitts and Nevis,675553707.77778,Saint Kitts and Nevis,659.0,52.352,,,,
+,,Saint Lucia,1208853571.11111,Saint Lucia,662.0,177.397,Saint Lucia,         Saint Lucia,662.0,74.81
+,,Saint Vincent and the Grenadines,674762008.51852,Saint Vincent and the Grenadines,670.0,109.316,Saint Vincent and the Grenadines,         Saint Vincent and the Grenadines,670.0,72.75
+,,Saint-Martin (French part),..,,,,,,,
+,,Sao Tome and Principe,201037916.58371,Sao Tome and Principe,678.0,170.88,Sao Tome and Principe,         Sao Tome and Principe,678.0,66.23
+,,Slovakia,87077443708.6093,Slovakia,703.0,5406.896,Slovakia,         Slovakia,703.0,76.04
+,,The former Yugoslav Republic of Macedonia,9338665630.76177,,,,,,,
+,,Tokelau,..,Tokelau,772.0,1.135,,,,
+,,United Kingdom of Great Britain and Northern Ireland,2285561538461.54,,,,,,,
+,,United Republic of Tanzania,22915004297.2183,United Republic of Tanzania,834.0,45648.525,United Republic of Tanzania,         United Republic of Tanzania,834.0,64.04
+,,United States of America,14958300000000,United States of America,840.0,309876.17,United States of America,      United States of America,840.0,78.88
+,,United States Virgin Islands,..,United States Virgin Islands,850.0,106.382,United States Virgin Islands,         United States Virgin Islands,850.0,80.06
+,,Venezuela (Bolivarian Republic of),393807511437.279,Venezuela (Bolivarian Republic of),862.0,28995.745,Venezuela (Bolivarian Republic of),         Venezuela (Bolivarian Republic of),862.0,73.95
+,,Viet Nam,115931749904.86,Viet Nam,704.0,88357.775,Viet Nam,         Viet Nam,704.0,75.57
+,,Western Sahara,..,Western Sahara,732.0,512.065,Western Sahara,         Western Sahara,732.0,67.61
+,,Yemen,31883409718.7382,Yemen,887.0,23591.972,Yemen,         Yemen,887.0,63.51
+,,,,Saint Helena,654.0,4.173,,,,
+,,,,"China, Hong Kong SAR",344.0,6993.57,"China, Hong Kong SAR","         China, Hong Kong SAR",344.0,83.74
+,,,,"China, Macao SAR",446.0,534.626,"China, Macao SAR","         China, Macao SAR",446.0,80.3
+,,,,Dem. People's Republic of Korea,408.0,24500.506,Dem. People's Republic of Korea,         Dem. People's Republic of Korea,408.0,69.91
+,,,,Other non-specified areas,158.0,23200.405,,,,
+,,,,State of Palestine,275.0,4068.78,State of Palestine,         State of Palestine,275.0,72.65
+,,,,United Kingdom,826.0,62716.684,United Kingdom,         United Kingdom,826.0,80.45
+,,,,Holy See,336.0,0.799,,,,
+,,,,TFYR Macedonia,807.0,2062.443,TFYR Macedonia,         TFYR Macedonia,807.0,75.16
+,,,,Caribbean Netherlands,535.0,20.942,,,,
+,,,,Falkland Islands (Malvinas),238.0,2.856,,,,
+,,,,Saint Pierre and Miquelon,666.0,6.274,,,,
+,,,,Micronesia (Fed. States of),583.0,103.619,Micronesia (Fed. States of),         Micronesia (Fed. States of),583.0,68.93
+,,,,Wallis and Futuna Islands,876.0,13.565,,,,
