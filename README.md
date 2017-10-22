@@ -6,6 +6,9 @@
 
 ### 01.2 - Python recap
 
+    print("some text {0}, {1}".format(1, 2))
+
+
 ### 01.3 - Basic python data structures 
 
 ### 01.4 Defining new functions in python
