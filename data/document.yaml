@@ -1,0 +1,14 @@
+image:
+    width: 800
+    height: 600
+    title:  View from 15th Floor
+    thumbnail:
+        url: http://www.example.com/image/481989943
+        height: 125
+        width:  100
+        animated : false
+    IDs:
+        - 116
+        - 943
+        - 234
+        - 38793
