@@ -1,579 +1,1371 @@
 <!DOCTYPE html>
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
-
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-   <link rel="stylesheet" href="https://rawgit.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.css">
-   <script src="https://rawgithub.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.js"></script>
-
-
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css">
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
-
-   <link rel="stylesheet" href="https://birdage.github.io/Leaflet.awesome-markers/dist/leaflet.awesome.rotate.css">
-
-   
-   
-   
-   
-
-   <style>
-
-      html, body {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-
-      #map {
-        position:absolute;
-        top:0;
-        bottom:0;
-        right:0;
-        left:0;
-      }
-
-   </style>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster-src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_580333555e3143e88ceaed264a444b03 {
+                position : relative;
+                width : 960.0px;
+                height: 500.0px;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
 </head>
-
-<body>
-
-   <div class="folium-map" id="folium_cb87f83fa0d042e8b13b811c0e3506a4" style="width: 960px; height: 500px"></div>
-
-   <script>
-
-      
-
-      var base_tile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          maxZoom: 18,
-          minZoom: 1,
-          attribution: 'Map data (c) <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-      });
-
-      var baseLayer = {
-        "Base Layer": base_tile
-      };
-
-      /*
-      addition of the wms layers
-      */
-
-      
-
-      /*
-      addition of the tile layers
-      */
-      
-
-      /*
-      list of layers to be added
-      */
-      var layer_list = {
-      
-      };
-
-      /*
-      Bounding box.
-      */
-      var southWest = L.latLng(-90, -180),
-          northEast = L.latLng(90, 180),
-          bounds = L.latLngBounds(southWest, northEast);
-
-      /*
-      Creates the map and adds the selected layers
-      */
-      var map = L.map('folium_cb87f83fa0d042e8b13b811c0e3506a4', {
-                                       center:[50.68, -1.2667],
-                                       zoom: 11,
-                                       maxBounds: bounds,
-                                       layers: [base_tile]
-                                     });
-
-      L.control.layers(baseLayer, layer_list).addTo(map);
-
-      //cluster group
-      var clusteredmarkers = L.markerClusterGroup();
-      //section for adding clustered markers
-      
-      //add the clustered markers to the group anyway
-      map.addLayer(clusteredmarkers);
-
-      
-
-      
-      var circle_1 = L.circle([50.630047, -1.178836], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_1.bindPopup("Landguard Road, Shanklin");
-      circle_1._popup.options.maxWidth = 300;
-      map.addLayer(circle_1)
-      
-      var circle_2 = L.circle([50.701221, -1.09955], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_2.bindPopup("The Duver, St Helens");
-      circle_2._popup.options.maxWidth = 300;
-      map.addLayer(circle_2)
-      
-      var circle_3 = L.circle([50.700375, -1.297578], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_3.bindPopup("Lugley Street, Newport");
-      circle_3._popup.options.maxWidth = 300;
-      map.addLayer(circle_3)
-      
-      var circle_4 = L.circle([50.702011, -1.293088], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_4.bindPopup("Little London, Newport");
-      circle_4._popup.options.maxWidth = 300;
-      map.addLayer(circle_4)
-      
-      var circle_5 = L.circle([50.728966, -1.165173], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_5.bindPopup("Garfield Road, Ryde");
-      circle_5._popup.options.maxWidth = 300;
-      map.addLayer(circle_5)
-      
-      var circle_6 = L.circle([50.683849, -1.528172], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_6.bindPopup("Avenue Road, Freshwater");
-      circle_6._popup.options.maxWidth = 300;
-      map.addLayer(circle_6)
-      
-      var circle_7 = L.circle([50.703346, -1.289982], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_7.bindPopup("Newport Harbour, Newport");
-      circle_7._popup.options.maxWidth = 300;
-      map.addLayer(circle_7)
-      
-      var circle_8 = L.circle([50.592678, -1.211554], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_8.bindPopup("La Falaise, Ventnor");
-      circle_8._popup.options.maxWidth = 300;
-      map.addLayer(circle_8)
-      
-      var circle_9 = L.circle([50.72876, -1.164186], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_9.bindPopup("Victoria Street, Ryde");
-      circle_9._popup.options.maxWidth = 300;
-      map.addLayer(circle_9)
-      
-      var circle_10 = L.circle([50.688755, -1.537925], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_10.bindPopup("Colwell Bay, Colwell");
-      circle_10._popup.options.maxWidth = 300;
-      map.addLayer(circle_10)
-      
-      var circle_11 = L.circle([50.654915, -1.15526], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_11.bindPopup("St Johns Road, Sandown");
-      circle_11._popup.options.maxWidth = 300;
-      map.addLayer(circle_11)
-      
-      var circle_12 = L.circle([50.595016, -1.20767], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_12.bindPopup("The Grove, Ventnor");
-      circle_12._popup.options.maxWidth = 300;
-      map.addLayer(circle_12)
-      
-      var circle_13 = L.circle([50.697956, -1.297119], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_13.bindPopup("Chapel Street, Newport");
-      circle_13._popup.options.maxWidth = 300;
-      map.addLayer(circle_13)
-      
-      var circle_14 = L.circle([50.593258, -1.204343], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_14.bindPopup("Eastern Esplanade, Ventnor");
-      circle_14._popup.options.maxWidth = 300;
-      map.addLayer(circle_14)
-      
-      var circle_15 = L.circle([50.732952, -1.156654], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_15.bindPopup("Quay Road, Ryde");
-      circle_15._popup.options.maxWidth = 300;
-      map.addLayer(circle_15)
-      
-      var circle_16 = L.circle([50.655479, -1.154149], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_16.bindPopup("Station Avenue, Sandown");
-      circle_16._popup.options.maxWidth = 300;
-      map.addLayer(circle_16)
-      
-      var circle_17 = L.circle([50.628448, -1.180687], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_17.bindPopup("Orchardleigh Road, Shanklin");
-      circle_17._popup.options.maxWidth = 300;
-      map.addLayer(circle_17)
-      
-      var circle_18 = L.circle([50.631695, -1.171428], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_18.bindPopup("Esplanade Gardens, Shanklin");
-      circle_18._popup.options.maxWidth = 300;
-      map.addLayer(circle_18)
-      
-      var circle_19 = L.circle([50.629387, -1.172769], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_19.bindPopup("Spa, Shanklin");
-      circle_19._popup.options.maxWidth = 300;
-      map.addLayer(circle_19)
-      
-      var circle_20 = L.circle([50.729691, -1.165924], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_20.bindPopup("Lind Place, Ryde");
-      circle_20._popup.options.maxWidth = 300;
-      map.addLayer(circle_20)
-      
-      var circle_21 = L.circle([50.594139, -1.201404], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_21.bindPopup("Dudley Road, Ventnor");
-      circle_21._popup.options.maxWidth = 300;
-      map.addLayer(circle_21)
-      
-      var circle_22 = L.circle([50.661434, -1.136071], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_22.bindPopup("Yaverland, Sandown");
-      circle_22._popup.options.maxWidth = 300;
-      map.addLayer(circle_22)
-      
-      var circle_23 = L.circle([50.597069, -1.187725], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_23.bindPopup("Shore Road, Bonchurch");
-      circle_23._popup.options.maxWidth = 300;
-      map.addLayer(circle_23)
-      
-      var circle_24 = L.circle([50.70657, -1.288984], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_24.bindPopup("Seaclose Recreation Ground, Newport");
-      circle_24._popup.options.maxWidth = 300;
-      map.addLayer(circle_24)
-      
-      var circle_25 = L.circle([50.722351, -1.118063], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_25.bindPopup("The Duver, Seaview");
-      circle_25._popup.options.maxWidth = 300;
-      map.addLayer(circle_25)
-      
-      var circle_26 = L.circle([50.670567, -1.510754], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_26.bindPopup("Freshwater Bay, Freshwater");
-      circle_26._popup.options.maxWidth = 300;
-      map.addLayer(circle_26)
-      
-      var circle_27 = L.circle([50.698383, -1.297661], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_27.bindPopup("New Street, Newport");
-      circle_27._popup.options.maxWidth = 300;
-      map.addLayer(circle_27)
-      
-      var circle_28 = L.circle([50.701633, -1.291242], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_28.bindPopup("County Hall Complex, Newport (Weekends Only)");
-      circle_28._popup.options.maxWidth = 300;
-      map.addLayer(circle_28)
-      
-      var circle_29 = L.circle([50.760742, -1.298468], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_29.bindPopup("Cross Street, Cowes");
-      circle_29._popup.options.maxWidth = 300;
-      map.addLayer(circle_29)
-      
-      var circle_30 = L.circle([50.626411, -1.178317], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_30.bindPopup("Vernon Meadow, Shanklin");
-      circle_30._popup.options.maxWidth = 300;
-      map.addLayer(circle_30)
-      
-      var circle_31 = L.circle([50.761272, -1.287557], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_31.bindPopup("Maresfield Road, East Cowes");
-      circle_31._popup.options.maxWidth = 300;
-      map.addLayer(circle_31)
-      
-      var circle_32 = L.circle([50.766243, -1.307802], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_32.bindPopup("Mornington Road, Cowes");
-      circle_32._popup.options.maxWidth = 300;
-      map.addLayer(circle_32)
-      
-      var circle_33 = L.circle([50.639824, -1.170124], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_33.bindPopup("Winchester House, Shanklin");
-      circle_33._popup.options.maxWidth = 300;
-      map.addLayer(circle_33)
-      
-      var circle_34 = L.circle([50.698425, -1.29327], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_34.bindPopup("Church Litten, Newport ");
-      circle_34._popup.options.maxWidth = 300;
-      map.addLayer(circle_34)
-      
-      var circle_35 = L.circle([50.758881, -1.295019], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_35.bindPopup("Brunswick Road, Cowes");
-      circle_35._popup.options.maxWidth = 300;
-      map.addLayer(circle_35)
-      
-      var circle_36 = L.circle([50.649334, -1.168966], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_36.bindPopup("New Road, Lake");
-      circle_36._popup.options.maxWidth = 300;
-      map.addLayer(circle_36)
-      
-      var circle_37 = L.circle([50.595749, -1.203443], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_37.bindPopup("Central (High Street), Ventnor");
-      circle_37._popup.options.maxWidth = 300;
-      map.addLayer(circle_37)
-      
-      var circle_38 = L.circle([50.65786, -1.148173], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_38.bindPopup("Fort Street, Sandown");
-      circle_38._popup.options.maxWidth = 300;
-      map.addLayer(circle_38)
-      
-      var circle_39 = L.circle([50.703762, -1.500149], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_39.bindPopup("River Road, Yarmouth");
-      circle_39._popup.options.maxWidth = 300;
-      map.addLayer(circle_39)
-      
-      var circle_40 = L.circle([50.595181, -1.202488], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_40.bindPopup("Market Street, Ventnor");
-      circle_40._popup.options.maxWidth = 300;
-      map.addLayer(circle_40)
-      
-      var circle_41 = L.circle([50.732193, -1.162893], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_41.bindPopup("St Thomas Street Upper/Lower, Ryde");
-      circle_41._popup.options.maxWidth = 300;
-      map.addLayer(circle_41)
-      
-      var circle_42 = L.circle([50.633522, -1.175741], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_42.bindPopup("Atherley Road, Shanklin");
-      circle_42._popup.options.maxWidth = 300;
-      map.addLayer(circle_42)
-      
-      var circle_43 = L.circle([50.681995, -1.523602], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_43.bindPopup("Moa place, Freshwater");
-      circle_43._popup.options.maxWidth = 300;
-      map.addLayer(circle_43)
-      
-      var circle_44 = L.circle([50.701595, -1.292873], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_44.bindPopup("Sea Street, Newport");
-      circle_44._popup.options.maxWidth = 300;
-      map.addLayer(circle_44)
-      
-      var circle_45 = L.circle([50.726505, -1.163929], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_45.bindPopup("Green Street, Ryde");
-      circle_45._popup.options.maxWidth = 300;
-      map.addLayer(circle_45)
-      
-      var circle_46 = L.circle([50.699642, -1.288447], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_46.bindPopup("Coppins Bridge, Newport");
-      circle_46._popup.options.maxWidth = 300;
-      map.addLayer(circle_46)
-      
-      var circle_47 = L.circle([50.595085, -1.203883], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_47.bindPopup("Pound Lane, Ventnor");
-      circle_47._popup.options.maxWidth = 300;
-      map.addLayer(circle_47)
-      
-      var circle_48 = L.circle([50.696064, -1.290963], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_48.bindPopup("Medina Avenue, Newport");
-      circle_48._popup.options.maxWidth = 300;
-      map.addLayer(circle_48)
-      
-      var circle_49 = L.circle([50.688473, -1.072294], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_49.bindPopup("Lane End, Bembridge");
-      circle_49._popup.options.maxWidth = 300;
-      map.addLayer(circle_49)
-      
-      var circle_50 = L.circle([50.633636, -1.16969], 20, {
-                            color: 'blue',
-                            fillColor: 'blue',
-                            fillOpacity: 0.2
-                            });
-      circle_50.bindPopup("Hope Road, Shanklin");
-      circle_50._popup.options.maxWidth = 300;
-      map.addLayer(circle_50)
-      
-
-      
-
-      
-
-      
-
-      
-
-
-
-   </script>
-
+<body>    
+    
+            <div class="folium-map" id="map_580333555e3143e88ceaed264a444b03" ></div>
+        
 </body>
+<script>    
+    
+
+            
+                var southWest = L.latLng(-90, -180);
+                var northEast = L.latLng(90, 180);
+                var bounds = L.latLngBounds(southWest, northEast);
+            
+
+            var map_580333555e3143e88ceaed264a444b03 = L.map(
+                                  'map_580333555e3143e88ceaed264a444b03',
+                                  {center: [50.68,-1.2667],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_d6a6e18b7b2346b18a08d40c75fdb7a3 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_580333555e3143e88ceaed264a444b03);
+
+        
+    
+
+            var circle_marker_d1aa8438946042db90627c22eb102565 = L.circleMarker(
+                [50.701595,-1.292873],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_0a67c94a8b4e411ea4b3d55617ecfd27 = L.popup({maxWidth: '300'});
+
+            
+                var html_aafed41f6f2040d094bc417fadb05e65 = $('<div id="html_aafed41f6f2040d094bc417fadb05e65" style="width: 100.0%; height: 100.0%;">Sea Street, Newport</div>')[0];
+                popup_0a67c94a8b4e411ea4b3d55617ecfd27.setContent(html_aafed41f6f2040d094bc417fadb05e65);
+            
+
+            circle_marker_d1aa8438946042db90627c22eb102565.bindPopup(popup_0a67c94a8b4e411ea4b3d55617ecfd27);
+
+            
+        
+    
+
+            var circle_marker_40b865dc74354b0b93b458ac94f10540 = L.circleMarker(
+                [50.758881,-1.295019],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_2caee1016cc34d258db9d94f66fd439f = L.popup({maxWidth: '300'});
+
+            
+                var html_4ad0026f2e964d6089e4c6105257eaf8 = $('<div id="html_4ad0026f2e964d6089e4c6105257eaf8" style="width: 100.0%; height: 100.0%;">Brunswick Road, Cowes</div>')[0];
+                popup_2caee1016cc34d258db9d94f66fd439f.setContent(html_4ad0026f2e964d6089e4c6105257eaf8);
+            
+
+            circle_marker_40b865dc74354b0b93b458ac94f10540.bindPopup(popup_2caee1016cc34d258db9d94f66fd439f);
+
+            
+        
+    
+
+            var circle_marker_d558ac9bc6344c0dad65a8ae4aad20b0 = L.circleMarker(
+                [50.728966,-1.165173],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_e82279cde66f4c9cbea1fa79cf2d822c = L.popup({maxWidth: '300'});
+
+            
+                var html_d570810174a941c48f22c5f65ea8e379 = $('<div id="html_d570810174a941c48f22c5f65ea8e379" style="width: 100.0%; height: 100.0%;">Garfield Road, Ryde</div>')[0];
+                popup_e82279cde66f4c9cbea1fa79cf2d822c.setContent(html_d570810174a941c48f22c5f65ea8e379);
+            
+
+            circle_marker_d558ac9bc6344c0dad65a8ae4aad20b0.bindPopup(popup_e82279cde66f4c9cbea1fa79cf2d822c);
+
+            
+        
+    
+
+            var circle_marker_4b5970b74bac40c3bc7780ea208a7bca = L.circleMarker(
+                [50.696064,-1.290963],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_fa509fab66ff468082755894657d1cdc = L.popup({maxWidth: '300'});
+
+            
+                var html_3628975a020a40b7a081dbf192ac94db = $('<div id="html_3628975a020a40b7a081dbf192ac94db" style="width: 100.0%; height: 100.0%;">Medina Avenue, Newport</div>')[0];
+                popup_fa509fab66ff468082755894657d1cdc.setContent(html_3628975a020a40b7a081dbf192ac94db);
+            
+
+            circle_marker_4b5970b74bac40c3bc7780ea208a7bca.bindPopup(popup_fa509fab66ff468082755894657d1cdc);
+
+            
+        
+    
+
+            var circle_marker_34a2065bd1c14d3787f9c385f063a9b7 = L.circleMarker(
+                [50.655479,-1.154149],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_890c3edffc9e485fb632acbc4b244ebb = L.popup({maxWidth: '300'});
+
+            
+                var html_6983f63c76ba4081a4827bb0e604f12f = $('<div id="html_6983f63c76ba4081a4827bb0e604f12f" style="width: 100.0%; height: 100.0%;">Station Avenue, Sandown</div>')[0];
+                popup_890c3edffc9e485fb632acbc4b244ebb.setContent(html_6983f63c76ba4081a4827bb0e604f12f);
+            
+
+            circle_marker_34a2065bd1c14d3787f9c385f063a9b7.bindPopup(popup_890c3edffc9e485fb632acbc4b244ebb);
+
+            
+        
+    
+
+            var circle_marker_b1298b3727934cd9a73ad0ddae96b267 = L.circleMarker(
+                [50.595016,-1.20767],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_652c018290554e2a966ad3e25e9f2796 = L.popup({maxWidth: '300'});
+
+            
+                var html_df5fdb1006b24265ad84ac443733ddaf = $('<div id="html_df5fdb1006b24265ad84ac443733ddaf" style="width: 100.0%; height: 100.0%;">The Grove, Ventnor</div>')[0];
+                popup_652c018290554e2a966ad3e25e9f2796.setContent(html_df5fdb1006b24265ad84ac443733ddaf);
+            
+
+            circle_marker_b1298b3727934cd9a73ad0ddae96b267.bindPopup(popup_652c018290554e2a966ad3e25e9f2796);
+
+            
+        
+    
+
+            var circle_marker_f3bb341e32dd4eaebd3f64b1e7951d43 = L.circleMarker(
+                [50.703762,-1.500149],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_5148fe4b3e944932a67fb2c9e135044f = L.popup({maxWidth: '300'});
+
+            
+                var html_ba4507e66efe4ce29bdd0ff336cf9770 = $('<div id="html_ba4507e66efe4ce29bdd0ff336cf9770" style="width: 100.0%; height: 100.0%;">River Road, Yarmouth</div>')[0];
+                popup_5148fe4b3e944932a67fb2c9e135044f.setContent(html_ba4507e66efe4ce29bdd0ff336cf9770);
+            
+
+            circle_marker_f3bb341e32dd4eaebd3f64b1e7951d43.bindPopup(popup_5148fe4b3e944932a67fb2c9e135044f);
+
+            
+        
+    
+
+            var circle_marker_0dda04af43c342a0987921ad9ef6a6ac = L.circleMarker(
+                [50.594139,-1.201404],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_9723a00eca1b4372ba49f32c77995757 = L.popup({maxWidth: '300'});
+
+            
+                var html_5820de90c211450f8a6e9b70360f43cd = $('<div id="html_5820de90c211450f8a6e9b70360f43cd" style="width: 100.0%; height: 100.0%;">Dudley Road, Ventnor</div>')[0];
+                popup_9723a00eca1b4372ba49f32c77995757.setContent(html_5820de90c211450f8a6e9b70360f43cd);
+            
+
+            circle_marker_0dda04af43c342a0987921ad9ef6a6ac.bindPopup(popup_9723a00eca1b4372ba49f32c77995757);
+
+            
+        
+    
+
+            var circle_marker_8bf9b1ee1ee64f74a689bdbbb5c13d4e = L.circleMarker(
+                [50.633522,-1.175741],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_7eecf7dbdafd4c4b989455b996ad5095 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc97f52ccba84efc94d2dd687f18029a = $('<div id="html_cc97f52ccba84efc94d2dd687f18029a" style="width: 100.0%; height: 100.0%;">Atherley Road, Shanklin</div>')[0];
+                popup_7eecf7dbdafd4c4b989455b996ad5095.setContent(html_cc97f52ccba84efc94d2dd687f18029a);
+            
+
+            circle_marker_8bf9b1ee1ee64f74a689bdbbb5c13d4e.bindPopup(popup_7eecf7dbdafd4c4b989455b996ad5095);
+
+            
+        
+    
+
+            var circle_marker_4dc27ff05692404fa80fe5eea21d7ad0 = L.circleMarker(
+                [50.683849,-1.528172],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_6b3c5631db3d402e871c0cdb61cf9745 = L.popup({maxWidth: '300'});
+
+            
+                var html_576fccc6e8b948629568061f542e0aab = $('<div id="html_576fccc6e8b948629568061f542e0aab" style="width: 100.0%; height: 100.0%;">Avenue Road, Freshwater</div>')[0];
+                popup_6b3c5631db3d402e871c0cdb61cf9745.setContent(html_576fccc6e8b948629568061f542e0aab);
+            
+
+            circle_marker_4dc27ff05692404fa80fe5eea21d7ad0.bindPopup(popup_6b3c5631db3d402e871c0cdb61cf9745);
+
+            
+        
+    
+
+            var circle_marker_bcacda1f437340a0ad3d605b1592c18d = L.circleMarker(
+                [50.722351,-1.118063],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_c110cd596a074061b0b2713baa061940 = L.popup({maxWidth: '300'});
+
+            
+                var html_bd0c9dfa49fc4c69a757ed953aadf7ad = $('<div id="html_bd0c9dfa49fc4c69a757ed953aadf7ad" style="width: 100.0%; height: 100.0%;">The Duver, Seaview</div>')[0];
+                popup_c110cd596a074061b0b2713baa061940.setContent(html_bd0c9dfa49fc4c69a757ed953aadf7ad);
+            
+
+            circle_marker_bcacda1f437340a0ad3d605b1592c18d.bindPopup(popup_c110cd596a074061b0b2713baa061940);
+
+            
+        
+    
+
+            var circle_marker_68cfa5f1a9434ee88edbdeb7a0c8cdc9 = L.circleMarker(
+                [50.670567,-1.510754],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_6313e919700e49b0ae629fa1bd2bccf1 = L.popup({maxWidth: '300'});
+
+            
+                var html_d7a09fa978984fe5b788c64e9b2ef780 = $('<div id="html_d7a09fa978984fe5b788c64e9b2ef780" style="width: 100.0%; height: 100.0%;">Freshwater Bay, Freshwater</div>')[0];
+                popup_6313e919700e49b0ae629fa1bd2bccf1.setContent(html_d7a09fa978984fe5b788c64e9b2ef780);
+            
+
+            circle_marker_68cfa5f1a9434ee88edbdeb7a0c8cdc9.bindPopup(popup_6313e919700e49b0ae629fa1bd2bccf1);
+
+            
+        
+    
+
+            var circle_marker_ec301b8a342e4324a8cfcb5a85758dc5 = L.circleMarker(
+                [50.681995,-1.523602],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_776c235f8f2145f9b19ff27e1ec512d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_e7c245bdc0404d58824523eefee79cc4 = $('<div id="html_e7c245bdc0404d58824523eefee79cc4" style="width: 100.0%; height: 100.0%;">Moa place, Freshwater</div>')[0];
+                popup_776c235f8f2145f9b19ff27e1ec512d5.setContent(html_e7c245bdc0404d58824523eefee79cc4);
+            
+
+            circle_marker_ec301b8a342e4324a8cfcb5a85758dc5.bindPopup(popup_776c235f8f2145f9b19ff27e1ec512d5);
+
+            
+        
+    
+
+            var circle_marker_7f03c2aeb00246128cc18c74be290bd3 = L.circleMarker(
+                [50.595085,-1.203883],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_aabd1dd884644c628eba305d1c182362 = L.popup({maxWidth: '300'});
+
+            
+                var html_d218a2516cae42378b88dcd31d96d208 = $('<div id="html_d218a2516cae42378b88dcd31d96d208" style="width: 100.0%; height: 100.0%;">Pound Lane, Ventnor</div>')[0];
+                popup_aabd1dd884644c628eba305d1c182362.setContent(html_d218a2516cae42378b88dcd31d96d208);
+            
+
+            circle_marker_7f03c2aeb00246128cc18c74be290bd3.bindPopup(popup_aabd1dd884644c628eba305d1c182362);
+
+            
+        
+    
+
+            var circle_marker_52826b94fef24d489c217b01c60893e9 = L.circleMarker(
+                [50.626411,-1.178317],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_debe61d6aad14af9a70b32056d2edaee = L.popup({maxWidth: '300'});
+
+            
+                var html_cf4e919535fb4067b9fd2bf7c3e32c8d = $('<div id="html_cf4e919535fb4067b9fd2bf7c3e32c8d" style="width: 100.0%; height: 100.0%;">Vernon Meadow, Shanklin</div>')[0];
+                popup_debe61d6aad14af9a70b32056d2edaee.setContent(html_cf4e919535fb4067b9fd2bf7c3e32c8d);
+            
+
+            circle_marker_52826b94fef24d489c217b01c60893e9.bindPopup(popup_debe61d6aad14af9a70b32056d2edaee);
+
+            
+        
+    
+
+            var circle_marker_e1c40bc09f1a4e1b87dc4978e0fb4bb9 = L.circleMarker(
+                [50.702011,-1.293088],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_861b82438a2d486e9e6a70ac12616d64 = L.popup({maxWidth: '300'});
+
+            
+                var html_7f1658a4b9194ebdbda86b87e0915465 = $('<div id="html_7f1658a4b9194ebdbda86b87e0915465" style="width: 100.0%; height: 100.0%;">Little London, Newport</div>')[0];
+                popup_861b82438a2d486e9e6a70ac12616d64.setContent(html_7f1658a4b9194ebdbda86b87e0915465);
+            
+
+            circle_marker_e1c40bc09f1a4e1b87dc4978e0fb4bb9.bindPopup(popup_861b82438a2d486e9e6a70ac12616d64);
+
+            
+        
+    
+
+            var circle_marker_842073d688cc413888f1087b6cb18e5f = L.circleMarker(
+                [50.700375,-1.297578],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_3817cffb58b4434d93666a6124a1f178 = L.popup({maxWidth: '300'});
+
+            
+                var html_6e545f53222c4992897588a11acd2eb7 = $('<div id="html_6e545f53222c4992897588a11acd2eb7" style="width: 100.0%; height: 100.0%;">Lugley Street, Newport</div>')[0];
+                popup_3817cffb58b4434d93666a6124a1f178.setContent(html_6e545f53222c4992897588a11acd2eb7);
+            
+
+            circle_marker_842073d688cc413888f1087b6cb18e5f.bindPopup(popup_3817cffb58b4434d93666a6124a1f178);
+
+            
+        
+    
+
+            var circle_marker_5fb7b3732f7f4fa0b1b4c740a89e1eeb = L.circleMarker(
+                [50.628448,-1.180687],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_571a79c390a64fcf92c56abac1f2b780 = L.popup({maxWidth: '300'});
+
+            
+                var html_956bd2c8545a48b38af4dd5eb28adde8 = $('<div id="html_956bd2c8545a48b38af4dd5eb28adde8" style="width: 100.0%; height: 100.0%;">Orchardleigh Road, Shanklin</div>')[0];
+                popup_571a79c390a64fcf92c56abac1f2b780.setContent(html_956bd2c8545a48b38af4dd5eb28adde8);
+            
+
+            circle_marker_5fb7b3732f7f4fa0b1b4c740a89e1eeb.bindPopup(popup_571a79c390a64fcf92c56abac1f2b780);
+
+            
+        
+    
+
+            var circle_marker_624b45e8202a4366899dcff1151aea82 = L.circleMarker(
+                [50.70657,-1.288984],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_38633539b1d240d2ac75a5d8cf90e426 = L.popup({maxWidth: '300'});
+
+            
+                var html_feddf9b2d5814da0b32cdfdffe376e28 = $('<div id="html_feddf9b2d5814da0b32cdfdffe376e28" style="width: 100.0%; height: 100.0%;">Seaclose Recreation Ground, Newport</div>')[0];
+                popup_38633539b1d240d2ac75a5d8cf90e426.setContent(html_feddf9b2d5814da0b32cdfdffe376e28);
+            
+
+            circle_marker_624b45e8202a4366899dcff1151aea82.bindPopup(popup_38633539b1d240d2ac75a5d8cf90e426);
+
+            
+        
+    
+
+            var circle_marker_a9b91a2f22f746b09dd7e66130a5a38b = L.circleMarker(
+                [50.732952,-1.156654],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_992c09e58fb242eeb29ff0652c790e3a = L.popup({maxWidth: '300'});
+
+            
+                var html_1f3826c2315d42c0b7741bb0a7326300 = $('<div id="html_1f3826c2315d42c0b7741bb0a7326300" style="width: 100.0%; height: 100.0%;">Quay Road, Ryde</div>')[0];
+                popup_992c09e58fb242eeb29ff0652c790e3a.setContent(html_1f3826c2315d42c0b7741bb0a7326300);
+            
+
+            circle_marker_a9b91a2f22f746b09dd7e66130a5a38b.bindPopup(popup_992c09e58fb242eeb29ff0652c790e3a);
+
+            
+        
+    
+
+            var circle_marker_6f5c25a4b35049de9361385fdb9c22f1 = L.circleMarker(
+                [50.761272,-1.287557],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_34bac99571f843f3a1cd21cf8f2ce253 = L.popup({maxWidth: '300'});
+
+            
+                var html_62fe9c806d394dfc954d5f668eda8019 = $('<div id="html_62fe9c806d394dfc954d5f668eda8019" style="width: 100.0%; height: 100.0%;">Maresfield Road, East Cowes</div>')[0];
+                popup_34bac99571f843f3a1cd21cf8f2ce253.setContent(html_62fe9c806d394dfc954d5f668eda8019);
+            
+
+            circle_marker_6f5c25a4b35049de9361385fdb9c22f1.bindPopup(popup_34bac99571f843f3a1cd21cf8f2ce253);
+
+            
+        
+    
+
+            var circle_marker_ac554077f65247d29dcc7f96747a2c12 = L.circleMarker(
+                [50.729691,-1.165924],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_3011a9d63c7a44038458be0fe6016790 = L.popup({maxWidth: '300'});
+
+            
+                var html_053fd048c89e45d286cc8f98019cb8d8 = $('<div id="html_053fd048c89e45d286cc8f98019cb8d8" style="width: 100.0%; height: 100.0%;">Lind Place, Ryde</div>')[0];
+                popup_3011a9d63c7a44038458be0fe6016790.setContent(html_053fd048c89e45d286cc8f98019cb8d8);
+            
+
+            circle_marker_ac554077f65247d29dcc7f96747a2c12.bindPopup(popup_3011a9d63c7a44038458be0fe6016790);
+
+            
+        
+    
+
+            var circle_marker_4dccf029f4664fac9ee94444f72cdac3 = L.circleMarker(
+                [50.760742,-1.298468],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_55cbb9b041fa46c88234a47c5ddcd17b = L.popup({maxWidth: '300'});
+
+            
+                var html_f45f7d82a8a0405a8c4be112d9cf61aa = $('<div id="html_f45f7d82a8a0405a8c4be112d9cf61aa" style="width: 100.0%; height: 100.0%;">Cross Street, Cowes</div>')[0];
+                popup_55cbb9b041fa46c88234a47c5ddcd17b.setContent(html_f45f7d82a8a0405a8c4be112d9cf61aa);
+            
+
+            circle_marker_4dccf029f4664fac9ee94444f72cdac3.bindPopup(popup_55cbb9b041fa46c88234a47c5ddcd17b);
+
+            
+        
+    
+
+            var circle_marker_fe53d0c8dbbc487491da4675e2a590a9 = L.circleMarker(
+                [50.698425,-1.29327],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_520079976f134342a824bffdb1855f44 = L.popup({maxWidth: '300'});
+
+            
+                var html_b1fa77f43afc4cc8a5cb8677f07798e3 = $('<div id="html_b1fa77f43afc4cc8a5cb8677f07798e3" style="width: 100.0%; height: 100.0%;">Church Litten, Newport </div>')[0];
+                popup_520079976f134342a824bffdb1855f44.setContent(html_b1fa77f43afc4cc8a5cb8677f07798e3);
+            
+
+            circle_marker_fe53d0c8dbbc487491da4675e2a590a9.bindPopup(popup_520079976f134342a824bffdb1855f44);
+
+            
+        
+    
+
+            var circle_marker_bbf178d503e64eb5b40960528ef63c4d = L.circleMarker(
+                [50.698383,-1.297661],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_665186b1e0834fc7ad83505316c45708 = L.popup({maxWidth: '300'});
+
+            
+                var html_6251519254dc4ae49ce1e2a73bcf93f6 = $('<div id="html_6251519254dc4ae49ce1e2a73bcf93f6" style="width: 100.0%; height: 100.0%;">New Street, Newport</div>')[0];
+                popup_665186b1e0834fc7ad83505316c45708.setContent(html_6251519254dc4ae49ce1e2a73bcf93f6);
+            
+
+            circle_marker_bbf178d503e64eb5b40960528ef63c4d.bindPopup(popup_665186b1e0834fc7ad83505316c45708);
+
+            
+        
+    
+
+            var circle_marker_47ede0c7fd3e4d3cba3fbed5fbbca3f4 = L.circleMarker(
+                [50.597069,-1.187725],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_889a3f55bc1044bd827f5ae23a1ce273 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a3b4e41bb1745999296dde14e32e098 = $('<div id="html_8a3b4e41bb1745999296dde14e32e098" style="width: 100.0%; height: 100.0%;">Shore Road, Bonchurch</div>')[0];
+                popup_889a3f55bc1044bd827f5ae23a1ce273.setContent(html_8a3b4e41bb1745999296dde14e32e098);
+            
+
+            circle_marker_47ede0c7fd3e4d3cba3fbed5fbbca3f4.bindPopup(popup_889a3f55bc1044bd827f5ae23a1ce273);
+
+            
+        
+    
+
+            var circle_marker_f7162ad4a2df46ab93059dfefea3470b = L.circleMarker(
+                [50.595181,-1.202488],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_4d3818c91e3f45f0b905033fa69445e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_086e99e8b5e34d5c99b4fbd06de6d1f0 = $('<div id="html_086e99e8b5e34d5c99b4fbd06de6d1f0" style="width: 100.0%; height: 100.0%;">Market Street, Ventnor</div>')[0];
+                popup_4d3818c91e3f45f0b905033fa69445e7.setContent(html_086e99e8b5e34d5c99b4fbd06de6d1f0);
+            
+
+            circle_marker_f7162ad4a2df46ab93059dfefea3470b.bindPopup(popup_4d3818c91e3f45f0b905033fa69445e7);
+
+            
+        
+    
+
+            var circle_marker_8252a6337eb44e029f3b5b52cccf7724 = L.circleMarker(
+                [50.592678,-1.211554],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_c583fc7c1b8c435ca78529ddd7dea35c = L.popup({maxWidth: '300'});
+
+            
+                var html_7feeb59a424a4af0ae65dc43b01c03b7 = $('<div id="html_7feeb59a424a4af0ae65dc43b01c03b7" style="width: 100.0%; height: 100.0%;">La Falaise, Ventnor</div>')[0];
+                popup_c583fc7c1b8c435ca78529ddd7dea35c.setContent(html_7feeb59a424a4af0ae65dc43b01c03b7);
+            
+
+            circle_marker_8252a6337eb44e029f3b5b52cccf7724.bindPopup(popup_c583fc7c1b8c435ca78529ddd7dea35c);
+
+            
+        
+    
+
+            var circle_marker_4746134f9a464fd3936a8ee36866160b = L.circleMarker(
+                [50.688473,-1.072294],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_bcdad798aeda4b6880e6526c5b2010f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_1acb2cd3d45a4fb8b0d4a9f602eaa62f = $('<div id="html_1acb2cd3d45a4fb8b0d4a9f602eaa62f" style="width: 100.0%; height: 100.0%;">Lane End, Bembridge</div>')[0];
+                popup_bcdad798aeda4b6880e6526c5b2010f9.setContent(html_1acb2cd3d45a4fb8b0d4a9f602eaa62f);
+            
+
+            circle_marker_4746134f9a464fd3936a8ee36866160b.bindPopup(popup_bcdad798aeda4b6880e6526c5b2010f9);
+
+            
+        
+    
+
+            var circle_marker_6dd1c5214ffc42ac8aa202fb8420436c = L.circleMarker(
+                [50.631695,-1.171428],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_d98fbef8378a4ec593e2068e28bfd91d = L.popup({maxWidth: '300'});
+
+            
+                var html_78834a73f9834ae38ade5834d9dfe8a0 = $('<div id="html_78834a73f9834ae38ade5834d9dfe8a0" style="width: 100.0%; height: 100.0%;">Esplanade Gardens, Shanklin</div>')[0];
+                popup_d98fbef8378a4ec593e2068e28bfd91d.setContent(html_78834a73f9834ae38ade5834d9dfe8a0);
+            
+
+            circle_marker_6dd1c5214ffc42ac8aa202fb8420436c.bindPopup(popup_d98fbef8378a4ec593e2068e28bfd91d);
+
+            
+        
+    
+
+            var circle_marker_45b4cd24ba6f4c50bab710530c6b9e90 = L.circleMarker(
+                [50.732193,-1.162893],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_22f5f7d848af409cb7bf9997de0c7994 = L.popup({maxWidth: '300'});
+
+            
+                var html_73dd7bc3e5074ea99d6e8969ab5e49c9 = $('<div id="html_73dd7bc3e5074ea99d6e8969ab5e49c9" style="width: 100.0%; height: 100.0%;">St Thomas Street Upper/Lower, Ryde</div>')[0];
+                popup_22f5f7d848af409cb7bf9997de0c7994.setContent(html_73dd7bc3e5074ea99d6e8969ab5e49c9);
+            
+
+            circle_marker_45b4cd24ba6f4c50bab710530c6b9e90.bindPopup(popup_22f5f7d848af409cb7bf9997de0c7994);
+
+            
+        
+    
+
+            var circle_marker_f920c1afa3974ac38a8d3f96fc779d44 = L.circleMarker(
+                [50.701221,-1.09955],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_b7ce714bccfb4fd88583081eb1c311d3 = L.popup({maxWidth: '300'});
+
+            
+                var html_b93a7e7274ff47c5aad48b082535f2e8 = $('<div id="html_b93a7e7274ff47c5aad48b082535f2e8" style="width: 100.0%; height: 100.0%;">The Duver, St Helens</div>')[0];
+                popup_b7ce714bccfb4fd88583081eb1c311d3.setContent(html_b93a7e7274ff47c5aad48b082535f2e8);
+            
+
+            circle_marker_f920c1afa3974ac38a8d3f96fc779d44.bindPopup(popup_b7ce714bccfb4fd88583081eb1c311d3);
+
+            
+        
+    
+
+            var circle_marker_4d99905661b04ee29805e50687177e7e = L.circleMarker(
+                [50.661434,-1.136071],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_bc25f869fef0413cbebbd93c62d79c46 = L.popup({maxWidth: '300'});
+
+            
+                var html_1336d42d26624e1d9478f42d18c612e6 = $('<div id="html_1336d42d26624e1d9478f42d18c612e6" style="width: 100.0%; height: 100.0%;">Yaverland, Sandown</div>')[0];
+                popup_bc25f869fef0413cbebbd93c62d79c46.setContent(html_1336d42d26624e1d9478f42d18c612e6);
+            
+
+            circle_marker_4d99905661b04ee29805e50687177e7e.bindPopup(popup_bc25f869fef0413cbebbd93c62d79c46);
+
+            
+        
+    
+
+            var circle_marker_e12da84075324dd8bbfff70eabf20378 = L.circleMarker(
+                [50.697956,-1.297119],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_1ee7c48eff9a4fcfa8e55ee8663364c7 = L.popup({maxWidth: '300'});
+
+            
+                var html_d21e891e3c54456db60a86e8a3f91a45 = $('<div id="html_d21e891e3c54456db60a86e8a3f91a45" style="width: 100.0%; height: 100.0%;">Chapel Street, Newport</div>')[0];
+                popup_1ee7c48eff9a4fcfa8e55ee8663364c7.setContent(html_d21e891e3c54456db60a86e8a3f91a45);
+            
+
+            circle_marker_e12da84075324dd8bbfff70eabf20378.bindPopup(popup_1ee7c48eff9a4fcfa8e55ee8663364c7);
+
+            
+        
+    
+
+            var circle_marker_c42454020b844f9f843ed4ad0136e3a3 = L.circleMarker(
+                [50.654915,-1.15526],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_23cd63ce8d0846409c921ab9c7a3997c = L.popup({maxWidth: '300'});
+
+            
+                var html_8622189e126b4d8cb9ef00f37d13b35f = $('<div id="html_8622189e126b4d8cb9ef00f37d13b35f" style="width: 100.0%; height: 100.0%;">St Johns Road, Sandown</div>')[0];
+                popup_23cd63ce8d0846409c921ab9c7a3997c.setContent(html_8622189e126b4d8cb9ef00f37d13b35f);
+            
+
+            circle_marker_c42454020b844f9f843ed4ad0136e3a3.bindPopup(popup_23cd63ce8d0846409c921ab9c7a3997c);
+
+            
+        
+    
+
+            var circle_marker_197ece8dd5244e10b4d98d98f448ef18 = L.circleMarker(
+                [50.633636,-1.16969],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_a8b79a1f04b94e7ebd6dea295ce6ca6e = L.popup({maxWidth: '300'});
+
+            
+                var html_3304da7c298a40feb8919ae0ba688f24 = $('<div id="html_3304da7c298a40feb8919ae0ba688f24" style="width: 100.0%; height: 100.0%;">Hope Road, Shanklin</div>')[0];
+                popup_a8b79a1f04b94e7ebd6dea295ce6ca6e.setContent(html_3304da7c298a40feb8919ae0ba688f24);
+            
+
+            circle_marker_197ece8dd5244e10b4d98d98f448ef18.bindPopup(popup_a8b79a1f04b94e7ebd6dea295ce6ca6e);
+
+            
+        
+    
+
+            var circle_marker_86d47f5039854c3cbc51e168be131962 = L.circleMarker(
+                [50.595749,-1.203443],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_219fef12d96d4742a22d20ce7acf9d00 = L.popup({maxWidth: '300'});
+
+            
+                var html_605607defaf5445380791a555a975dca = $('<div id="html_605607defaf5445380791a555a975dca" style="width: 100.0%; height: 100.0%;">Central (High Street), Ventnor</div>')[0];
+                popup_219fef12d96d4742a22d20ce7acf9d00.setContent(html_605607defaf5445380791a555a975dca);
+            
+
+            circle_marker_86d47f5039854c3cbc51e168be131962.bindPopup(popup_219fef12d96d4742a22d20ce7acf9d00);
+
+            
+        
+    
+
+            var circle_marker_ebf8a8e34cf54f57a7970961cd9676e9 = L.circleMarker(
+                [50.726505,-1.163929],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_5ee8439ffc9243c1a0ee32274649ddc6 = L.popup({maxWidth: '300'});
+
+            
+                var html_1e85b3cbdebf41a1b131c73f1c43bf98 = $('<div id="html_1e85b3cbdebf41a1b131c73f1c43bf98" style="width: 100.0%; height: 100.0%;">Green Street, Ryde</div>')[0];
+                popup_5ee8439ffc9243c1a0ee32274649ddc6.setContent(html_1e85b3cbdebf41a1b131c73f1c43bf98);
+            
+
+            circle_marker_ebf8a8e34cf54f57a7970961cd9676e9.bindPopup(popup_5ee8439ffc9243c1a0ee32274649ddc6);
+
+            
+        
+    
+
+            var circle_marker_8e13c6be5f3146039c50412988ed5d3e = L.circleMarker(
+                [50.72876,-1.164186],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_8a8a670547d74c33b917627b02369820 = L.popup({maxWidth: '300'});
+
+            
+                var html_b437b0dbcbaa48deadc5aa4676ecab55 = $('<div id="html_b437b0dbcbaa48deadc5aa4676ecab55" style="width: 100.0%; height: 100.0%;">Victoria Street, Ryde</div>')[0];
+                popup_8a8a670547d74c33b917627b02369820.setContent(html_b437b0dbcbaa48deadc5aa4676ecab55);
+            
+
+            circle_marker_8e13c6be5f3146039c50412988ed5d3e.bindPopup(popup_8a8a670547d74c33b917627b02369820);
+
+            
+        
+    
+
+            var circle_marker_2dadab3efec44458bad106123ca7a174 = L.circleMarker(
+                [50.766243,-1.307802],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_0670d7237b9d4f65a6ac0c490e23126e = L.popup({maxWidth: '300'});
+
+            
+                var html_a597289dd537442da74b85ef561b976f = $('<div id="html_a597289dd537442da74b85ef561b976f" style="width: 100.0%; height: 100.0%;">Mornington Road, Cowes</div>')[0];
+                popup_0670d7237b9d4f65a6ac0c490e23126e.setContent(html_a597289dd537442da74b85ef561b976f);
+            
+
+            circle_marker_2dadab3efec44458bad106123ca7a174.bindPopup(popup_0670d7237b9d4f65a6ac0c490e23126e);
+
+            
+        
+    
+
+            var circle_marker_9105a148f0aa4a44942d212a35f21367 = L.circleMarker(
+                [50.629387,-1.172769],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_eb313e8884c34db7b1c5f5d5d00f4ed1 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c75c1eaa5a34f3ebf0cde2d0e51cfae = $('<div id="html_4c75c1eaa5a34f3ebf0cde2d0e51cfae" style="width: 100.0%; height: 100.0%;">Spa, Shanklin</div>')[0];
+                popup_eb313e8884c34db7b1c5f5d5d00f4ed1.setContent(html_4c75c1eaa5a34f3ebf0cde2d0e51cfae);
+            
+
+            circle_marker_9105a148f0aa4a44942d212a35f21367.bindPopup(popup_eb313e8884c34db7b1c5f5d5d00f4ed1);
+
+            
+        
+    
+
+            var circle_marker_0cea9f9585a64ac1b6db9d51badff613 = L.circleMarker(
+                [50.703346,-1.289982],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_332d78258b0142d6b4409b8a9a238e62 = L.popup({maxWidth: '300'});
+
+            
+                var html_b69749758e0f4d9f95d2165d8700d00b = $('<div id="html_b69749758e0f4d9f95d2165d8700d00b" style="width: 100.0%; height: 100.0%;">Newport Harbour, Newport</div>')[0];
+                popup_332d78258b0142d6b4409b8a9a238e62.setContent(html_b69749758e0f4d9f95d2165d8700d00b);
+            
+
+            circle_marker_0cea9f9585a64ac1b6db9d51badff613.bindPopup(popup_332d78258b0142d6b4409b8a9a238e62);
+
+            
+        
+    
+
+            var circle_marker_e224597e7b9046dbb82eb504f28cf9b0 = L.circleMarker(
+                [50.639824,-1.170124],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_63e9729906804ed085eb5b8d70bdc822 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b6c2ef8c84f4bda99b95659342bb612 = $('<div id="html_6b6c2ef8c84f4bda99b95659342bb612" style="width: 100.0%; height: 100.0%;">Winchester House, Shanklin</div>')[0];
+                popup_63e9729906804ed085eb5b8d70bdc822.setContent(html_6b6c2ef8c84f4bda99b95659342bb612);
+            
+
+            circle_marker_e224597e7b9046dbb82eb504f28cf9b0.bindPopup(popup_63e9729906804ed085eb5b8d70bdc822);
+
+            
+        
+    
+
+            var circle_marker_02e4d1e01469468bac30b7aaa68ecfa6 = L.circleMarker(
+                [50.699642,-1.288447],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_ba0b0e5aacdb472fb544e9ac190a8ba4 = L.popup({maxWidth: '300'});
+
+            
+                var html_ef0e942c3275495da1f4d026e305369a = $('<div id="html_ef0e942c3275495da1f4d026e305369a" style="width: 100.0%; height: 100.0%;">Coppins Bridge, Newport</div>')[0];
+                popup_ba0b0e5aacdb472fb544e9ac190a8ba4.setContent(html_ef0e942c3275495da1f4d026e305369a);
+            
+
+            circle_marker_02e4d1e01469468bac30b7aaa68ecfa6.bindPopup(popup_ba0b0e5aacdb472fb544e9ac190a8ba4);
+
+            
+        
+    
+
+            var circle_marker_8004a519b0aa4a65ace3ffc900dacf2f = L.circleMarker(
+                [50.593258,-1.204343],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_b7ea60df77d140a89abd7852c988ff74 = L.popup({maxWidth: '300'});
+
+            
+                var html_11c7818bef6f40cf9083ee6fcdbd34c7 = $('<div id="html_11c7818bef6f40cf9083ee6fcdbd34c7" style="width: 100.0%; height: 100.0%;">Eastern Esplanade, Ventnor</div>')[0];
+                popup_b7ea60df77d140a89abd7852c988ff74.setContent(html_11c7818bef6f40cf9083ee6fcdbd34c7);
+            
+
+            circle_marker_8004a519b0aa4a65ace3ffc900dacf2f.bindPopup(popup_b7ea60df77d140a89abd7852c988ff74);
+
+            
+        
+    
+
+            var circle_marker_dcee7ce9d76041f885745407d1693d1f = L.circleMarker(
+                [50.701633,-1.291242],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_477201944dd046d1ac6073be2af0b697 = L.popup({maxWidth: '300'});
+
+            
+                var html_2d8ce121a1534472b5e1796c9cc45327 = $('<div id="html_2d8ce121a1534472b5e1796c9cc45327" style="width: 100.0%; height: 100.0%;">County Hall Complex, Newport (Weekends Only)</div>')[0];
+                popup_477201944dd046d1ac6073be2af0b697.setContent(html_2d8ce121a1534472b5e1796c9cc45327);
+            
+
+            circle_marker_dcee7ce9d76041f885745407d1693d1f.bindPopup(popup_477201944dd046d1ac6073be2af0b697);
+
+            
+        
+    
+
+            var circle_marker_2d319caa1ae348678bd3544becdd0119 = L.circleMarker(
+                [50.65786,-1.148173],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_92dbb5ef615b493e99900daf4fcb59e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_38f17b8901c34e2190acb1222fe0164a = $('<div id="html_38f17b8901c34e2190acb1222fe0164a" style="width: 100.0%; height: 100.0%;">Fort Street, Sandown</div>')[0];
+                popup_92dbb5ef615b493e99900daf4fcb59e7.setContent(html_38f17b8901c34e2190acb1222fe0164a);
+            
+
+            circle_marker_2d319caa1ae348678bd3544becdd0119.bindPopup(popup_92dbb5ef615b493e99900daf4fcb59e7);
+
+            
+        
+    
+
+            var circle_marker_dd94d738b6274c579d48d31805f70397 = L.circleMarker(
+                [50.688755,-1.537925],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_565ca258482e4aa3ac73ec6e79ab9014 = L.popup({maxWidth: '300'});
+
+            
+                var html_4bd6f4f693394c00b5afa12415c0371f = $('<div id="html_4bd6f4f693394c00b5afa12415c0371f" style="width: 100.0%; height: 100.0%;">Colwell Bay, Colwell</div>')[0];
+                popup_565ca258482e4aa3ac73ec6e79ab9014.setContent(html_4bd6f4f693394c00b5afa12415c0371f);
+            
+
+            circle_marker_dd94d738b6274c579d48d31805f70397.bindPopup(popup_565ca258482e4aa3ac73ec6e79ab9014);
+
+            
+        
+    
+
+            var circle_marker_ec2c2d9d307f4b1a9a242483c447f7e5 = L.circleMarker(
+                [50.649334,-1.168966],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_6bc62a8abad34faa8e00a751aa4624a8 = L.popup({maxWidth: '300'});
+
+            
+                var html_5d1dafb35db046649d748af57810cd0a = $('<div id="html_5d1dafb35db046649d748af57810cd0a" style="width: 100.0%; height: 100.0%;">New Road, Lake</div>')[0];
+                popup_6bc62a8abad34faa8e00a751aa4624a8.setContent(html_5d1dafb35db046649d748af57810cd0a);
+            
+
+            circle_marker_ec2c2d9d307f4b1a9a242483c447f7e5.bindPopup(popup_6bc62a8abad34faa8e00a751aa4624a8);
+
+            
+        
+    
+
+            var circle_marker_e080d01ffafd4015a427d639fb99b85a = L.circleMarker(
+                [50.630047,-1.178836],
+                {
+                    color: 'black',
+                    weight: 2,
+                    fillColor: 'blue',
+                    fillOpacity: 0.2
+                    }
+                )
+                .setRadius(20)
+                .addTo(map_580333555e3143e88ceaed264a444b03);
+            
+    
+            var popup_f1a223d35baf480d9879ac6c088d9408 = L.popup({maxWidth: '300'});
+
+            
+                var html_87f88c606b114788a80a3cd8e88b1f71 = $('<div id="html_87f88c606b114788a80a3cd8e88b1f71" style="width: 100.0%; height: 100.0%;">Landguard Road, Shanklin</div>')[0];
+                popup_f1a223d35baf480d9879ac6c088d9408.setContent(html_87f88c606b114788a80a3cd8e88b1f71);
+            
+
+            circle_marker_e080d01ffafd4015a427d639fb99b85a.bindPopup(popup_f1a223d35baf480d9879ac6c088d9408);
+
+            
+        
+</script>

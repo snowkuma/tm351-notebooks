@@ -14,3 +14,17 @@
 ### 01.4 Defining new functions in python
 
 ### 01.5 Python file handling
+
+---
+
+## Part 2 - Acquiring and representing data
+
+### 02.1 Pandas DataFrames
+
+### 02.2 Data File Formats
+
+### 02.2.1 CSV
+
+### 02.2.2 JSON
+
+### 02.2.3 Other
