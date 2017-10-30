@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Car Parks</name>
+  <description><![CDATA[View all the Island car parks managed by the local authority]]></description>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style50">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style38">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/longstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/shortstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/shortstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/shortstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/shortstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/shortstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/shortstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/shortstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/shortstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/shortstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://www.iwight.com/images/pins/shortstay.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Lane End, Bembridge</name>
+    <description><![CDATA[<div dir="ltr"><font face="arial">Long Stay (Off Street) 8am to 6pm </font><br><font face="arial">PO35 5SZ 
+</font><br> 
+<br>
+<br><span style="font-family:Arial;font-size:10pt;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-family:Arial;font-size:10pt"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none" target="_blank"><span style="background:white">tariff
+charges</span></a></span><font face="Arial"><br></font><br> </div>]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-1.072294,50.688473,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shore Road, Bonchurch</name>
+    <description><![CDATA[<div style="font-family:arial">Long Stay (Off Street) 8am to 6pm<br>PO38 1RH</div>
+<div style="font-family:arial">&nbsp;</div>
+<div>
+<p style="background-color:white;margin-top:0cm;margin-right:0cm;margin-bottom:6pt;margin-left:0cm;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-1.187725,50.597069,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Brunswick Road, Cowes</name>
+    <description><![CDATA[<div>Long Stay (Off Street) 8am to 6pm</div>
+<div>PO31 7DD</div>
+<div>&nbsp;</div>
+<div>
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><a href="http://www.iwight.com/images/pins/longstay.png" target="_blank"></a></div>]]></description>
+    <styleUrl>#style37</styleUrl>
+    <Point>
+      <coordinates>-1.295019,50.758881,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mornington Road, Cowes</name>
+    <description><![CDATA[Long Stay (Off Street) 8am to 6pm 
+<div>PO31 8BL</div>
+<div>&nbsp;</div>
+<div>
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-1.307802,50.766243,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Maresfield Road, East Cowes</name>
+    <description><![CDATA[Long Stay (Off Street) 8am to 6pm<br><span lang="EN-GB" style="font-size:10pt">PO32 6AL</span> 
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;color:black"></span>&nbsp;</p>
+<p></p>
+<p></p>
+<p></p>
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>-1.287557,50.761272,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Colwell Bay, Colwell</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO40 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br><br>&nbsp;</div>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-1.537925,50.688755,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Avenue Road, Freshwater</name>
+    <description><![CDATA[<div dir="ltr" style="font-family:arial">Long Stay (Off Street) 8am to 6pm <br>PO40 <br>&nbsp;</div>
+<div dir="ltr">
+<p style="background-color:white;margin-top:0cm;margin-right:0cm;margin-bottom:6pt;margin-left:0cm;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br><font face="arial">&nbsp;</font></div>]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>-1.528172,50.683849,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Freshwater Bay, Freshwater</name>
+    <description><![CDATA[<div style="font-family:arial">Long Stay (Off Street) 8am to 6pm <br>PO40</div>
+<div style="font-family:arial">&nbsp;</div>
+<div>
+<p style="background-color:white;margin-top:0cm;margin-right:0cm;margin-bottom:6pt;margin-left:0cm;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-1.510754,50.670567,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Moa place, Freshwater</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO40 9DS </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>-1.523602,50.681995,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>New Road, Lake</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO36 9 <br>&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style50</styleUrl>
+    <Point>
+      <coordinates>-1.168966,50.649334,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coppins Bridge, Newport</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO30 2BX </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-1.288447,50.699642,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>County Hall Complex, Newport (Weekends Only)</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm PO30 1UD</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>-1.291242,50.701633,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Little London, Newport</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO30</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-1.293088,50.702011,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Medina Avenue, Newport</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO30 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p>
+<p></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-1.290963,50.696064,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Newport Harbour, Newport</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm PO30 2QR</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-1.289982,50.703346,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Seaclose Recreation Ground, Newport</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO30 2QS</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>-1.288984,50.706570,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Garfield Road, Ryde</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO33 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-1.165173,50.728966,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Green Street, Ryde</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO33 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-1.163929,50.726505,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lind Place, Ryde</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO33 2NT </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-1.165924,50.729691,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Quay Road, Ryde</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO33 2HB </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-1.156654,50.732952,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St Thomas Street Upper/Lower, Ryde</name>
+    <description><![CDATA[<div dir="ltr" style="font-family:arial">Long Stay (Off Street) 8am to 6pm <br>PO33</div>
+<div dir="ltr" style="font-family:arial">&nbsp;</div>
+<div dir="ltr">
+<p style="font-family:arial;background-color:white;margin-top:0cm;margin-right:0cm;margin-bottom:6pt;margin-left:0cm;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">C</span><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style38</styleUrl>
+    <Point>
+      <coordinates>-1.162893,50.732193,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Fort Street, Sandown</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO36 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-1.148173,50.657860,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Station Avenue, Sandown</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO36 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>-1.154149,50.655479,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Yaverland, Sandown</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO36 8QB </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>-1.136071,50.661434,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Duver, Seaview</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO34 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-1.118063,50.722351,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Duver, St Helens</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO33 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>-1.099550,50.701221,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Atherley Road, Shanklin</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO37 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-1.175741,50.633522,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Esplanade Gardens, Shanklin</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO37</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>-1.171428,50.631695,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Orchardleigh Road, Shanklin</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO37</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-1.180687,50.628448,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Spa, Shanklin</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO37</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-1.172769,50.629387,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hope Road, Shanklin</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO37 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>-1.169690,50.633636,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Winchester House, Shanklin</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO37 6HU</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>-1.170124,50.639824,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Market Street, Ventnor</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO38 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-1.202488,50.595181,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dudley Road, Ventnor</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO38 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-1.201404,50.594139,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Falaise, Ventnor</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO38</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-1.211554,50.592678,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Eastern Esplanade, Ventnor</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm PO38</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>-1.204343,50.593258,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Grove, Ventnor</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO38 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>-1.207670,50.595016,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pound Lane, Ventnor</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO38 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-1.203883,50.595085,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Central (High Street), Ventnor</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO38</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-1.203443,50.595749,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>River Road, Yarmouth</name>
+    <description><![CDATA[<div dir="ltr">Long Stay (Off Street) 8am to 6pm <br>PO41 0 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Long%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p>&nbsp;</div>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>-1.500149,50.703762,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Vernon Meadow, Shanklin</name>
+    <description><![CDATA[<div dir="ltr">Short Stay (Off Street) 8am to 6pm, max stay 5 hours – no return 3 hours <br>PO37 <br>&nbsp;</div>
+<div dir="ltr"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Short%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></div>]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>-1.178317,50.626411,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Landguard Road, Shanklin</name>
+    <description><![CDATA[<div dir="ltr">Short Stay (Off Street) 8am to 6pm, max stay 5 hours – no return 3 hours <br>PO37</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Short%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>-1.178836,50.630047,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cross Street, Cowes</name>
+    <description><![CDATA[<div dir="ltr">Short Stay (Off Street) 8am to 6pm, max stay 5 hours – no return 3 hours <br>PO31 <br><br>
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Short%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-1.298468,50.760742,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Church Litten, Newport </name>
+    <description><![CDATA[<div dir="ltr">Short Stay (Off Street) 8am to 6pm, max stay 5 hours – no return 3 hours <br>PO30 1 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Short%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p>&nbsp;</div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-1.293270,50.698425,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lugley Street, Newport</name>
+    <description><![CDATA[<div dir="ltr">Short Stay (Off Street) 8am to 6pm, max stay 5 hours – no return 3 hours <br>PO30 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Short%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>-1.297578,50.700375,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chapel Street, Newport</name>
+    <description><![CDATA[<div dir="ltr">Short Stay (Off Street) 8am to 6pm, max stay 5 hours – no return 3 hours <br>PO30</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Short%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>-1.297119,50.697956,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>New Street, Newport</name>
+    <description><![CDATA[<div dir="ltr">Short Stay (Off Street) 8am to 6pm, max stay 5 hours – no return 3 hours <br>PO30</div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Short%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p>
+<p></p></div>]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-1.297661,50.698383,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sea Street, Newport</name>
+    <description><![CDATA[<div dir="ltr">Short Stay (Off Street) 8am to 6pm, max stay 5 hours – no return 3 hours <br>PO30 </div>
+<div dir="ltr">&nbsp;</div>
+<div dir="ltr">
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Short%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p><br>&nbsp;</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-1.292873,50.701595,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Victoria Street, Ryde</name>
+    <description><![CDATA[<div dir="ltr"><font face="arial">Short Stay (Off Street) 8am to 6pm, max stay 5 hours – no return 3 hours </font><br><font face="arial">PO33 2PU </font><br><br>
+<p style="background-color:white;margin-top:0cm;margin-right:0cm;margin-bottom:6pt;margin-left:0cm;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Short%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p>
+<p style="font-family:arial"></p></div>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>-1.164186,50.728760,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>St Johns Road, Sandown</name>
+    <description><![CDATA[<div dir="ltr">Short Stay (Off Street) 8am to 6pm, max stay 5 hours – no return 3 hours <br>PO36 <br><br>
+<p style="background:white;margin:0cm 0cm 6pt;line-height:normal"><span style="font-size:10pt;font-family:Arial;background-color:white">Click
+here for<span>&nbsp;</span></span><span style="font-size:10.0pt;font-family:Arial"><a href="http://www.iwight.com/azservices/documents/2729-Short%20Stay%20car%20parks.pdf" style="outline-style:none;outline-width:initial;outline-color:initial;text-align:-webkit-left" target="_blank"><span style="background:white">tariff
+charges</span></a></span></p></div>]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-1.155260,50.654915,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
