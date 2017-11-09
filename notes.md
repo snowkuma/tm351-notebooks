@@ -11,93 +11,31 @@ Notebooks
 
 ## Part 04-  Data Analysis
 
-- [04.1 Crosstabs and pivot tables](#04.1-crosstabs-and-pivot-tables)
-- 04.2 Descriptive statistcis in pandas
-- 04.3 Simple visulisations in pandas
-- 04.4 Act 4.4 walkthrough
-- 04.5 Split-apply-combine with SQL and pandas
-- 04.5 SalesTeam Exploration
-- 04.6 Introducing REGEX
-- 04.7 Reshaping data with pandas
-
-a
-s
-d
-
-df
-dg
-g
-g
-g
-dg
-d
-g
-dg
-d
-g
-g
-g
-g
-g
-g
-g
-g
-g
-g
-g
-g
-g
-g
-g
-
-g
-g
-g
-
-g
-
-g
-g
-g
-g
-g
+- 04.1 [Crosstabs and pivot tables](#crosstabs-and-pivot-tables)
+- 04.2 [Descriptive statistics in pandas](#descriptive-statistics-in-pandas)
+- 04.3 [Simple visulisations in pandas](#simple-visulisations-in-pandas)
+- 04.4 [Activity walkthrough](#activity-walkthrough)
+- 04.5 [Split-apply-combine with SQL and pandas](split-apply-combine-with-sql-and-pandas)
+- 04.5 [SalesTeam Exploration](salesTeam-exploration)
+- 04.6 [Introducing REGEX](introducing-regex)
+- 04.7 [Reshaping data with pandas](reshaping-data-with-pandas)
 
 
-ggg
-
-ggg
-
-g
-g
-g
-g
-g
-
-
-g
-g
-g
-g
-g
-
-
-
-g
-
-
-g
-
-
-g
-
-
-g
-
-
-
-g
-
-g
-
-## 04.1 Crosstabs and pivot tables
+## Part 04 - Data Analysis
+### Crosstabs and pivot tables
 Here is the notes
+
+### Descriptive statistics in pandas
+
+### Simple visulisations in pandas
+
+### Activity walkthrough
+
+### Split-apply-combine with SQL and pandas
+
+### SalesTeam Exploration
+
+### Introducing REGEX
+
+### Reshaping data with pandas
+
