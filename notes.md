@@ -11,7 +11,7 @@ Notebooks
 
 ## Part 04-  Data Analysis
 
-- 04.1 [Crosstabs and pivot tables](#crosstabs-and-pivot-tables)
+- [04.1 Crosstabs and pivot tables](#04.1-crosstabs-and-pivot-tables)
 - 04.2 Descriptive statistcis in pandas
 - 04.3 Simple visulisations in pandas
 - 04.4 Act 4.4 walkthrough
@@ -99,5 +99,5 @@ g
 
 g
 
-## Crosstabs and pivot tables
+## 04.1 Crosstabs and pivot tables
 Here is the notes
