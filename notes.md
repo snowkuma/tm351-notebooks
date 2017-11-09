@@ -16,7 +16,7 @@ Notebooks
 - 04.3 [Simple visulisations in pandas](#simple-visulisations-in-pandas)
 - 04.4 [Activity walkthrough](#activity-walkthrough)
 - 04.5 [Split-apply-combine with SQL and pandas](#split-apply-combine-with-sql-and-pandas)
-- 04.5 [SalesTeam Exploration](#salesTeam-exploration)
+- 04.5 [SalesTeam Exploration](#salesteam-exploration)
 - 04.6 [Introducing REGEX](#introducing-regex)
 - 04.7 [Reshaping data with pandas](#reshaping-data-with-pandas)
 
