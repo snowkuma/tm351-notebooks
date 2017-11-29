@@ -37,6 +37,8 @@ Can be used to aggregate data over a DF over a heirarchy of coulmns in a user co
 ### Descriptive statistics in pandas
 
 ### Simple visulisations in pandas
+starting to use matplotlib
+
 
 ### Activity walkthrough
 
