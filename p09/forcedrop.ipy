@@ -1,0 +1,49 @@
+from sqlalchemy import create_engine
+from pandas import read_sql as psql
+
+def clearConnections(db,
+                     dbname='tm351test',
+                     host='localhost', port=5432,
+                     user='test', password='test'):
+    ''' Clear all connections associated with a particular database '''
+
+    engine = create_engine("postgresql://{user}:{password}@{host}:{port}/{dbname}".format(dbname=dbname,
+                                                                                          host=host, port=port,
+                                                                                          user=user, password=password))
+    conn = engine.connect()
+    
+    #Look for a database of the required name
+    q="SELECT datname FROM pg_database WHERE datname='{db}'".format(db=db)
+    dbs=psql(q,conn)
+    #Return silently if it doesn't exist
+    if len(dbs)==0: return
+    
+    #Check for connections to that database
+    q="SELECT pid FROM pg_stat_activity WHERE pid <> pg_backend_pid() AND datname='{db}';".format(db=db)
+    openconns=psql(q,conn)
+    #Delete any outstanding connections to that database
+    if len(openconns):
+        for openconn in openconns['pid'].tolist():
+            conn.execute("SELECT pg_terminate_backend({oc});".format(oc=openconn))
+    conn.close()
+   
+def forceDropdb(db,
+                dbname='tm351test',
+                host='localhost', port=5432,
+                user='test', password='test'):
+    ''' Clear all connections associated with a particular database and then delte that database '''
+    
+    if db=='tm351test':
+        print("Not doing that...")
+        return
+    #Clear any connections to the database
+    clearConnections(db,dbname=dbname,host=host,port=port,user=user,password=password)
+    #Delete the database
+    !dropdb $db
+    
+def forceCleandb(db,user='test'):
+    forceDropdb(db)
+    if user is not None and user!='':
+        !createdb $db --owner=$user
+    else:
+        !createdb $db
