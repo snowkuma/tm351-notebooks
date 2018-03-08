@@ -6,3 +6,19 @@ config = { _id: "s1", members:[           { _id : 0, host : "localhost:47017" }]
 rs.initiate(config)
 config = { _id: "s2", members:[           { _id : 0, host : "localhost:57017" }]};
 rs.initiate(config)
+config = { _id: "c1" , members:[           { _id : 0, host : "localhost:57050" }]};
+rs.initiate(config)
+config = { _id: "s0", members:[           { _id : 0, host : "localhost:37017" }]};
+rs.initiate(config)
+config = { _id: "s1", members:[           { _id : 0, host : "localhost:47017" }]};
+rs.initiate(config)
+config = { _id: "s2", members:[           { _id : 0, host : "localhost:57017" }]};
+rs.initiate(config)
+config = { _id: "c1" , members:[           { _id : 0, host : "localhost:57050" }]};
+rs.initiate(config)
+config = { _id: "s0", members:[           { _id : 0, host : "localhost:37017" }]};
+rs.initiate(config)
+config = { _id: "s1", members:[           { _id : 0, host : "localhost:47017" }]};
+rs.initiate(config)
+config = { _id: "s2", members:[           { _id : 0, host : "localhost:57017" }]};
+rs.initiate(config)
