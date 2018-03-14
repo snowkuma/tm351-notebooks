@@ -1,0 +1,596 @@
+@prefix ns1: <http://www.example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/geography/Iceland> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 103000 ;
+    ns1:hasCapital "Reykjavik" ;
+    ns1:hasName "Iceland",
+        "Island" ;
+    ns1:hasOfficialLanguage "Icelandic" ;
+    ns1:hasPopulation 317351 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Rumania> ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Armenia> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Asia> .
+
+<http://www.example.org/geography/China> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Asia> .
+
+<http://www.example.org/geography/Denmark> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Gibraltar> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 6.5e+00 ;
+    ns1:hasBorder <http://www.example.org/geography/Spain> ;
+    ns1:hasCapital "Gibraltar" ;
+    ns1:hasName "Gibraltar" ;
+    ns1:hasOfficialLanguage "English" ;
+    ns1:hasPopulation 29185 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Iran> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Asia> .
+
+<http://www.example.org/geography/Iraq> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Asia> .
+
+<http://www.example.org/geography/Ireland> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 70273 ;
+    ns1:hasBorder <http://www.example.org/geography/United_Kingdom> ;
+    ns1:hasCapital "Dublin" ;
+    ns1:hasName "Eire",
+        "Ireland" ;
+    ns1:hasOfficialLanguage "English",
+        "Gaelic" ;
+    ns1:hasPopulation 4832765 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Kazakhstan> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Asia> .
+
+<http://www.example.org/geography/Liechtenstein> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 160 ;
+    ns1:hasBorder <http://www.example.org/geography/Austria>,
+        <http://www.example.org/geography/Switzerland> ;
+    ns1:hasCapital "Vaduz" ;
+    ns1:hasName "Liechtenstein" ;
+    ns1:hasOfficialLanguage "German" ;
+    ns1:hasPopulation 37313 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Moldova> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 33851 ;
+    ns1:hasBorder <http://www.example.org/geography/Romania>,
+        <http://www.example.org/geography/Ukraine> ;
+    ns1:hasCapital "Chisinau" ;
+    ns1:hasName "Moldova" ;
+    ns1:hasOfficialLanguage "Moldovan" ;
+    ns1:hasPopulation 3583288 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Monaco> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 2 ;
+    ns1:hasBorder <http://www.example.org/geography/Austria>,
+        <http://www.example.org/geography/Slovenia>,
+        <http://www.example.org/geography/Switzerland> ;
+    ns1:hasCapital "Monaco" ;
+    ns1:hasName "Monaco" ;
+    ns1:hasOfficialLanguage "French" ;
+    ns1:hasPopulation 30508 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Mongolia> ns1:locatedIn <http://www.example.org/geography/Asia> .
+
+<http://www.example.org/geography/North_Korea> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Asia> .
+
+<http://www.example.org/geography/Portugal> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 92090 ;
+    ns1:hasBorder <http://www.example.org/geography/Spain> ;
+    ns1:hasCapital "Lisbon" ;
+    ns1:hasName "Portugal" ;
+    ns1:hasOfficialLanguage "Mirandese",
+        "Portuguese" ;
+    ns1:hasPopulation 10813834 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Syria> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Asia> .
+
+<http://www.example.org/geography/United_Kingdom> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 243610 ;
+    ns1:hasBorder <http://www.example.org/geography/Ireland> ;
+    ns1:hasCapital "London" ;
+    ns1:hasName "UK",
+        "United Kingdom" ;
+    ns1:hasOfficialLanguage "English" ;
+    ns1:hasPopulation 63742977 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Andorra> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Azerbaijan> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Asia> .
+
+<http://www.example.org/geography/Estonia> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 45228 ;
+    ns1:hasBorder <http://www.example.org/geography/Latvia>,
+        <http://www.example.org/geography/Russia> ;
+    ns1:hasCapital "Tallinn" ;
+    ns1:hasName "Latvia",
+        "Latvija" ;
+    ns1:hasOfficialLanguage "Eesti",
+        "Estonia" ;
+    ns1:hasPopulation 1257921 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Georgia> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Asia> .
+
+<http://www.example.org/geography/Netherlands> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 41543 ;
+    ns1:hasBorder <http://www.example.org/geography/Belgium>,
+        <http://www.example.org/geography/Germany> ;
+    ns1:hasCapital "Amsterdam" ;
+    ns1:hasName "Nederland" ;
+    ns1:hasOfficialLanguage "Dutch" ;
+    ns1:hasPopulation 16877351 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Sweden> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 450295 ;
+    ns1:hasBorder <http://www.example.org/geography/Finland>,
+        <http://www.example.org/geography/Norway> ;
+    ns1:hasCapital "Stockholm" ;
+    ns1:hasName "Sverige",
+        "Sweden" ;
+    ns1:hasOfficialLanguage "Swedish" ;
+    ns1:hasPopulation 9723809 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Turkey> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 783562 ;
+    ns1:hasBorder <http://www.example.org/geography/Armenia>,
+        <http://www.example.org/geography/Azerbaijan>,
+        <http://www.example.org/geography/Bulgaria>,
+        <http://www.example.org/geography/Georgia>,
+        <http://www.example.org/geography/Greece>,
+        <http://www.example.org/geography/Iran>,
+        <http://www.example.org/geography/Iraq>,
+        <http://www.example.org/geography/Syria> ;
+    ns1:hasCapital "Ankara" ;
+    ns1:hasName "Turkey",
+        "Turkiye" ;
+    ns1:hasOfficialLanguage "Turkish" ;
+    ns1:hasPopulation 81619392 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Belgium> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 30528 ;
+    ns1:hasBorder <http://www.example.org/geography/France>,
+        <http://www.example.org/geography/Germany>,
+        <http://www.example.org/geography/Luxembourg>,
+        <http://www.example.org/geography/Netherlands> ;
+    ns1:hasCapital "Brussels" ;
+    ns1:hasName "Belgie",
+        "Belgien",
+        "Belgique" ;
+    ns1:hasOfficialLanguage "Dutch",
+        "French",
+        "German" ;
+    ns1:hasPopulation 10449361 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Bosnia_Hertzogovena> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 51197 ;
+    ns1:hasBorder <http://www.example.org/geography/Croatia>,
+        <http://www.example.org/geography/Montenegro>,
+        <http://www.example.org/geography/Serbia> ;
+    ns1:hasCapital "Sarajevo" ;
+    ns1:hasName "Bosna i Hercegovina",
+        "Bosnia and Herzegovina" ;
+    ns1:hasOfficialLanguage "Bosnian",
+        "Croatian",
+        "Serbian" ;
+    ns1:hasPopulation 3871643 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Finland> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 338145 ;
+    ns1:hasBorder <http://www.example.org/geography/Norway>,
+        <http://www.example.org/geography/Russia>,
+        <http://www.example.org/geography/Sweden> ;
+    ns1:hasCapital "Helsinki" ;
+    ns1:hasName "Finland",
+        "Suomi" ;
+    ns1:hasOfficialLanguage "Finnish" ;
+    ns1:hasPopulation 5268799 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Latvia> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 64589 ;
+    ns1:hasBorder <http://www.example.org/geography/Belorus>,
+        <http://www.example.org/geography/Estonia>,
+        <http://www.example.org/geography/Lithuania>,
+        <http://www.example.org/geography/Russia> ;
+    ns1:hasCapital "Riga" ;
+    ns1:hasName "Latvia",
+        "Latvija" ;
+    ns1:hasOfficialLanguage "Latvian" ;
+    ns1:hasPopulation 2165165 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Luxembourg> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Norway> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 323802 ;
+    ns1:hasBorder <http://www.example.org/geography/Finland>,
+        <http://www.example.org/geography/Russia>,
+        <http://www.example.org/geography/Sweden> ;
+    ns1:hasCapital "Oslo" ;
+    ns1:hasName "Norge",
+        "Norway" ;
+    ns1:hasOfficialLanguage "Bokmal Norwegian",
+        "Nynorsk Norwegian" ;
+    ns1:hasPopulation 5147792 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Spain> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 505370 ;
+    ns1:hasBorder <http://www.example.org/geography/Andorra>,
+        <http://www.example.org/geography/France>,
+        <http://www.example.org/geography/Gibraltar>,
+        <http://www.example.org/geography/Portugal> ;
+    ns1:hasCapital "Madrid" ;
+    ns1:hasName "Deutschland" ;
+    ns1:hasOfficialLanguage "Castilian Spanish" ;
+    ns1:hasPopulation 47737941 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Albania> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 28748 ;
+    ns1:hasBorder <http://www.example.org/geography/Greece>,
+        <http://www.example.org/geography/Kosovo>,
+        <http://www.example.org/geography/Macedonia>,
+        <http://www.example.org/geography/Montenegro> ;
+    ns1:hasCapital "Tirane" ;
+    ns1:hasName "Albania",
+        "Shqiperia" ;
+    ns1:hasOfficialLanguage "Tirana" ;
+    ns1:hasPopulation 3020209 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Belorus> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 207600 ;
+    ns1:hasBorder <http://www.example.org/geography/Latvia>,
+        <http://www.example.org/geography/Lithuania>,
+        <http://www.example.org/geography/Poland>,
+        <http://www.example.org/geography/Russia>,
+        <http://www.example.org/geography/Ukraine> ;
+    ns1:hasCapital "Minsk" ;
+    ns1:hasName "Belarus",
+        "Belarus'",
+        "Byelarus'" ;
+    ns1:hasOfficialLanguage "Belarusian",
+        "Russian" ;
+    ns1:hasPopulation 9608058 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/CzechRepublic> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 78867 ;
+    ns1:hasBorder <http://www.example.org/geography/Austria>,
+        <http://www.example.org/geography/Germany>,
+        <http://www.example.org/geography/Poland>,
+        <http://www.example.org/geography/Slovakia> ;
+    ns1:hasCapital "Prague" ;
+    ns1:hasName "Cesko",
+        "Czech Republic" ;
+    ns1:hasOfficialLanguage "Czech" ;
+    ns1:hasPopulation 10627448 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/France> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 643801 ;
+    ns1:hasBorder <http://www.example.org/geography/Andorra>,
+        <http://www.example.org/geography/Belgium>,
+        <http://www.example.org/geography/Germany>,
+        <http://www.example.org/geography/Italy>,
+        <http://www.example.org/geography/Luxembourg>,
+        <http://www.example.org/geography/Monaco>,
+        <http://www.example.org/geography/Spain>,
+        <http://www.example.org/geography/Switzerland> ;
+    ns1:hasCapital "Paris" ;
+    ns1:hasName "France" ;
+    ns1:hasOfficialLanguage "French" ;
+    ns1:hasPopulation 66259012 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Greece> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 131957 ;
+    ns1:hasBorder <http://www.example.org/geography/Albania>,
+        <http://www.example.org/geography/Bulgaria>,
+        <http://www.example.org/geography/Macedonia>,
+        <http://www.example.org/geography/Turkey> ;
+    ns1:hasCapital "Athens" ;
+    ns1:hasName "Ellada",
+        "Ellas",
+        "Greece" ;
+    ns1:hasOfficialLanguage "Greek" ;
+    ns1:hasPopulation 10775557 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Italy> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 301340 ;
+    ns1:hasBorder <http://www.example.org/geography/Austria>,
+        <http://www.example.org/geography/Slovenia>,
+        <http://www.example.org/geography/Switzerland> ;
+    ns1:hasCapital "Rome" ;
+    ns1:hasName "Italia" ;
+    ns1:hasOfficialLanguage "Italian" ;
+    ns1:hasPopulation 61680122 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Kosovo> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 10887 ;
+    ns1:hasBorder <http://www.example.org/geography/Albania>,
+        <http://www.example.org/geography/Macedonia>,
+        <http://www.example.org/geography/Montenegro>,
+        <http://www.example.org/geography/Serbia> ;
+    ns1:hasCapital "Prishtina",
+        "Prishtine",
+        "Pristina" ;
+    ns1:hasName "Kosova",
+        "Kosovo" ;
+    ns1:hasOfficialLanguage "Albanian",
+        "Serbian" ;
+    ns1:hasPopulation 1859203 .
+
+<http://www.example.org/geography/Lithuania> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 65300 ;
+    ns1:hasBorder <http://www.example.org/geography/Belorus>,
+        <http://www.example.org/geography/Latvia>,
+        <http://www.example.org/geography/Poland>,
+        <http://www.example.org/geography/Russia> ;
+    ns1:hasCapital "Vilnius" ;
+    ns1:hasName "Lietuva",
+        "Lithuania" ;
+    ns1:hasOfficialLanguage "Belarusian",
+        "Lithuanian" ;
+    ns1:hasPopulation 3505738 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Romania> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 238391 ;
+    ns1:hasBorder <http://www.example.org/geography/Bulgaria>,
+        <http://www.example.org/geography/Hungary>,
+        <http://www.example.org/geography/Moldova>,
+        <http://www.example.org/geography/Serbia>,
+        <http://www.example.org/geography/Ukraine> ;
+    ns1:hasCapital "Bucharest" ;
+    ns1:hasName "Romania" ;
+    ns1:hasOfficialLanguage "Romanian" ;
+    ns1:hasPopulation 21729871 .
+
+<http://www.example.org/geography/Slovakia> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 49035 ;
+    ns1:hasBorder <http://www.example.org/geography/Austria>,
+        <http://www.example.org/geography/CzechRepublic>,
+        <http://www.example.org/geography/Hungary>,
+        <http://www.example.org/geography/Poland>,
+        <http://www.example.org/geography/Ukraine> ;
+    ns1:hasCapital "Bratislava" ;
+    ns1:hasName "Slovakia",
+        "Slovensko" ;
+    ns1:hasOfficialLanguage "Slovak" ;
+    ns1:hasPopulation 5443583 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Bulgaria> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 110879 ;
+    ns1:hasBorder <http://www.example.org/geography/Greece>,
+        <http://www.example.org/geography/Macedonia>,
+        <http://www.example.org/geography/Romania>,
+        <http://www.example.org/geography/Serbia>,
+        <http://www.example.org/geography/Turkey> ;
+    ns1:hasCapital "Sofia" ;
+    ns1:hasName "Balgariya",
+        "Bulgaria" ;
+    ns1:hasOfficialLanguage "Bulgarian" ;
+    ns1:hasPopulation 6924716 ;
+    ns1:locatedIn <http://www.example.org/geography/Asia>,
+        <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Croatia> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 56594 ;
+    ns1:hasBorder <http://www.example.org/geography/Bosnia_Hertzogovena>,
+        <http://www.example.org/geography/Hungary>,
+        <http://www.example.org/geography/Montenegro>,
+        <http://www.example.org/geography/Serbia>,
+        <http://www.example.org/geography/Slovenia> ;
+    ns1:hasCapital "Zagreb" ;
+    ns1:hasName "Croatia",
+        "Hrvatska" ;
+    ns1:hasOfficialLanguage "Croatian" ;
+    ns1:hasPopulation 4470534 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Macedonia> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 25713 ;
+    ns1:hasBorder <http://www.example.org/geography/Albania>,
+        <http://www.example.org/geography/Bulgaria>,
+        <http://www.example.org/geography/Greece>,
+        <http://www.example.org/geography/Kosovo>,
+        <http://www.example.org/geography/Serbia> ;
+    ns1:hasCapital "Skopje" ;
+    ns1:hasName "Macedonia",
+        "Makedonija" ;
+    ns1:hasOfficialLanguage "Albanian",
+        "Macedonian" ;
+    ns1:hasPopulation 2091719 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Montenegro> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 13812 ;
+    ns1:hasBorder <http://www.example.org/geography/Albania>,
+        <http://www.example.org/geography/Bosnia_Hertzogovena>,
+        <http://www.example.org/geography/Croatia>,
+        <http://www.example.org/geography/Kosovo>,
+        <http://www.example.org/geography/Serbia> ;
+    ns1:hasCapital "Podgorica" ;
+    ns1:hasName "Crna Gora",
+        "Montenegro" ;
+    ns1:hasOfficialLanguage "Montenegrin" ;
+    ns1:hasPopulation 650036 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Slovenia> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 20273 ;
+    ns1:hasBorder <http://www.example.org/geography/Austria>,
+        <http://www.example.org/geography/Croatia>,
+        <http://www.example.org/geography/Hungary>,
+        <http://www.example.org/geography/Italy> ;
+    ns1:hasCapital "Ljubljana" ;
+    ns1:hasName "Slovenia",
+        "Slovenija" ;
+    ns1:hasOfficialLanguage "Hungarian",
+        "Slovenian" ;
+    ns1:hasPopulation 20273 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Hungary> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 93028 ;
+    ns1:hasBorder <http://www.example.org/geography/Austria>,
+        <http://www.example.org/geography/Croatia>,
+        <http://www.example.org/geography/Romania>,
+        <http://www.example.org/geography/Serbia>,
+        <http://www.example.org/geography/Slovakia>,
+        <http://www.example.org/geography/Slovenia>,
+        <http://www.example.org/geography/Ukraine> ;
+    ns1:hasCapital "Budapest" ;
+    ns1:hasName "Hungary",
+        "Magyarorszag" ;
+    ns1:hasOfficialLanguage "Hungarian" ;
+    ns1:hasPopulation 9919128 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Poland> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 312685 ;
+    ns1:hasBorder <http://www.example.org/geography/Belorus>,
+        <http://www.example.org/geography/CzechRepublic>,
+        <http://www.example.org/geography/Germany>,
+        <http://www.example.org/geography/Lithuania>,
+        <http://www.example.org/geography/Russia>,
+        <http://www.example.org/geography/Slovakia>,
+        <http://www.example.org/geography/Ukraine> ;
+    ns1:hasCapital "Warsaw" ;
+    ns1:hasName "Poland",
+        "Polska" ;
+    ns1:hasOfficialLanguage "Polish" ;
+    ns1:hasPopulation 38346279 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Switzerland> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 41277 ;
+    ns1:hasBorder <http://www.example.org/geography/Austria>,
+        <http://www.example.org/geography/France>,
+        <http://www.example.org/geography/Germany>,
+        <http://www.example.org/geography/Italy> ;
+    ns1:hasCapital "Bern" ;
+    ns1:hasName "Schweiz",
+        "Suisse",
+        "Svizra",
+        "Svizzera" ;
+    ns1:hasOfficialLanguage "French",
+        "German",
+        "Italian",
+        "Romansch" ;
+    ns1:hasPopulation 8061516 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Germany> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 357022 ;
+    ns1:hasBorder <http://www.example.org/geography/Austria>,
+        <http://www.example.org/geography/Belgium>,
+        <http://www.example.org/geography/CzechRepublic>,
+        <http://www.example.org/geography/Denmark>,
+        <http://www.example.org/geography/France>,
+        <http://www.example.org/geography/Luxembourg>,
+        <http://www.example.org/geography/Netherlands>,
+        <http://www.example.org/geography/Poland>,
+        <http://www.example.org/geography/Switzerland> ;
+    ns1:hasCapital "Berlin" ;
+    ns1:hasName "Deutschland" ;
+    ns1:hasOfficialLanguage "German" ;
+    ns1:hasPopulation 80996685 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Russia> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 17098242 ;
+    ns1:hasBorder <http://www.example.org/geography/Azerbaijan>,
+        <http://www.example.org/geography/Belorus>,
+        <http://www.example.org/geography/China>,
+        <http://www.example.org/geography/Estonia>,
+        <http://www.example.org/geography/Finland>,
+        <http://www.example.org/geography/Georgia>,
+        <http://www.example.org/geography/Kazakhstan>,
+        <http://www.example.org/geography/Lithuania>,
+        <http://www.example.org/geography/Mongolia>,
+        <http://www.example.org/geography/North_Korea>,
+        <http://www.example.org/geography/Norway>,
+        <http://www.example.org/geography/Poland>,
+        <http://www.example.org/geography/Ukraine> ;
+    ns1:hasCapital "Moscow" ;
+    ns1:hasName "Rossiya",
+        "Russia" ;
+    ns1:hasOfficialLanguage "Russian" ;
+    ns1:hasPopulation 142470272 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Ukraine> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Serbia> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 77474 ;
+    ns1:hasBorder <http://www.example.org/geography/Bosnia_Hertzogovena>,
+        <http://www.example.org/geography/Bulgaria>,
+        <http://www.example.org/geography/Croatia>,
+        <http://www.example.org/geography/Hungary>,
+        <http://www.example.org/geography/Kosovo>,
+        <http://www.example.org/geography/Macedonia>,
+        <http://www.example.org/geography/Montenegro>,
+        <http://www.example.org/geography/Romania> ;
+    ns1:hasCapital "Belgrade",
+        "Beograd" ;
+    ns1:hasName "Serbia",
+        "Srbija" ;
+    ns1:hasOfficialLanguage "Serbian" ;
+    ns1:hasPopulation 7209764 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Austria> a <http://www.example.org/geography/country> ;
+    ns1:hasArea 83871 ;
+    ns1:hasBorder <http://www.example.org/geography/CzechRepublic>,
+        <http://www.example.org/geography/Germany>,
+        <http://www.example.org/geography/Hungary>,
+        <http://www.example.org/geography/Italy>,
+        <http://www.example.org/geography/Liechtenstein>,
+        <http://www.example.org/geography/Slovakia>,
+        <http://www.example.org/geography/Slovenia>,
+        <http://www.example.org/geography/Switzerland> ;
+    ns1:hasCapital "Vienna" ;
+    ns1:hasName "Oesterreich" ;
+    ns1:hasOfficialLanguage "German" ;
+    ns1:hasPopulation 8223062 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Asia> a <http://www.example.org/geography/continent> .
+
+<http://www.example.org/geography/Europe> a <http://www.example.org/geography/continent> .
+

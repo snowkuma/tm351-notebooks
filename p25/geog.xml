@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.example.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://www.example.org/geography/Belgium">
+    <ns1:name>België</ns1:name>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11200000</ns1:hasPopulation>
+    <ns1:name>Belgien</ns1:name>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasCapital>Brussels</ns1:hasCapital>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:name>Belgique</ns1:name>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/France"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Austria">
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Germany">
+    <ns1:name>Germany</ns1:name>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82000000</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/France"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
+    <ns1:population rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82000000</ns1:population>
+    <ns1:name>Deutschland</ns1:name>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasCapital>Berlin</ns1:hasCapital>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/France">
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66030000</ns1:hasPopulation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Europe">
+    <rdf:type rdf:resource="http://www.example.org/geography/continent"/>
+  </rdf:Description>
+</rdf:RDF>

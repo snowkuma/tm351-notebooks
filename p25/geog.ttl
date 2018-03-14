@@ -1,0 +1,35 @@
+@prefix ns1: <http://www.example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/geography/Belgium> a <http://www.example.org/geography/country> ;
+    ns1:hasBorder <http://www.example.org/geography/France>,
+        <http://www.example.org/geography/Germany> ;
+    ns1:hasCapital "Brussels" ;
+    ns1:hasPopulation 11200000 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> ;
+    ns1:name "Belgien",
+        "Belgique",
+        "België" .
+
+<http://www.example.org/geography/Austria> a <http://www.example.org/geography/country> ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Germany> a <http://www.example.org/geography/country> ;
+    ns1:hasBorder <http://www.example.org/geography/Austria>,
+        <http://www.example.org/geography/France> ;
+    ns1:hasCapital "Berlin" ;
+    ns1:hasPopulation 82000000 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> ;
+    ns1:name "Deutschland",
+        "Germany" ;
+    ns1:population 82000000 .
+
+<http://www.example.org/geography/France> a <http://www.example.org/geography/country> ;
+    ns1:hasPopulation 66030000 ;
+    ns1:locatedIn <http://www.example.org/geography/Europe> .
+
+<http://www.example.org/geography/Europe> a <http://www.example.org/geography/continent> .
+
