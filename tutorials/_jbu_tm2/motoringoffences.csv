@@ -1,0 +1,1033 @@
+year,country,region,police_force_area,offence_classification,offence_description,detection_type,FPNs
+2011,England,South West,Avon and Somerset,816,Speed limit offences,Camera-detected,26949
+2011,England,South West,Avon and Somerset,816,Speed limit offences,Non camera-detected,1471
+2011,England,South West,Avon and Somerset,818,Neglect of traffic directions,Camera-detected,1127
+2011,England,South West,Avon and Somerset,818,Neglect of traffic directions,Non camera-detected,1022
+2011,England,East of England,Bedfordshire,816,Speed limit offences,Camera-detected,12416
+2011,England,East of England,Bedfordshire,816,Speed limit offences,Non camera-detected,1002
+2011,England,East of England,Bedfordshire,818,Neglect of traffic directions,Camera-detected,1580
+2011,England,East of England,Bedfordshire,818,Neglect of traffic directions,Non camera-detected,418
+2011,England,East of England,Cambridgeshire,816,Speed limit offences,Camera-detected,28197
+2011,England,East of England,Cambridgeshire,816,Speed limit offences,Non camera-detected,3306
+2011,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Camera-detected,125
+2011,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Non camera-detected,732
+2011,England,North West,Cheshire,816,Speed limit offences,Camera-detected,34506
+2011,England,North West,Cheshire,816,Speed limit offences,Non camera-detected,4281
+2011,England,North West,Cheshire,818,Neglect of traffic directions,Camera-detected,4320
+2011,England,North West,Cheshire,818,Neglect of traffic directions,Non camera-detected,1855
+2011,England,London,City of London,816,Speed limit offences,Camera-detected,6333
+2011,England,London,City of London,816,Speed limit offences,Non camera-detected,227
+2011,England,London,City of London,818,Neglect of traffic directions,Camera-detected,1084
+2011,England,London,City of London,818,Neglect of traffic directions,Non camera-detected,127
+2011,England,North East,Cleveland,816,Speed limit offences,Camera-detected,18663
+2011,England,North East,Cleveland,816,Speed limit offences,Non camera-detected,2009
+2011,England,North East,Cleveland,818,Neglect of traffic directions,Camera-detected,2
+2011,England,North East,Cleveland,818,Neglect of traffic directions,Non camera-detected,840
+2011,England,North West,Cumbria,816,Speed limit offences,Camera-detected,32471
+2011,England,North West,Cumbria,816,Speed limit offences,Non camera-detected,1352
+2011,England,North West,Cumbria,818,Neglect of traffic directions,Camera-detected,94
+2011,England,North West,Cumbria,818,Neglect of traffic directions,Non camera-detected,556
+2011,England,East Midlands,Derbyshire,816,Speed limit offences,Camera-detected,6171
+2011,England,East Midlands,Derbyshire,816,Speed limit offences,Non camera-detected,676
+2011,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Camera-detected,295
+2011,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Non camera-detected,275
+2011,England,South West,Devon and Cornwall,816,Speed limit offences,Camera-detected,10557
+2011,England,South West,Devon and Cornwall,816,Speed limit offences,Non camera-detected,2560
+2011,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Camera-detected,1205
+2011,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Non camera-detected,1167
+2011,England,South West,Dorset,816,Speed limit offences,Camera-detected,24495
+2011,England,South West,Dorset,816,Speed limit offences,Non camera-detected,5940
+2011,England,South West,Dorset,818,Neglect of traffic directions,Camera-detected,928
+2011,England,South West,Dorset,818,Neglect of traffic directions,Non camera-detected,486
+2011,England,North East,Durham,816,Speed limit offences,Camera-detected,6998
+2011,England,North East,Durham,816,Speed limit offences,Non camera-detected,1012
+2011,England,North East,Durham,818,Neglect of traffic directions,Camera-detected,20
+2011,England,North East,Durham,818,Neglect of traffic directions,Non camera-detected,321
+2011,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Camera-detected,0
+2011,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Non camera-detected,3983
+2011,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Camera-detected,23
+2011,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Non camera-detected,1006
+2011,England,East of England,Essex,816,Speed limit offences,Camera-detected,17116
+2011,England,East of England,Essex,816,Speed limit offences,Non camera-detected,7605
+2011,England,East of England,Essex,818,Neglect of traffic directions,Camera-detected,2732
+2011,England,East of England,Essex,818,Neglect of traffic directions,Non camera-detected,1123
+2011,England,South West,Gloucestershire,816,Speed limit offences,Camera-detected,5862
+2011,England,South West,Gloucestershire,816,Speed limit offences,Non camera-detected,1367
+2011,England,South West,Gloucestershire,818,Neglect of traffic directions,Camera-detected,111
+2011,England,South West,Gloucestershire,818,Neglect of traffic directions,Non camera-detected,210
+2011,England,North West,Greater Manchester,816,Speed limit offences,Camera-detected,97652
+2011,England,North West,Greater Manchester,816,Speed limit offences,Non camera-detected,2190
+2011,England,North West,Greater Manchester,818,Neglect of traffic directions,Camera-detected,12625
+2011,England,North West,Greater Manchester,818,Neglect of traffic directions,Non camera-detected,2030
+2011,Wales,Wales,Gwent,816,Speed limit offences,Camera-detected,0
+2011,Wales,Wales,Gwent,816,Speed limit offences,Non camera-detected,756
+2011,Wales,Wales,Gwent,818,Neglect of traffic directions,Camera-detected,70
+2011,Wales,Wales,Gwent,818,Neglect of traffic directions,Non camera-detected,547
+2011,England,South East,Hampshire,816,Speed limit offences,Camera-detected,56798
+2011,England,South East,Hampshire,816,Speed limit offences,Non camera-detected,8288
+2011,England,South East,Hampshire,818,Neglect of traffic directions,Camera-detected,1359
+2011,England,South East,Hampshire,818,Neglect of traffic directions,Non camera-detected,1573
+2011,England,East of England,Hertfordshire,816,Speed limit offences,Camera-detected,21496
+2011,England,East of England,Hertfordshire,816,Speed limit offences,Non camera-detected,1558
+2011,England,East of England,Hertfordshire,818,Neglect of traffic directions,Camera-detected,1941
+2011,England,East of England,Hertfordshire,818,Neglect of traffic directions,Non camera-detected,505
+2011,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Camera-detected,38578
+2011,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Non camera-detected,4155
+2011,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Camera-detected,114
+2011,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Non camera-detected,1788
+2011,England,South East,Kent,816,Speed limit offences,Camera-detected,16128
+2011,England,South East,Kent,816,Speed limit offences,Non camera-detected,5242
+2011,England,South East,Kent,818,Neglect of traffic directions,Camera-detected,39
+2011,England,South East,Kent,818,Neglect of traffic directions,Non camera-detected,1301
+2011,England,North West,Lancashire,816,Speed limit offences,Camera-detected,47087
+2011,England,North West,Lancashire,816,Speed limit offences,Non camera-detected,3932
+2011,England,North West,Lancashire,818,Neglect of traffic directions,Camera-detected,52
+2011,England,North West,Lancashire,818,Neglect of traffic directions,Non camera-detected,2144
+2011,England,East Midlands,Leicestershire,816,Speed limit offences,Camera-detected,35877
+2011,England,East Midlands,Leicestershire,816,Speed limit offences,Non camera-detected,2154
+2011,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Camera-detected,7026
+2011,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Non camera-detected,923
+2011,England,East Midlands,Lincolnshire,816,Speed limit offences,Camera-detected,14646
+2011,England,East Midlands,Lincolnshire,816,Speed limit offences,Non camera-detected,3323
+2011,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Camera-detected,281
+2011,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Non camera-detected,432
+2011,England,North West,Merseyside,816,Speed limit offences,Camera-detected,30166
+2011,England,North West,Merseyside,816,Speed limit offences,Non camera-detected,10109
+2011,England,North West,Merseyside,818,Neglect of traffic directions,Camera-detected,5112
+2011,England,North West,Merseyside,818,Neglect of traffic directions,Non camera-detected,3545
+2011,England,London,Metropolitan Police,816,Speed limit offences,Camera-detected,48885
+2011,England,London,Metropolitan Police,816,Speed limit offences,Non camera-detected,17605
+2011,England,London,Metropolitan Police,818,Neglect of traffic directions,Camera-detected,4667
+2011,England,London,Metropolitan Police,818,Neglect of traffic directions,Non camera-detected,8569
+2011,England,East of England,Norfolk,816,Speed limit offences,Camera-detected,14477
+2011,England,East of England,Norfolk,816,Speed limit offences,Non camera-detected,4962
+2011,England,East of England,Norfolk,818,Neglect of traffic directions,Camera-detected,166
+2011,England,East of England,Norfolk,818,Neglect of traffic directions,Non camera-detected,805
+2011,Wales,Wales,North Wales,816,Speed limit offences,Camera-detected,9704
+2011,Wales,Wales,North Wales,816,Speed limit offences,Non camera-detected,1952
+2011,Wales,Wales,North Wales,818,Neglect of traffic directions,Camera-detected,5
+2011,Wales,Wales,North Wales,818,Neglect of traffic directions,Non camera-detected,279
+2011,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Camera-detected,14408
+2011,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Non camera-detected,5115
+2011,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Camera-detected,62
+2011,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Non camera-detected,1002
+2011,England,East Midlands,Northamptonshire,816,Speed limit offences,Camera-detected,22919
+2011,England,East Midlands,Northamptonshire,816,Speed limit offences,Non camera-detected,1081
+2011,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Camera-detected,191
+2011,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Non camera-detected,551
+2011,England,North East,Northumbria,816,Speed limit offences,Camera-detected,49956
+2011,England,North East,Northumbria,816,Speed limit offences,Non camera-detected,853
+2011,England,North East,Northumbria,818,Neglect of traffic directions,Camera-detected,3651
+2011,England,North East,Northumbria,818,Neglect of traffic directions,Non camera-detected,834
+2011,England,East Midlands,Nottinghamshire,816,Speed limit offences,Camera-detected,20507
+2011,England,East Midlands,Nottinghamshire,816,Speed limit offences,Non camera-detected,1035
+2011,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Camera-detected,10255
+2011,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Non camera-detected,452
+2011,Wales,Wales,South Wales,816,Speed limit offences,Camera-detected,27122
+2011,Wales,Wales,South Wales,816,Speed limit offences,Non camera-detected,1308
+2011,Wales,Wales,South Wales,818,Neglect of traffic directions,Camera-detected,2332
+2011,Wales,Wales,South Wales,818,Neglect of traffic directions,Non camera-detected,976
+2011,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Camera-detected,49744
+2011,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Non camera-detected,3138
+2011,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Camera-detected,2016
+2011,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Non camera-detected,1782
+2011,England,West Midlands,Staffordshire,816,Speed limit offences,Camera-detected,14088
+2011,England,West Midlands,Staffordshire,816,Speed limit offences,Non camera-detected,986
+2011,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Camera-detected,117
+2011,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Non camera-detected,450
+2011,England,East of England,Suffolk,816,Speed limit offences,Camera-detected,46641
+2011,England,East of England,Suffolk,816,Speed limit offences,Non camera-detected,4542
+2011,England,East of England,Suffolk,818,Neglect of traffic directions,Camera-detected,187
+2011,England,East of England,Suffolk,818,Neglect of traffic directions,Non camera-detected,863
+2011,England,South East,Surrey,816,Speed limit offences,Camera-detected,45934
+2011,England,South East,Surrey,816,Speed limit offences,Non camera-detected,2442
+2011,England,South East,Surrey,818,Neglect of traffic directions,Camera-detected,3288
+2011,England,South East,Surrey,818,Neglect of traffic directions,Non camera-detected,916
+2011,England,South East,Sussex,816,Speed limit offences,Camera-detected,56990
+2011,England,South East,Sussex,816,Speed limit offences,Non camera-detected,9464
+2011,England,South East,Sussex,818,Neglect of traffic directions,Camera-detected,4283
+2011,England,South East,Sussex,818,Neglect of traffic directions,Non camera-detected,1218
+2011,England,South East,Thames Valley,816,Speed limit offences,Camera-detected,117473
+2011,England,South East,Thames Valley,816,Speed limit offences,Non camera-detected,15058
+2011,England,South East,Thames Valley,818,Neglect of traffic directions,Camera-detected,86
+2011,England,South East,Thames Valley,818,Neglect of traffic directions,Non camera-detected,1095
+2011,England,West Midlands,Warwickshire,816,Speed limit offences,Camera-detected,11545
+2011,England,West Midlands,Warwickshire,816,Speed limit offences,Non camera-detected,710
+2011,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Camera-detected,1150
+2011,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Non camera-detected,112
+2011,England,West Midlands,West Mercia,816,Speed limit offences,Camera-detected,75795
+2011,England,West Midlands,West Mercia,816,Speed limit offences,Non camera-detected,2300
+2011,England,West Midlands,West Mercia,818,Neglect of traffic directions,Camera-detected,467
+2011,England,West Midlands,West Mercia,818,Neglect of traffic directions,Non camera-detected,754
+2011,England,West Midlands,West Midlands,816,Speed limit offences,Camera-detected,31729
+2011,England,West Midlands,West Midlands,816,Speed limit offences,Non camera-detected,4258
+2011,England,West Midlands,West Midlands,818,Neglect of traffic directions,Camera-detected,826
+2011,England,West Midlands,West Midlands,818,Neglect of traffic directions,Non camera-detected,3837
+2011,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Camera-detected,80226
+2011,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Non camera-detected,6192
+2011,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Camera-detected,4434
+2011,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Non camera-detected,2527
+2011,England,South West,Wiltshire,816,Speed limit offences,Camera-detected,0
+2011,England,South West,Wiltshire,816,Speed limit offences,Non camera-detected,5379
+2011,England,South West,Wiltshire,818,Neglect of traffic directions,Camera-detected,6
+2011,England,South West,Wiltshire,818,Neglect of traffic directions,Non camera-detected,829
+2012,England,South West,Avon and Somerset,816,Speed limit offences,Camera-detected,76625
+2012,England,South West,Avon and Somerset,816,Speed limit offences,Non camera-detected,2047
+2012,England,South West,Avon and Somerset,818,Neglect of traffic directions,Camera-detected,158
+2012,England,South West,Avon and Somerset,818,Neglect of traffic directions,Non camera-detected,872
+2012,England,East of England,Bedfordshire,816,Speed limit offences,Camera-detected,12817
+2012,England,East of England,Bedfordshire,816,Speed limit offences,Non camera-detected,1143
+2012,England,East of England,Bedfordshire,818,Neglect of traffic directions,Camera-detected,585
+2012,England,East of England,Bedfordshire,818,Neglect of traffic directions,Non camera-detected,382
+2012,England,East of England,Cambridgeshire,816,Speed limit offences,Camera-detected,27705
+2012,England,East of England,Cambridgeshire,816,Speed limit offences,Non camera-detected,5291
+2012,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Camera-detected,118
+2012,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Non camera-detected,739
+2012,England,North West,Cheshire,816,Speed limit offences,Camera-detected,32157
+2012,England,North West,Cheshire,816,Speed limit offences,Non camera-detected,4619
+2012,England,North West,Cheshire,818,Neglect of traffic directions,Camera-detected,3661
+2012,England,North West,Cheshire,818,Neglect of traffic directions,Non camera-detected,1758
+2012,England,London,City of London,816,Speed limit offences,Camera-detected,8272
+2012,England,London,City of London,816,Speed limit offences,Non camera-detected,234
+2012,England,London,City of London,818,Neglect of traffic directions,Camera-detected,684
+2012,England,London,City of London,818,Neglect of traffic directions,Non camera-detected,159
+2012,England,North East,Cleveland,816,Speed limit offences,Camera-detected,15569
+2012,England,North East,Cleveland,816,Speed limit offences,Non camera-detected,1246
+2012,England,North East,Cleveland,818,Neglect of traffic directions,Camera-detected,0
+2012,England,North East,Cleveland,818,Neglect of traffic directions,Non camera-detected,701
+2012,England,North West,Cumbria,816,Speed limit offences,Camera-detected,34121
+2012,England,North West,Cumbria,816,Speed limit offences,Non camera-detected,988
+2012,England,North West,Cumbria,818,Neglect of traffic directions,Camera-detected,74
+2012,England,North West,Cumbria,818,Neglect of traffic directions,Non camera-detected,532
+2012,England,East Midlands,Derbyshire,816,Speed limit offences,Camera-detected,8748
+2012,England,East Midlands,Derbyshire,816,Speed limit offences,Non camera-detected,341
+2012,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Camera-detected,173
+2012,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Non camera-detected,155
+2012,England,South West,Devon and Cornwall,816,Speed limit offences,Camera-detected,11905
+2012,England,South West,Devon and Cornwall,816,Speed limit offences,Non camera-detected,2349
+2012,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Camera-detected,1037
+2012,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Non camera-detected,1091
+2012,England,South West,Dorset,816,Speed limit offences,Camera-detected,20707
+2012,England,South West,Dorset,816,Speed limit offences,Non camera-detected,3826
+2012,England,South West,Dorset,818,Neglect of traffic directions,Camera-detected,1150
+2012,England,South West,Dorset,818,Neglect of traffic directions,Non camera-detected,393
+2012,England,North East,Durham,816,Speed limit offences,Camera-detected,7215
+2012,England,North East,Durham,816,Speed limit offences,Non camera-detected,832
+2012,England,North East,Durham,818,Neglect of traffic directions,Camera-detected,18
+2012,England,North East,Durham,818,Neglect of traffic directions,Non camera-detected,281
+2012,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Camera-detected,0
+2012,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Non camera-detected,4495
+2012,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Camera-detected,5
+2012,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Non camera-detected,684
+2012,England,East of England,Essex,816,Speed limit offences,Camera-detected,21673
+2012,England,East of England,Essex,816,Speed limit offences,Non camera-detected,4879
+2012,England,East of England,Essex,818,Neglect of traffic directions,Camera-detected,5117
+2012,England,East of England,Essex,818,Neglect of traffic directions,Non camera-detected,1016
+2012,England,South West,Gloucestershire,816,Speed limit offences,Camera-detected,6000
+2012,England,South West,Gloucestershire,816,Speed limit offences,Non camera-detected,1274
+2012,England,South West,Gloucestershire,818,Neglect of traffic directions,Camera-detected,74
+2012,England,South West,Gloucestershire,818,Neglect of traffic directions,Non camera-detected,145
+2012,England,North West,Greater Manchester,816,Speed limit offences,Camera-detected,96786
+2012,England,North West,Greater Manchester,816,Speed limit offences,Non camera-detected,5614
+2012,England,North West,Greater Manchester,818,Neglect of traffic directions,Camera-detected,9352
+2012,England,North West,Greater Manchester,818,Neglect of traffic directions,Non camera-detected,3266
+2012,Wales,Wales,Gwent,816,Speed limit offences,Camera-detected,0
+2012,Wales,Wales,Gwent,816,Speed limit offences,Non camera-detected,608
+2012,Wales,Wales,Gwent,818,Neglect of traffic directions,Camera-detected,177
+2012,Wales,Wales,Gwent,818,Neglect of traffic directions,Non camera-detected,713
+2012,England,South East,Hampshire,816,Speed limit offences,Camera-detected,73278
+2012,England,South East,Hampshire,816,Speed limit offences,Non camera-detected,9975
+2012,England,South East,Hampshire,818,Neglect of traffic directions,Camera-detected,808
+2012,England,South East,Hampshire,818,Neglect of traffic directions,Non camera-detected,1561
+2012,England,East of England,Hertfordshire,816,Speed limit offences,Camera-detected,22911
+2012,England,East of England,Hertfordshire,816,Speed limit offences,Non camera-detected,1406
+2012,England,East of England,Hertfordshire,818,Neglect of traffic directions,Camera-detected,1121
+2012,England,East of England,Hertfordshire,818,Neglect of traffic directions,Non camera-detected,421
+2012,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Camera-detected,42036
+2012,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Non camera-detected,4250
+2012,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Camera-detected,7
+2012,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Non camera-detected,1887
+2012,England,South East,Kent,816,Speed limit offences,Camera-detected,18800
+2012,England,South East,Kent,816,Speed limit offences,Non camera-detected,3254
+2012,England,South East,Kent,818,Neglect of traffic directions,Camera-detected,10
+2012,England,South East,Kent,818,Neglect of traffic directions,Non camera-detected,875
+2012,England,North West,Lancashire,816,Speed limit offences,Camera-detected,40635
+2012,England,North West,Lancashire,816,Speed limit offences,Non camera-detected,4724
+2012,England,North West,Lancashire,818,Neglect of traffic directions,Camera-detected,137
+2012,England,North West,Lancashire,818,Neglect of traffic directions,Non camera-detected,1274
+2012,England,East Midlands,Leicestershire,816,Speed limit offences,Camera-detected,27863
+2012,England,East Midlands,Leicestershire,816,Speed limit offences,Non camera-detected,1506
+2012,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Camera-detected,5766
+2012,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Non camera-detected,831
+2012,England,East Midlands,Lincolnshire,816,Speed limit offences,Camera-detected,19504
+2012,England,East Midlands,Lincolnshire,816,Speed limit offences,Non camera-detected,2436
+2012,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Camera-detected,127
+2012,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Non camera-detected,381
+2012,England,North West,Merseyside,816,Speed limit offences,Camera-detected,31933
+2012,England,North West,Merseyside,816,Speed limit offences,Non camera-detected,7951
+2012,England,North West,Merseyside,818,Neglect of traffic directions,Camera-detected,6400
+2012,England,North West,Merseyside,818,Neglect of traffic directions,Non camera-detected,2933
+2012,England,London,Metropolitan Police,816,Speed limit offences,Camera-detected,62448
+2012,England,London,Metropolitan Police,816,Speed limit offences,Non camera-detected,13768
+2012,England,London,Metropolitan Police,818,Neglect of traffic directions,Camera-detected,1688
+2012,England,London,Metropolitan Police,818,Neglect of traffic directions,Non camera-detected,6278
+2012,England,East of England,Norfolk,816,Speed limit offences,Camera-detected,26447
+2012,England,East of England,Norfolk,816,Speed limit offences,Non camera-detected,6618
+2012,England,East of England,Norfolk,818,Neglect of traffic directions,Camera-detected,28
+2012,England,East of England,Norfolk,818,Neglect of traffic directions,Non camera-detected,799
+2012,Wales,Wales,North Wales,816,Speed limit offences,Camera-detected,10216
+2012,Wales,Wales,North Wales,816,Speed limit offences,Non camera-detected,3871
+2012,Wales,Wales,North Wales,818,Neglect of traffic directions,Camera-detected,20
+2012,Wales,Wales,North Wales,818,Neglect of traffic directions,Non camera-detected,293
+2012,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Camera-detected,16065
+2012,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Non camera-detected,3704
+2012,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Camera-detected,56
+2012,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Non camera-detected,599
+2012,England,East Midlands,Northamptonshire,816,Speed limit offences,Camera-detected,19489
+2012,England,East Midlands,Northamptonshire,816,Speed limit offences,Non camera-detected,904
+2012,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Camera-detected,17
+2012,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Non camera-detected,374
+2012,England,North East,Northumbria,816,Speed limit offences,Camera-detected,63900
+2012,England,North East,Northumbria,816,Speed limit offences,Non camera-detected,1065
+2012,England,North East,Northumbria,818,Neglect of traffic directions,Camera-detected,2702
+2012,England,North East,Northumbria,818,Neglect of traffic directions,Non camera-detected,6271
+2012,England,East Midlands,Nottinghamshire,816,Speed limit offences,Camera-detected,20921
+2012,England,East Midlands,Nottinghamshire,816,Speed limit offences,Non camera-detected,1360
+2012,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Camera-detected,3435
+2012,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Non camera-detected,300
+2012,Wales,Wales,South Wales,816,Speed limit offences,Camera-detected,37582
+2012,Wales,Wales,South Wales,816,Speed limit offences,Non camera-detected,1045
+2012,Wales,Wales,South Wales,818,Neglect of traffic directions,Camera-detected,3621
+2012,Wales,Wales,South Wales,818,Neglect of traffic directions,Non camera-detected,740
+2012,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Camera-detected,41553
+2012,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Non camera-detected,2616
+2012,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Camera-detected,2219
+2012,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Non camera-detected,1446
+2012,England,West Midlands,Staffordshire,816,Speed limit offences,Camera-detected,17905
+2012,England,West Midlands,Staffordshire,816,Speed limit offences,Non camera-detected,1290
+2012,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Camera-detected,98
+2012,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Non camera-detected,315
+2012,England,East of England,Suffolk,816,Speed limit offences,Camera-detected,35338
+2012,England,East of England,Suffolk,816,Speed limit offences,Non camera-detected,4756
+2012,England,East of England,Suffolk,818,Neglect of traffic directions,Camera-detected,160
+2012,England,East of England,Suffolk,818,Neglect of traffic directions,Non camera-detected,698
+2012,England,South East,Surrey,816,Speed limit offences,Camera-detected,47053
+2012,England,South East,Surrey,816,Speed limit offences,Non camera-detected,2134
+2012,England,South East,Surrey,818,Neglect of traffic directions,Camera-detected,3213
+2012,England,South East,Surrey,818,Neglect of traffic directions,Non camera-detected,868
+2012,England,South East,Sussex,816,Speed limit offences,Camera-detected,47703
+2012,England,South East,Sussex,816,Speed limit offences,Non camera-detected,8458
+2012,England,South East,Sussex,818,Neglect of traffic directions,Camera-detected,2119
+2012,England,South East,Sussex,818,Neglect of traffic directions,Non camera-detected,1039
+2012,England,South East,Thames Valley,816,Speed limit offences,Camera-detected,128874
+2012,England,South East,Thames Valley,816,Speed limit offences,Non camera-detected,15863
+2012,England,South East,Thames Valley,818,Neglect of traffic directions,Camera-detected,1421
+2012,England,South East,Thames Valley,818,Neglect of traffic directions,Non camera-detected,1136
+2012,England,West Midlands,Warwickshire,816,Speed limit offences,Camera-detected,15000
+2012,England,West Midlands,Warwickshire,816,Speed limit offences,Non camera-detected,671
+2012,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Camera-detected,912
+2012,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Non camera-detected,148
+2012,England,West Midlands,West Mercia,816,Speed limit offences,Camera-detected,75079
+2012,England,West Midlands,West Mercia,816,Speed limit offences,Non camera-detected,1540
+2012,England,West Midlands,West Mercia,818,Neglect of traffic directions,Camera-detected,711
+2012,England,West Midlands,West Mercia,818,Neglect of traffic directions,Non camera-detected,635
+2012,England,West Midlands,West Midlands,816,Speed limit offences,Camera-detected,29841
+2012,England,West Midlands,West Midlands,816,Speed limit offences,Non camera-detected,4017
+2012,England,West Midlands,West Midlands,818,Neglect of traffic directions,Camera-detected,1709
+2012,England,West Midlands,West Midlands,818,Neglect of traffic directions,Non camera-detected,2884
+2012,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Camera-detected,79288
+2012,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Non camera-detected,5658
+2012,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Camera-detected,2751
+2012,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Non camera-detected,2827
+2012,England,South West,Wiltshire,816,Speed limit offences,Camera-detected,0
+2012,England,South West,Wiltshire,816,Speed limit offences,Non camera-detected,3796
+2012,England,South West,Wiltshire,818,Neglect of traffic directions,Camera-detected,4
+2012,England,South West,Wiltshire,818,Neglect of traffic directions,Non camera-detected,763
+2013,England,South West,Avon and Somerset,816,Speed limit offences,Camera-detected,70924
+2013,England,South West,Avon and Somerset,816,Speed limit offences,Non camera-detected,1460
+2013,England,South West,Avon and Somerset,818,Neglect of traffic directions,Camera-detected,93
+2013,England,South West,Avon and Somerset,818,Neglect of traffic directions,Non camera-detected,649
+2013,England,East of England,Bedfordshire,816,Speed limit offences,Camera-detected,25066
+2013,England,East of England,Bedfordshire,816,Speed limit offences,Non camera-detected,1036
+2013,England,East of England,Bedfordshire,818,Neglect of traffic directions,Camera-detected,377
+2013,England,East of England,Bedfordshire,818,Neglect of traffic directions,Non camera-detected,244
+2013,England,East of England,Cambridgeshire,816,Speed limit offences,Camera-detected,17607
+2013,England,East of England,Cambridgeshire,816,Speed limit offences,Non camera-detected,4686
+2013,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Camera-detected,128
+2013,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Non camera-detected,508
+2013,England,North West,Cheshire,816,Speed limit offences,Camera-detected,25699
+2013,England,North West,Cheshire,816,Speed limit offences,Non camera-detected,5656
+2013,England,North West,Cheshire,818,Neglect of traffic directions,Camera-detected,2643
+2013,England,North West,Cheshire,818,Neglect of traffic directions,Non camera-detected,1518
+2013,England,London,City of London,816,Speed limit offences,Camera-detected,6155
+2013,England,London,City of London,816,Speed limit offences,Non camera-detected,140
+2013,England,London,City of London,818,Neglect of traffic directions,Camera-detected,907
+2013,England,London,City of London,818,Neglect of traffic directions,Non camera-detected,200
+2013,England,North East,Cleveland,816,Speed limit offences,Camera-detected,10463
+2013,England,North East,Cleveland,816,Speed limit offences,Non camera-detected,1276
+2013,England,North East,Cleveland,818,Neglect of traffic directions,Camera-detected,1
+2013,England,North East,Cleveland,818,Neglect of traffic directions,Non camera-detected,779
+2013,England,North West,Cumbria,816,Speed limit offences,Camera-detected,32122
+2013,England,North West,Cumbria,816,Speed limit offences,Non camera-detected,1514
+2013,England,North West,Cumbria,818,Neglect of traffic directions,Camera-detected,0
+2013,England,North West,Cumbria,818,Neglect of traffic directions,Non camera-detected,538
+2013,England,East Midlands,Derbyshire,816,Speed limit offences,Camera-detected,7453
+2013,England,East Midlands,Derbyshire,816,Speed limit offences,Non camera-detected,391
+2013,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Camera-detected,5
+2013,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Non camera-detected,308
+2013,England,South West,Devon and Cornwall,816,Speed limit offences,Camera-detected,10691
+2013,England,South West,Devon and Cornwall,816,Speed limit offences,Non camera-detected,1778
+2013,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Camera-detected,1256
+2013,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Non camera-detected,666
+2013,England,South West,Dorset,816,Speed limit offences,Camera-detected,21025
+2013,England,South West,Dorset,816,Speed limit offences,Non camera-detected,2736
+2013,England,South West,Dorset,818,Neglect of traffic directions,Camera-detected,527
+2013,England,South West,Dorset,818,Neglect of traffic directions,Non camera-detected,347
+2013,England,North East,Durham,816,Speed limit offences,Camera-detected,5867
+2013,England,North East,Durham,816,Speed limit offences,Non camera-detected,1496
+2013,England,North East,Durham,818,Neglect of traffic directions,Camera-detected,9
+2013,England,North East,Durham,818,Neglect of traffic directions,Non camera-detected,370
+2013,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Camera-detected,16
+2013,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Non camera-detected,3988
+2013,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Camera-detected,3
+2013,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Non camera-detected,485
+2013,England,East of England,Essex,816,Speed limit offences,Camera-detected,33675
+2013,England,East of England,Essex,816,Speed limit offences,Non camera-detected,8633
+2013,England,East of England,Essex,818,Neglect of traffic directions,Camera-detected,3819
+2013,England,East of England,Essex,818,Neglect of traffic directions,Non camera-detected,1471
+2013,England,South West,Gloucestershire,816,Speed limit offences,Camera-detected,8539
+2013,England,South West,Gloucestershire,816,Speed limit offences,Non camera-detected,1298
+2013,England,South West,Gloucestershire,818,Neglect of traffic directions,Camera-detected,30
+2013,England,South West,Gloucestershire,818,Neglect of traffic directions,Non camera-detected,177
+2013,England,North West,Greater Manchester,816,Speed limit offences,Camera-detected,65844
+2013,England,North West,Greater Manchester,816,Speed limit offences,Non camera-detected,3917
+2013,England,North West,Greater Manchester,818,Neglect of traffic directions,Camera-detected,9205
+2013,England,North West,Greater Manchester,818,Neglect of traffic directions,Non camera-detected,2782
+2013,Wales,Wales,Gwent,816,Speed limit offences,Camera-detected,0
+2013,Wales,Wales,Gwent,816,Speed limit offences,Non camera-detected,444
+2013,Wales,Wales,Gwent,818,Neglect of traffic directions,Camera-detected,10
+2013,Wales,Wales,Gwent,818,Neglect of traffic directions,Non camera-detected,149
+2013,England,South East,Hampshire,816,Speed limit offences,Camera-detected,64439
+2013,England,South East,Hampshire,816,Speed limit offences,Non camera-detected,11392
+2013,England,South East,Hampshire,818,Neglect of traffic directions,Camera-detected,580
+2013,England,South East,Hampshire,818,Neglect of traffic directions,Non camera-detected,1304
+2013,England,East of England,Hertfordshire,816,Speed limit offences,Camera-detected,32576
+2013,England,East of England,Hertfordshire,816,Speed limit offences,Non camera-detected,2364
+2013,England,East of England,Hertfordshire,818,Neglect of traffic directions,Camera-detected,1164
+2013,England,East of England,Hertfordshire,818,Neglect of traffic directions,Non camera-detected,734
+2013,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Camera-detected,51575
+2013,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Non camera-detected,2811
+2013,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Camera-detected,10
+2013,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Non camera-detected,1087
+2013,England,South East,Kent,816,Speed limit offences,Camera-detected,24108
+2013,England,South East,Kent,816,Speed limit offences,Non camera-detected,1756
+2013,England,South East,Kent,818,Neglect of traffic directions,Camera-detected,9
+2013,England,South East,Kent,818,Neglect of traffic directions,Non camera-detected,439
+2013,England,North West,Lancashire,816,Speed limit offences,Camera-detected,45679
+2013,England,North West,Lancashire,816,Speed limit offences,Non camera-detected,4596
+2013,England,North West,Lancashire,818,Neglect of traffic directions,Camera-detected,0
+2013,England,North West,Lancashire,818,Neglect of traffic directions,Non camera-detected,1545
+2013,England,East Midlands,Leicestershire,816,Speed limit offences,Camera-detected,29350
+2013,England,East Midlands,Leicestershire,816,Speed limit offences,Non camera-detected,1577
+2013,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Camera-detected,8418
+2013,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Non camera-detected,408
+2013,England,East Midlands,Lincolnshire,816,Speed limit offences,Camera-detected,42365
+2013,England,East Midlands,Lincolnshire,816,Speed limit offences,Non camera-detected,2638
+2013,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Camera-detected,2
+2013,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Non camera-detected,288
+2013,England,North West,Merseyside,816,Speed limit offences,Camera-detected,33926
+2013,England,North West,Merseyside,816,Speed limit offences,Non camera-detected,6425
+2013,England,North West,Merseyside,818,Neglect of traffic directions,Camera-detected,4965
+2013,England,North West,Merseyside,818,Neglect of traffic directions,Non camera-detected,1915
+2013,England,London,Metropolitan Police,816,Speed limit offences,Camera-detected,57890
+2013,England,London,Metropolitan Police,816,Speed limit offences,Non camera-detected,18441
+2013,England,London,Metropolitan Police,818,Neglect of traffic directions,Camera-detected,6493
+2013,England,London,Metropolitan Police,818,Neglect of traffic directions,Non camera-detected,8034
+2013,England,East of England,Norfolk,816,Speed limit offences,Camera-detected,36775
+2013,England,East of England,Norfolk,816,Speed limit offences,Non camera-detected,5376
+2013,England,East of England,Norfolk,818,Neglect of traffic directions,Camera-detected,85
+2013,England,East of England,Norfolk,818,Neglect of traffic directions,Non camera-detected,643
+2013,Wales,Wales,North Wales,816,Speed limit offences,Camera-detected,10673
+2013,Wales,Wales,North Wales,816,Speed limit offences,Non camera-detected,3534
+2013,Wales,Wales,North Wales,818,Neglect of traffic directions,Camera-detected,1
+2013,Wales,Wales,North Wales,818,Neglect of traffic directions,Non camera-detected,560
+2013,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Camera-detected,38217
+2013,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Non camera-detected,2302
+2013,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Camera-detected,4
+2013,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Non camera-detected,420
+2013,England,East Midlands,Northamptonshire,816,Speed limit offences,Camera-detected,20138
+2013,England,East Midlands,Northamptonshire,816,Speed limit offences,Non camera-detected,500
+2013,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Camera-detected,0
+2013,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Non camera-detected,252
+2013,England,North East,Northumbria,816,Speed limit offences,Camera-detected,84104
+2013,England,North East,Northumbria,816,Speed limit offences,Non camera-detected,745
+2013,England,North East,Northumbria,818,Neglect of traffic directions,Camera-detected,2068
+2013,England,North East,Northumbria,818,Neglect of traffic directions,Non camera-detected,982
+2013,England,East Midlands,Nottinghamshire,816,Speed limit offences,Camera-detected,23178
+2013,England,East Midlands,Nottinghamshire,816,Speed limit offences,Non camera-detected,2161
+2013,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Camera-detected,2368
+2013,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Non camera-detected,625
+2013,Wales,Wales,South Wales,816,Speed limit offences,Camera-detected,31060
+2013,Wales,Wales,South Wales,816,Speed limit offences,Non camera-detected,592
+2013,Wales,Wales,South Wales,818,Neglect of traffic directions,Camera-detected,4329
+2013,Wales,Wales,South Wales,818,Neglect of traffic directions,Non camera-detected,425
+2013,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Camera-detected,46478
+2013,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Non camera-detected,2848
+2013,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Camera-detected,1698
+2013,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Non camera-detected,1061
+2013,England,West Midlands,Staffordshire,816,Speed limit offences,Camera-detected,47975
+2013,England,West Midlands,Staffordshire,816,Speed limit offences,Non camera-detected,1219
+2013,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Camera-detected,280
+2013,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Non camera-detected,191
+2013,England,East of England,Suffolk,816,Speed limit offences,Camera-detected,35899
+2013,England,East of England,Suffolk,816,Speed limit offences,Non camera-detected,4376
+2013,England,East of England,Suffolk,818,Neglect of traffic directions,Camera-detected,77
+2013,England,East of England,Suffolk,818,Neglect of traffic directions,Non camera-detected,476
+2013,England,South East,Surrey,816,Speed limit offences,Camera-detected,49885
+2013,England,South East,Surrey,816,Speed limit offences,Non camera-detected,2534
+2013,England,South East,Surrey,818,Neglect of traffic directions,Camera-detected,5098
+2013,England,South East,Surrey,818,Neglect of traffic directions,Non camera-detected,730
+2013,England,South East,Sussex,816,Speed limit offences,Camera-detected,40589
+2013,England,South East,Sussex,816,Speed limit offences,Non camera-detected,3945
+2013,England,South East,Sussex,818,Neglect of traffic directions,Camera-detected,3445
+2013,England,South East,Sussex,818,Neglect of traffic directions,Non camera-detected,635
+2013,England,South East,Thames Valley,816,Speed limit offences,Camera-detected,128378
+2013,England,South East,Thames Valley,816,Speed limit offences,Non camera-detected,15756
+2013,England,South East,Thames Valley,818,Neglect of traffic directions,Camera-detected,980
+2013,England,South East,Thames Valley,818,Neglect of traffic directions,Non camera-detected,936
+2013,England,West Midlands,Warwickshire,816,Speed limit offences,Camera-detected,28350
+2013,England,West Midlands,Warwickshire,816,Speed limit offences,Non camera-detected,586
+2013,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Camera-detected,723
+2013,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Non camera-detected,153
+2013,England,West Midlands,West Mercia,816,Speed limit offences,Camera-detected,67723
+2013,England,West Midlands,West Mercia,816,Speed limit offences,Non camera-detected,1889
+2013,England,West Midlands,West Mercia,818,Neglect of traffic directions,Camera-detected,755
+2013,England,West Midlands,West Mercia,818,Neglect of traffic directions,Non camera-detected,578
+2013,England,West Midlands,West Midlands,816,Speed limit offences,Camera-detected,33843
+2013,England,West Midlands,West Midlands,816,Speed limit offences,Non camera-detected,2945
+2013,England,West Midlands,West Midlands,818,Neglect of traffic directions,Camera-detected,383
+2013,England,West Midlands,West Midlands,818,Neglect of traffic directions,Non camera-detected,1713
+2013,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Camera-detected,58300
+2013,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Non camera-detected,6752
+2013,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Camera-detected,1958
+2013,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Non camera-detected,2740
+2013,England,South West,Wiltshire,816,Speed limit offences,Camera-detected,0
+2013,England,South West,Wiltshire,816,Speed limit offences,Non camera-detected,4718
+2013,England,South West,Wiltshire,818,Neglect of traffic directions,Camera-detected,0
+2013,England,South West,Wiltshire,818,Neglect of traffic directions,Non camera-detected,880
+2014,England,South West,Avon and Somerset,816,Speed limit offences,Camera-detected,99388
+2014,England,South West,Avon and Somerset,816,Speed limit offences,Non camera-detected,1371
+2014,England,South West,Avon and Somerset,818,Neglect of traffic directions,Camera-detected,37
+2014,England,South West,Avon and Somerset,818,Neglect of traffic directions,Non camera-detected,631
+2014,England,East of England,Bedfordshire,816,Speed limit offences,Camera-detected,38549
+2014,England,East of England,Bedfordshire,816,Speed limit offences,Non camera-detected,1853
+2014,England,East of England,Bedfordshire,818,Neglect of traffic directions,Camera-detected,58
+2014,England,East of England,Bedfordshire,818,Neglect of traffic directions,Non camera-detected,264
+2014,England,East of England,Cambridgeshire,816,Speed limit offences,Camera-detected,36138
+2014,England,East of England,Cambridgeshire,816,Speed limit offences,Non camera-detected,5273
+2014,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Camera-detected,16
+2014,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Non camera-detected,477
+2014,England,North West,Cheshire,816,Speed limit offences,Camera-detected,40200
+2014,England,North West,Cheshire,816,Speed limit offences,Non camera-detected,4278
+2014,England,North West,Cheshire,818,Neglect of traffic directions,Camera-detected,3666
+2014,England,North West,Cheshire,818,Neglect of traffic directions,Non camera-detected,1110
+2014,England,London,City of London,816,Speed limit offences,Camera-detected,5809
+2014,England,London,City of London,816,Speed limit offences,Non camera-detected,450
+2014,England,London,City of London,818,Neglect of traffic directions,Camera-detected,301
+2014,England,London,City of London,818,Neglect of traffic directions,Non camera-detected,112
+2014,England,North East,Cleveland,816,Speed limit offences,Camera-detected,6934
+2014,England,North East,Cleveland,816,Speed limit offences,Non camera-detected,771
+2014,England,North East,Cleveland,818,Neglect of traffic directions,Camera-detected,2
+2014,England,North East,Cleveland,818,Neglect of traffic directions,Non camera-detected,327
+2014,England,North West,Cumbria,816,Speed limit offences,Camera-detected,34847
+2014,England,North West,Cumbria,816,Speed limit offences,Non camera-detected,992
+2014,England,North West,Cumbria,818,Neglect of traffic directions,Camera-detected,0
+2014,England,North West,Cumbria,818,Neglect of traffic directions,Non camera-detected,676
+2014,England,East Midlands,Derbyshire,816,Speed limit offences,Camera-detected,13154
+2014,England,East Midlands,Derbyshire,816,Speed limit offences,Non camera-detected,887
+2014,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Camera-detected,0
+2014,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Non camera-detected,489
+2014,England,South West,Devon and Cornwall,816,Speed limit offences,Camera-detected,15317
+2014,England,South West,Devon and Cornwall,816,Speed limit offences,Non camera-detected,1463
+2014,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Camera-detected,1051
+2014,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Non camera-detected,564
+2014,England,South West,Dorset,816,Speed limit offences,Camera-detected,17275
+2014,England,South West,Dorset,816,Speed limit offences,Non camera-detected,3036
+2014,England,South West,Dorset,818,Neglect of traffic directions,Camera-detected,338
+2014,England,South West,Dorset,818,Neglect of traffic directions,Non camera-detected,241
+2014,England,North East,Durham,816,Speed limit offences,Camera-detected,6184
+2014,England,North East,Durham,816,Speed limit offences,Non camera-detected,746
+2014,England,North East,Durham,818,Neglect of traffic directions,Camera-detected,0
+2014,England,North East,Durham,818,Neglect of traffic directions,Non camera-detected,148
+2014,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Camera-detected,0
+2014,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Non camera-detected,1960
+2014,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Camera-detected,1
+2014,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Non camera-detected,366
+2014,England,East of England,Essex,816,Speed limit offences,Camera-detected,63952
+2014,England,East of England,Essex,816,Speed limit offences,Non camera-detected,6515
+2014,England,East of England,Essex,818,Neglect of traffic directions,Camera-detected,4242
+2014,England,East of England,Essex,818,Neglect of traffic directions,Non camera-detected,625
+2014,England,South West,Gloucestershire,816,Speed limit offences,Camera-detected,16639
+2014,England,South West,Gloucestershire,816,Speed limit offences,Non camera-detected,813
+2014,England,South West,Gloucestershire,818,Neglect of traffic directions,Camera-detected,13
+2014,England,South West,Gloucestershire,818,Neglect of traffic directions,Non camera-detected,182
+2014,England,North West,Greater Manchester,816,Speed limit offences,Camera-detected,75027
+2014,England,North West,Greater Manchester,816,Speed limit offences,Non camera-detected,1155
+2014,England,North West,Greater Manchester,818,Neglect of traffic directions,Camera-detected,10029
+2014,England,North West,Greater Manchester,818,Neglect of traffic directions,Non camera-detected,1478
+2014,Wales,Wales,Gwent,816,Speed limit offences,Camera-detected,0
+2014,Wales,Wales,Gwent,816,Speed limit offences,Non camera-detected,364
+2014,Wales,Wales,Gwent,818,Neglect of traffic directions,Camera-detected,5
+2014,Wales,Wales,Gwent,818,Neglect of traffic directions,Non camera-detected,141
+2014,England,South East,Hampshire,816,Speed limit offences,Camera-detected,64665
+2014,England,South East,Hampshire,816,Speed limit offences,Non camera-detected,10720
+2014,England,South East,Hampshire,818,Neglect of traffic directions,Camera-detected,435
+2014,England,South East,Hampshire,818,Neglect of traffic directions,Non camera-detected,1077
+2014,England,East of England,Hertfordshire,816,Speed limit offences,Camera-detected,44017
+2014,England,East of England,Hertfordshire,816,Speed limit offences,Non camera-detected,3412
+2014,England,East of England,Hertfordshire,818,Neglect of traffic directions,Camera-detected,769
+2014,England,East of England,Hertfordshire,818,Neglect of traffic directions,Non camera-detected,885
+2014,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Camera-detected,47998
+2014,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Non camera-detected,2779
+2014,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Camera-detected,48
+2014,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Non camera-detected,721
+2014,England,South East,Kent,816,Speed limit offences,Camera-detected,22490
+2014,England,South East,Kent,816,Speed limit offences,Non camera-detected,1186
+2014,England,South East,Kent,818,Neglect of traffic directions,Camera-detected,0
+2014,England,South East,Kent,818,Neglect of traffic directions,Non camera-detected,286
+2014,England,North West,Lancashire,816,Speed limit offences,Camera-detected,59195
+2014,England,North West,Lancashire,816,Speed limit offences,Non camera-detected,1250
+2014,England,North West,Lancashire,818,Neglect of traffic directions,Camera-detected,0
+2014,England,North West,Lancashire,818,Neglect of traffic directions,Non camera-detected,832
+2014,England,East Midlands,Leicestershire,816,Speed limit offences,Camera-detected,40040
+2014,England,East Midlands,Leicestershire,816,Speed limit offences,Non camera-detected,1231
+2014,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Camera-detected,7278
+2014,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Non camera-detected,326
+2014,England,East Midlands,Lincolnshire,816,Speed limit offences,Camera-detected,44691
+2014,England,East Midlands,Lincolnshire,816,Speed limit offences,Non camera-detected,3936
+2014,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Camera-detected,0
+2014,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Non camera-detected,324
+2014,England,North West,Merseyside,816,Speed limit offences,Camera-detected,37770
+2014,England,North West,Merseyside,816,Speed limit offences,Non camera-detected,6845
+2014,England,North West,Merseyside,818,Neglect of traffic directions,Camera-detected,4520
+2014,England,North West,Merseyside,818,Neglect of traffic directions,Non camera-detected,2265
+2014,England,London,Metropolitan Police,816,Speed limit offences,Camera-detected,64227
+2014,England,London,Metropolitan Police,816,Speed limit offences,Non camera-detected,14961
+2014,England,London,Metropolitan Police,818,Neglect of traffic directions,Camera-detected,5578
+2014,England,London,Metropolitan Police,818,Neglect of traffic directions,Non camera-detected,6973
+2014,England,East of England,Norfolk,816,Speed limit offences,Camera-detected,45094
+2014,England,East of England,Norfolk,816,Speed limit offences,Non camera-detected,4402
+2014,England,East of England,Norfolk,818,Neglect of traffic directions,Camera-detected,27
+2014,England,East of England,Norfolk,818,Neglect of traffic directions,Non camera-detected,1653
+2014,Wales,Wales,North Wales,816,Speed limit offences,Camera-detected,15310
+2014,Wales,Wales,North Wales,816,Speed limit offences,Non camera-detected,3342
+2014,Wales,Wales,North Wales,818,Neglect of traffic directions,Camera-detected,2
+2014,Wales,Wales,North Wales,818,Neglect of traffic directions,Non camera-detected,463
+2014,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Camera-detected,42044
+2014,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Non camera-detected,1923
+2014,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Camera-detected,0 
+2014,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Non camera-detected,352
+2014,England,East Midlands,Northamptonshire,816,Speed limit offences,Camera-detected,34911
+2014,England,East Midlands,Northamptonshire,816,Speed limit offences,Non camera-detected,294
+2014,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Camera-detected,0
+2014,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Non camera-detected,257
+2014,England,North East,Northumbria,816,Speed limit offences,Camera-detected,62410
+2014,England,North East,Northumbria,816,Speed limit offences,Non camera-detected,358
+2014,England,North East,Northumbria,818,Neglect of traffic directions,Camera-detected,1977
+2014,England,North East,Northumbria,818,Neglect of traffic directions,Non camera-detected,481
+2014,England,East Midlands,Nottinghamshire,816,Speed limit offences,Camera-detected,29173
+2014,England,East Midlands,Nottinghamshire,816,Speed limit offences,Non camera-detected,3775
+2014,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Camera-detected,2174
+2014,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Non camera-detected,419
+2014,Wales,Wales,South Wales,816,Speed limit offences,Camera-detected,43285
+2014,Wales,Wales,South Wales,816,Speed limit offences,Non camera-detected,564
+2014,Wales,Wales,South Wales,818,Neglect of traffic directions,Camera-detected,2783
+2014,Wales,Wales,South Wales,818,Neglect of traffic directions,Non camera-detected,418
+2014,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Camera-detected,38728
+2014,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Non camera-detected,1477
+2014,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Camera-detected,1907
+2014,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Non camera-detected,795
+2014,England,West Midlands,Staffordshire,816,Speed limit offences,Camera-detected,50381
+2014,England,West Midlands,Staffordshire,816,Speed limit offences,Non camera-detected,988
+2014,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Camera-detected,602
+2014,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Non camera-detected,259
+2014,England,East of England,Suffolk,816,Speed limit offences,Camera-detected,32883
+2014,England,East of England,Suffolk,816,Speed limit offences,Non camera-detected,3789
+2014,England,East of England,Suffolk,818,Neglect of traffic directions,Camera-detected,64
+2014,England,East of England,Suffolk,818,Neglect of traffic directions,Non camera-detected,575
+2014,England,South East,Surrey,816,Speed limit offences,Camera-detected,48107
+2014,England,South East,Surrey,816,Speed limit offences,Non camera-detected,1735
+2014,England,South East,Surrey,818,Neglect of traffic directions,Camera-detected,2605
+2014,England,South East,Surrey,818,Neglect of traffic directions,Non camera-detected,825
+2014,England,South East,Sussex,816,Speed limit offences,Camera-detected,45397
+2014,England,South East,Sussex,816,Speed limit offences,Non camera-detected,4168
+2014,England,South East,Sussex,818,Neglect of traffic directions,Camera-detected,3311
+2014,England,South East,Sussex,818,Neglect of traffic directions,Non camera-detected,620
+2014,England,South East,Thames Valley,816,Speed limit offences,Camera-detected,117291
+2014,England,South East,Thames Valley,816,Speed limit offences,Non camera-detected,15562
+2014,England,South East,Thames Valley,818,Neglect of traffic directions,Camera-detected,961
+2014,England,South East,Thames Valley,818,Neglect of traffic directions,Non camera-detected,786
+2014,England,West Midlands,Warwickshire,816,Speed limit offences,Camera-detected,31193
+2014,England,West Midlands,Warwickshire,816,Speed limit offences,Non camera-detected,952
+2014,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Camera-detected,297
+2014,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Non camera-detected,176
+2014,England,West Midlands,West Mercia,816,Speed limit offences,Camera-detected,84978
+2014,England,West Midlands,West Mercia,816,Speed limit offences,Non camera-detected,2830
+2014,England,West Midlands,West Mercia,818,Neglect of traffic directions,Camera-detected,328
+2014,England,West Midlands,West Mercia,818,Neglect of traffic directions,Non camera-detected,903
+2014,England,West Midlands,West Midlands,816,Speed limit offences,Camera-detected,40923
+2014,England,West Midlands,West Midlands,816,Speed limit offences,Non camera-detected,2610
+2014,England,West Midlands,West Midlands,818,Neglect of traffic directions,Camera-detected,29
+2014,England,West Midlands,West Midlands,818,Neglect of traffic directions,Non camera-detected,890
+2014,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Camera-detected,74268
+2014,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Non camera-detected,3335
+2014,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Camera-detected,1132
+2014,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Non camera-detected,1498
+2014,England,South West,Wiltshire,816,Speed limit offences,Camera-detected,0
+2014,England,South West,Wiltshire,816,Speed limit offences,Non camera-detected,2084
+2014,England,South West,Wiltshire,818,Neglect of traffic directions,Camera-detected,0
+2014,England,South West,Wiltshire,818,Neglect of traffic directions,Non camera-detected,333
+2015,England,South West,Avon and Somerset,816,Speed limit offences,Camera-detected,111619
+2015,England,South West,Avon and Somerset,816,Speed limit offences,Non camera-detected,1549
+2015,England,South West,Avon and Somerset,818,Neglect of traffic directions,Camera-detected,905
+2015,England,South West,Avon and Somerset,818,Neglect of traffic directions,Non camera-detected,853
+2015,England,East of England,Bedfordshire,816,Speed limit offences,Camera-detected,38031
+2015,England,East of England,Bedfordshire,816,Speed limit offences,Non camera-detected,1378
+2015,England,East of England,Bedfordshire,818,Neglect of traffic directions,Camera-detected,96
+2015,England,East of England,Bedfordshire,818,Neglect of traffic directions,Non camera-detected,217
+2015,England,East of England,Cambridgeshire,816,Speed limit offences,Camera-detected,35664
+2015,England,East of England,Cambridgeshire,816,Speed limit offences,Non camera-detected,3576
+2015,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Camera-detected,162
+2015,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Non camera-detected,544
+2015,England,North West,Cheshire,816,Speed limit offences,Camera-detected,41665
+2015,England,North West,Cheshire,816,Speed limit offences,Non camera-detected,3913
+2015,England,North West,Cheshire,818,Neglect of traffic directions,Camera-detected,4006
+2015,England,North West,Cheshire,818,Neglect of traffic directions,Non camera-detected,1091
+2015,England,London,City of London,816,Speed limit offences,Camera-detected,3952
+2015,England,London,City of London,816,Speed limit offences,Non camera-detected,774
+2015,England,London,City of London,818,Neglect of traffic directions,Camera-detected,0
+2015,England,London,City of London,818,Neglect of traffic directions,Non camera-detected,86
+2015,England,North East,Cleveland,816,Speed limit offences,Camera-detected,10154
+2015,England,North East,Cleveland,816,Speed limit offences,Non camera-detected,429
+2015,England,North East,Cleveland,818,Neglect of traffic directions,Camera-detected,0 
+2015,England,North East,Cleveland,818,Neglect of traffic directions,Non camera-detected,190
+2015,England,North West,Cumbria,816,Speed limit offences,Camera-detected,35843
+2015,England,North West,Cumbria,816,Speed limit offences,Non camera-detected,622
+2015,England,North West,Cumbria,818,Neglect of traffic directions,Camera-detected,0 
+2015,England,North West,Cumbria,818,Neglect of traffic directions,Non camera-detected,379
+2015,England,East Midlands,Derbyshire,816,Speed limit offences,Camera-detected,9420
+2015,England,East Midlands,Derbyshire,816,Speed limit offences,Non camera-detected,921
+2015,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Camera-detected,0 
+2015,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Non camera-detected,463
+2015,England,South West,Devon and Cornwall,816,Speed limit offences,Camera-detected,23315
+2015,England,South West,Devon and Cornwall,816,Speed limit offences,Non camera-detected,1333
+2015,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Camera-detected,660
+2015,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Non camera-detected,510
+2015,England,South West,Dorset,816,Speed limit offences,Camera-detected,18256
+2015,England,South West,Dorset,816,Speed limit offences,Non camera-detected,4767
+2015,England,South West,Dorset,818,Neglect of traffic directions,Camera-detected,379
+2015,England,South West,Dorset,818,Neglect of traffic directions,Non camera-detected,182
+2015,England,North East,Durham,816,Speed limit offences,Camera-detected,5897
+2015,England,North East,Durham,816,Speed limit offences,Non camera-detected,786
+2015,England,North East,Durham,818,Neglect of traffic directions,Camera-detected,0
+2015,England,North East,Durham,818,Neglect of traffic directions,Non camera-detected,237
+2015,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Camera-detected,1
+2015,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Non camera-detected,1534
+2015,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Camera-detected,0
+2015,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Non camera-detected,146
+2015,England,East of England,Essex,816,Speed limit offences,Camera-detected,71684
+2015,England,East of England,Essex,816,Speed limit offences,Non camera-detected,5604
+2015,England,East of England,Essex,818,Neglect of traffic directions,Camera-detected,2715
+2015,England,East of England,Essex,818,Neglect of traffic directions,Non camera-detected,539
+2015,England,South West,Gloucestershire,816,Speed limit offences,Camera-detected,15017
+2015,England,South West,Gloucestershire,816,Speed limit offences,Non camera-detected,1125
+2015,England,South West,Gloucestershire,818,Neglect of traffic directions,Camera-detected,6
+2015,England,South West,Gloucestershire,818,Neglect of traffic directions,Non camera-detected,228
+2015,England,North West,Greater Manchester,816,Speed limit offences,Camera-detected,94351
+2015,England,North West,Greater Manchester,816,Speed limit offences,Non camera-detected,743
+2015,England,North West,Greater Manchester,818,Neglect of traffic directions,Camera-detected,14838
+2015,England,North West,Greater Manchester,818,Neglect of traffic directions,Non camera-detected,1221
+2015,Wales,Wales,Gwent,816,Speed limit offences,Camera-detected,0
+2015,Wales,Wales,Gwent,816,Speed limit offences,Non camera-detected,121
+2015,Wales,Wales,Gwent,818,Neglect of traffic directions,Camera-detected,1
+2015,Wales,Wales,Gwent,818,Neglect of traffic directions,Non camera-detected,130
+2015,England,South East,Hampshire,816,Speed limit offences,Camera-detected,72987
+2015,England,South East,Hampshire,816,Speed limit offences,Non camera-detected,9872
+2015,England,South East,Hampshire,818,Neglect of traffic directions,Camera-detected,36
+2015,England,South East,Hampshire,818,Neglect of traffic directions,Non camera-detected,957
+2015,England,East of England,Hertfordshire,816,Speed limit offences,Camera-detected,66059
+2015,England,East of England,Hertfordshire,816,Speed limit offences,Non camera-detected,1714
+2015,England,East of England,Hertfordshire,818,Neglect of traffic directions,Camera-detected,1295
+2015,England,East of England,Hertfordshire,818,Neglect of traffic directions,Non camera-detected,654
+2015,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Camera-detected,48390
+2015,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Non camera-detected,2883
+2015,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Camera-detected,3
+2015,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Non camera-detected,448
+2015,England,South East,Kent,816,Speed limit offences,Camera-detected,18696
+2015,England,South East,Kent,816,Speed limit offences,Non camera-detected,1070
+2015,England,South East,Kent,818,Neglect of traffic directions,Camera-detected,0
+2015,England,South East,Kent,818,Neglect of traffic directions,Non camera-detected,305
+2015,England,North West,Lancashire,816,Speed limit offences,Camera-detected,64211
+2015,England,North West,Lancashire,816,Speed limit offences,Non camera-detected,897
+2015,England,North West,Lancashire,818,Neglect of traffic directions,Camera-detected,0
+2015,England,North West,Lancashire,818,Neglect of traffic directions,Non camera-detected,633
+2015,England,East Midlands,Leicestershire,816,Speed limit offences,Camera-detected,31695
+2015,England,East Midlands,Leicestershire,816,Speed limit offences,Non camera-detected,836
+2015,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Camera-detected,7338
+2015,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Non camera-detected,304
+2015,England,East Midlands,Lincolnshire,816,Speed limit offences,Camera-detected,42881
+2015,England,East Midlands,Lincolnshire,816,Speed limit offences,Non camera-detected,1882
+2015,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Camera-detected,0
+2015,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Non camera-detected,223
+2015,England,North West,Merseyside,816,Speed limit offences,Camera-detected,47699
+2015,England,North West,Merseyside,816,Speed limit offences,Non camera-detected,5063
+2015,England,North West,Merseyside,818,Neglect of traffic directions,Camera-detected,5524
+2015,England,North West,Merseyside,818,Neglect of traffic directions,Non camera-detected,1736
+2015,England,London,Metropolitan Police,816,Speed limit offences,Camera-detected,56315
+2015,England,London,Metropolitan Police,816,Speed limit offences,Non camera-detected,11607
+2015,England,London,Metropolitan Police,818,Neglect of traffic directions,Camera-detected,33300
+2015,England,London,Metropolitan Police,818,Neglect of traffic directions,Non camera-detected,5058
+2015,England,East of England,Norfolk,816,Speed limit offences,Camera-detected,53146
+2015,England,East of England,Norfolk,816,Speed limit offences,Non camera-detected,4039
+2015,England,East of England,Norfolk,818,Neglect of traffic directions,Camera-detected,0
+2015,England,East of England,Norfolk,818,Neglect of traffic directions,Non camera-detected,1068
+2015,Wales,Wales,North Wales,816,Speed limit offences,Camera-detected,15102
+2015,Wales,Wales,North Wales,816,Speed limit offences,Non camera-detected,2167
+2015,Wales,Wales,North Wales,818,Neglect of traffic directions,Camera-detected,42
+2015,Wales,Wales,North Wales,818,Neglect of traffic directions,Non camera-detected,276
+2015,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Camera-detected,27249
+2015,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Non camera-detected,2254
+2015,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Camera-detected,0
+2015,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Non camera-detected,329
+2015,England,East Midlands,Northamptonshire,816,Speed limit offences,Camera-detected,47798
+2015,England,East Midlands,Northamptonshire,816,Speed limit offences,Non camera-detected,208
+2015,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Camera-detected,0
+2015,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Non camera-detected,301
+2015,England,North East,Northumbria,816,Speed limit offences,Camera-detected,58157
+2015,England,North East,Northumbria,816,Speed limit offences,Non camera-detected,548
+2015,England,North East,Northumbria,818,Neglect of traffic directions,Camera-detected,2319
+2015,England,North East,Northumbria,818,Neglect of traffic directions,Non camera-detected,492
+2015,England,East Midlands,Nottinghamshire,816,Speed limit offences,Camera-detected,29169
+2015,England,East Midlands,Nottinghamshire,816,Speed limit offences,Non camera-detected,5135
+2015,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Camera-detected,1650
+2015,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Non camera-detected,432
+2015,Wales,Wales,South Wales,816,Speed limit offences,Camera-detected,40020
+2015,Wales,Wales,South Wales,816,Speed limit offences,Non camera-detected,234
+2015,Wales,Wales,South Wales,818,Neglect of traffic directions,Camera-detected,1919
+2015,Wales,Wales,South Wales,818,Neglect of traffic directions,Non camera-detected,208
+2015,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Camera-detected,43901
+2015,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Non camera-detected,1144
+2015,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Camera-detected,2803
+2015,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Non camera-detected,675
+2015,England,West Midlands,Staffordshire,816,Speed limit offences,Camera-detected,39858
+2015,England,West Midlands,Staffordshire,816,Speed limit offences,Non camera-detected,1109
+2015,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Camera-detected,560
+2015,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Non camera-detected,211
+2015,England,East of England,Suffolk,816,Speed limit offences,Camera-detected,9183
+2015,England,East of England,Suffolk,816,Speed limit offences,Non camera-detected,1361
+2015,England,East of England,Suffolk,818,Neglect of traffic directions,Camera-detected,36
+2015,England,East of England,Suffolk,818,Neglect of traffic directions,Non camera-detected,257
+2015,England,South East,Surrey,816,Speed limit offences,Camera-detected,68005
+2015,England,South East,Surrey,816,Speed limit offences,Non camera-detected,1762
+2015,England,South East,Surrey,818,Neglect of traffic directions,Camera-detected,3422
+2015,England,South East,Surrey,818,Neglect of traffic directions,Non camera-detected,655
+2015,England,South East,Sussex,816,Speed limit offences,Camera-detected,51007
+2015,England,South East,Sussex,816,Speed limit offences,Non camera-detected,3423
+2015,England,South East,Sussex,818,Neglect of traffic directions,Camera-detected,2465
+2015,England,South East,Sussex,818,Neglect of traffic directions,Non camera-detected,448
+2015,England,South East,Thames Valley,816,Speed limit offences,Camera-detected,124552
+2015,England,South East,Thames Valley,816,Speed limit offences,Non camera-detected,14054
+2015,England,South East,Thames Valley,818,Neglect of traffic directions,Camera-detected,1237
+2015,England,South East,Thames Valley,818,Neglect of traffic directions,Non camera-detected,689
+2015,England,West Midlands,Warwickshire,816,Speed limit offences,Camera-detected,39309
+2015,England,West Midlands,Warwickshire,816,Speed limit offences,Non camera-detected,761
+2015,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Camera-detected,355
+2015,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Non camera-detected,188
+2015,England,West Midlands,West Mercia,816,Speed limit offences,Camera-detected,78456
+2015,England,West Midlands,West Mercia,816,Speed limit offences,Non camera-detected,2419
+2015,England,West Midlands,West Mercia,818,Neglect of traffic directions,Camera-detected,243
+2015,England,West Midlands,West Mercia,818,Neglect of traffic directions,Non camera-detected,523
+2015,England,West Midlands,West Midlands,816,Speed limit offences,Camera-detected,35692
+2015,England,West Midlands,West Midlands,816,Speed limit offences,Non camera-detected,3128
+2015,England,West Midlands,West Midlands,818,Neglect of traffic directions,Camera-detected,0
+2015,England,West Midlands,West Midlands,818,Neglect of traffic directions,Non camera-detected,933
+2015,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Camera-detected,107542
+2015,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Non camera-detected,3024
+2015,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Camera-detected,1728
+2015,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Non camera-detected,1784
+2015,England,South West,Wiltshire,816,Speed limit offences,Camera-detected,0
+2015,England,South West,Wiltshire,816,Speed limit offences,Non camera-detected,1261
+2015,England,South West,Wiltshire,818,Neglect of traffic directions,Camera-detected,0 
+2015,England,South West,Wiltshire,818,Neglect of traffic directions,Non camera-detected,232
+2016,England,South West,Avon and Somerset,816,Speed limit offences,Camera-detected,152585
+2016,England,South West,Avon and Somerset,816,Speed limit offences,Non camera-detected,1177
+2016,England,South West,Avon and Somerset,818,Neglect of traffic directions,Camera-detected,5299
+2016,England,South West,Avon and Somerset,818,Neglect of traffic directions,Non camera-detected,627
+2016,England,East of England,Bedfordshire,816,Speed limit offences,Camera-detected,54695
+2016,England,East of England,Bedfordshire,816,Speed limit offences,Non camera-detected,527
+2016,England,East of England,Bedfordshire,818,Neglect of traffic directions,Camera-detected,273
+2016,England,East of England,Bedfordshire,818,Neglect of traffic directions,Non camera-detected,191
+2016,England,East of England,Cambridgeshire,816,Speed limit offences,Camera-detected,30932
+2016,England,East of England,Cambridgeshire,816,Speed limit offences,Non camera-detected,1931
+2016,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Camera-detected,400
+2016,England,East of England,Cambridgeshire,818,Neglect of traffic directions,Non camera-detected,410
+2016,England,North West,Cheshire,816,Speed limit offences,Camera-detected,47603
+2016,England,North West,Cheshire,816,Speed limit offences,Non camera-detected,3481
+2016,England,North West,Cheshire,818,Neglect of traffic directions,Camera-detected,1171
+2016,England,North West,Cheshire,818,Neglect of traffic directions,Non camera-detected,865
+2016,England,London,City of London,816,Speed limit offences,Camera-detected,2806
+2016,England,London,City of London,816,Speed limit offences,Non camera-detected,662
+2016,England,London,City of London,818,Neglect of traffic directions,Camera-detected,0
+2016,England,London,City of London,818,Neglect of traffic directions,Non camera-detected,52
+2016,England,North East,Cleveland,816,Speed limit offences,Camera-detected,12846
+2016,England,North East,Cleveland,816,Speed limit offences,Non camera-detected,298
+2016,England,North East,Cleveland,818,Neglect of traffic directions,Camera-detected,0
+2016,England,North East,Cleveland,818,Neglect of traffic directions,Non camera-detected,148
+2016,England,North West,Cumbria,816,Speed limit offences,Camera-detected,41930
+2016,England,North West,Cumbria,816,Speed limit offences,Non camera-detected,513
+2016,England,North West,Cumbria,818,Neglect of traffic directions,Camera-detected,0
+2016,England,North West,Cumbria,818,Neglect of traffic directions,Non camera-detected,265
+2016,England,East Midlands,Derbyshire,816,Speed limit offences,Camera-detected,8521
+2016,England,East Midlands,Derbyshire,816,Speed limit offences,Non camera-detected,430
+2016,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Camera-detected,0
+2016,England,East Midlands,Derbyshire,818,Neglect of traffic directions,Non camera-detected,189
+2016,England,South West,Devon and Cornwall,816,Speed limit offences,Camera-detected,39858
+2016,England,South West,Devon and Cornwall,816,Speed limit offences,Non camera-detected,1284
+2016,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Camera-detected,405
+2016,England,South West,Devon and Cornwall,818,Neglect of traffic directions,Non camera-detected,374
+2016,England,South West,Dorset,816,Speed limit offences,Camera-detected,18751
+2016,England,South West,Dorset,816,Speed limit offences,Non camera-detected,2809
+2016,England,South West,Dorset,818,Neglect of traffic directions,Camera-detected,512
+2016,England,South West,Dorset,818,Neglect of traffic directions,Non camera-detected,163
+2016,England,North East,Durham,816,Speed limit offences,Camera-detected,6661
+2016,England,North East,Durham,816,Speed limit offences,Non camera-detected,573
+2016,England,North East,Durham,818,Neglect of traffic directions,Camera-detected,0
+2016,England,North East,Durham,818,Neglect of traffic directions,Non camera-detected,115
+2016,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Camera-detected,0
+2016,Wales,Wales,Dyfed-Powys,816,Speed limit offences,Non camera-detected,1324
+2016,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Camera-detected,0
+2016,Wales,Wales,Dyfed-Powys,818,Neglect of traffic directions,Non camera-detected,166
+2016,England,East of England,Essex,816,Speed limit offences,Camera-detected,88668
+2016,England,East of England,Essex,816,Speed limit offences,Non camera-detected,6525
+2016,England,East of England,Essex,818,Neglect of traffic directions,Camera-detected,4148
+2016,England,East of England,Essex,818,Neglect of traffic directions,Non camera-detected,436
+2016,England,South West,Gloucestershire,816,Speed limit offences,Camera-detected,19216
+2016,England,South West,Gloucestershire,816,Speed limit offences,Non camera-detected,475
+2016,England,South West,Gloucestershire,818,Neglect of traffic directions,Camera-detected,0
+2016,England,South West,Gloucestershire,818,Neglect of traffic directions,Non camera-detected,104
+2016,England,North West,Greater Manchester,816,Speed limit offences,Camera-detected,85785
+2016,England,North West,Greater Manchester,816,Speed limit offences,Non camera-detected,416
+2016,England,North West,Greater Manchester,818,Neglect of traffic directions,Camera-detected,9339
+2016,England,North West,Greater Manchester,818,Neglect of traffic directions,Non camera-detected,629
+2016,Wales,Wales,Gwent,816,Speed limit offences,Camera-detected,8
+2016,Wales,Wales,Gwent,816,Speed limit offences,Non camera-detected,143
+2016,Wales,Wales,Gwent,818,Neglect of traffic directions,Camera-detected,19
+2016,Wales,Wales,Gwent,818,Neglect of traffic directions,Non camera-detected,167
+2016,England,South East,Hampshire,816,Speed limit offences,Camera-detected,68317
+2016,England,South East,Hampshire,816,Speed limit offences,Non camera-detected,7317
+2016,England,South East,Hampshire,818,Neglect of traffic directions,Camera-detected,12
+2016,England,South East,Hampshire,818,Neglect of traffic directions,Non camera-detected,734
+2016,England,East of England,Hertfordshire,816,Speed limit offences,Camera-detected,54818
+2016,England,East of England,Hertfordshire,816,Speed limit offences,Non camera-detected,1391
+2016,England,East of England,Hertfordshire,818,Neglect of traffic directions,Camera-detected,1468
+2016,England,East of England,Hertfordshire,818,Neglect of traffic directions,Non camera-detected,549
+2016,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Camera-detected,50101
+2016,England,Yorkshire and the Humber,Humberside,816,Speed limit offences,Non camera-detected,2397
+2016,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Camera-detected,20
+2016,England,Yorkshire and the Humber,Humberside,818,Neglect of traffic directions,Non camera-detected,280
+2016,England,South East,Kent,816,Speed limit offences,Camera-detected,15916
+2016,England,South East,Kent,816,Speed limit offences,Non camera-detected,1158
+2016,England,South East,Kent,818,Neglect of traffic directions,Camera-detected,0
+2016,England,South East,Kent,818,Neglect of traffic directions,Non camera-detected,317
+2016,England,North West,Lancashire,816,Speed limit offences,Camera-detected,58754
+2016,England,North West,Lancashire,816,Speed limit offences,Non camera-detected,862
+2016,England,North West,Lancashire,818,Neglect of traffic directions,Camera-detected,2
+2016,England,North West,Lancashire,818,Neglect of traffic directions,Non camera-detected,470
+2016,England,East Midlands,Leicestershire,816,Speed limit offences,Camera-detected,34428
+2016,England,East Midlands,Leicestershire,816,Speed limit offences,Non camera-detected,552
+2016,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Camera-detected,7429
+2016,England,East Midlands,Leicestershire,818,Neglect of traffic directions,Non camera-detected,159
+2016,England,East Midlands,Lincolnshire,816,Speed limit offences,Camera-detected,48066
+2016,England,East Midlands,Lincolnshire,816,Speed limit offences,Non camera-detected,1295
+2016,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Camera-detected,0
+2016,England,East Midlands,Lincolnshire,818,Neglect of traffic directions,Non camera-detected,202
+2016,England,North West,Merseyside,816,Speed limit offences,Camera-detected,52152
+2016,England,North West,Merseyside,816,Speed limit offences,Non camera-detected,7071
+2016,England,North West,Merseyside,818,Neglect of traffic directions,Camera-detected,3473
+2016,England,North West,Merseyside,818,Neglect of traffic directions,Non camera-detected,1297
+2016,England,London,Metropolitan Police,816,Speed limit offences,Camera-detected,62831
+2016,England,London,Metropolitan Police,816,Speed limit offences,Non camera-detected,15243
+2016,England,London,Metropolitan Police,818,Neglect of traffic directions,Camera-detected,14021
+2016,England,London,Metropolitan Police,818,Neglect of traffic directions,Non camera-detected,5260
+2016,England,East of England,Norfolk,816,Speed limit offences,Camera-detected,71890
+2016,England,East of England,Norfolk,816,Speed limit offences,Non camera-detected,5653
+2016,England,East of England,Norfolk,818,Neglect of traffic directions,Camera-detected,1
+2016,England,East of England,Norfolk,818,Neglect of traffic directions,Non camera-detected,1039
+2016,Wales,Wales,North Wales,816,Speed limit offences,Camera-detected,16909
+2016,Wales,Wales,North Wales,816,Speed limit offences,Non camera-detected,2723
+2016,Wales,Wales,North Wales,818,Neglect of traffic directions,Camera-detected,115
+2016,Wales,Wales,North Wales,818,Neglect of traffic directions,Non camera-detected,222
+2016,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Camera-detected,28851
+2016,England,Yorkshire and the Humber,North Yorkshire,816,Speed limit offences,Non camera-detected,845
+2016,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Camera-detected,0 
+2016,England,Yorkshire and the Humber,North Yorkshire,818,Neglect of traffic directions,Non camera-detected,247
+2016,England,East Midlands,Northamptonshire,816,Speed limit offences,Camera-detected,44007
+2016,England,East Midlands,Northamptonshire,816,Speed limit offences,Non camera-detected,232
+2016,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Camera-detected,0 
+2016,England,East Midlands,Northamptonshire,818,Neglect of traffic directions,Non camera-detected,162
+2016,England,North East,Northumbria,816,Speed limit offences,Camera-detected,52581
+2016,England,North East,Northumbria,816,Speed limit offences,Non camera-detected,816
+2016,England,North East,Northumbria,818,Neglect of traffic directions,Camera-detected,2305
+2016,England,North East,Northumbria,818,Neglect of traffic directions,Non camera-detected,346
+2016,England,East Midlands,Nottinghamshire,816,Speed limit offences,Camera-detected,24874
+2016,England,East Midlands,Nottinghamshire,816,Speed limit offences,Non camera-detected,514
+2016,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Camera-detected,1810
+2016,England,East Midlands,Nottinghamshire,818,Neglect of traffic directions,Non camera-detected,271
+2016,Wales,Wales,South Wales,816,Speed limit offences,Camera-detected,32659
+2016,Wales,Wales,South Wales,816,Speed limit offences,Non camera-detected,247
+2016,Wales,Wales,South Wales,818,Neglect of traffic directions,Camera-detected,3405
+2016,Wales,Wales,South Wales,818,Neglect of traffic directions,Non camera-detected,159
+2016,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Camera-detected,39217
+2016,England,Yorkshire and the Humber,South Yorkshire,816,Speed limit offences,Non camera-detected,704
+2016,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Camera-detected,3113
+2016,England,Yorkshire and the Humber,South Yorkshire,818,Neglect of traffic directions,Non camera-detected,580
+2016,England,West Midlands,Staffordshire,816,Speed limit offences,Camera-detected,27949
+2016,England,West Midlands,Staffordshire,816,Speed limit offences,Non camera-detected,1093
+2016,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Camera-detected,461
+2016,England,West Midlands,Staffordshire,818,Neglect of traffic directions,Non camera-detected,174
+2016,England,East of England,Suffolk,816,Speed limit offences,Camera-detected,0
+2016,England,East of England,Suffolk,816,Speed limit offences,Non camera-detected,6
+2016,England,East of England,Suffolk,818,Neglect of traffic directions,Camera-detected,11
+2016,England,East of England,Suffolk,818,Neglect of traffic directions,Non camera-detected,1
+2016,England,South East,Surrey,816,Speed limit offences,Camera-detected,44939
+2016,England,South East,Surrey,816,Speed limit offences,Non camera-detected,899
+2016,England,South East,Surrey,818,Neglect of traffic directions,Camera-detected,2973
+2016,England,South East,Surrey,818,Neglect of traffic directions,Non camera-detected,385
+2016,England,South East,Sussex,816,Speed limit offences,Camera-detected,58309
+2016,England,South East,Sussex,816,Speed limit offences,Non camera-detected,2175
+2016,England,South East,Sussex,818,Neglect of traffic directions,Camera-detected,2374
+2016,England,South East,Sussex,818,Neglect of traffic directions,Non camera-detected,346
+2016,England,South East,Thames Valley,816,Speed limit offences,Camera-detected,119817
+2016,England,South East,Thames Valley,816,Speed limit offences,Non camera-detected,11843
+2016,England,South East,Thames Valley,818,Neglect of traffic directions,Camera-detected,1870
+2016,England,South East,Thames Valley,818,Neglect of traffic directions,Non camera-detected,618
+2016,England,West Midlands,Warwickshire,816,Speed limit offences,Camera-detected,41402
+2016,England,West Midlands,Warwickshire,816,Speed limit offences,Non camera-detected,695
+2016,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Camera-detected,47
+2016,England,West Midlands,Warwickshire,818,Neglect of traffic directions,Non camera-detected,210
+2016,England,West Midlands,West Mercia,816,Speed limit offences,Camera-detected,73298
+2016,England,West Midlands,West Mercia,816,Speed limit offences,Non camera-detected,1700
+2016,England,West Midlands,West Mercia,818,Neglect of traffic directions,Camera-detected,65
+2016,England,West Midlands,West Mercia,818,Neglect of traffic directions,Non camera-detected,492
+2016,England,West Midlands,West Midlands,816,Speed limit offences,Camera-detected,40014
+2016,England,West Midlands,West Midlands,816,Speed limit offences,Non camera-detected,2069
+2016,England,West Midlands,West Midlands,818,Neglect of traffic directions,Camera-detected,0
+2016,England,West Midlands,West Midlands,818,Neglect of traffic directions,Non camera-detected,586
+2016,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Camera-detected,99840
+2016,England,Yorkshire and the Humber,West Yorkshire,816,Speed limit offences,Non camera-detected,4361
+2016,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Camera-detected,3767
+2016,England,Yorkshire and the Humber,West Yorkshire,818,Neglect of traffic directions,Non camera-detected,1476
+2016,England,South West,Wiltshire,816,Speed limit offences,Camera-detected,0
+2016,England,South West,Wiltshire,816,Speed limit offences,Non camera-detected,974
+2016,England,South West,Wiltshire,818,Neglect of traffic directions,Camera-detected,2
+2016,England,South West,Wiltshire,818,Neglect of traffic directions,Non camera-detected,218
