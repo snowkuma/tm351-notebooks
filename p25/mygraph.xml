@@ -3,651 +3,651 @@
    xmlns:ns1="http://www.example.org/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://www.example.org/geography/Poland">
-    <ns1:hasOfficialLanguage>Polish</ns1:hasOfficialLanguage>
-    <ns1:hasCapital>Warsaw</ns1:hasCapital>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
-    <ns1:hasName>Poland</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovakia"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/CzechRepublic"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">312685</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Lithuania"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belorus"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasName>Polska</ns1:hasName>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38346279</ns1:hasPopulation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Estonia">
-    <ns1:hasName>Latvia</ns1:hasName>
-    <ns1:hasName>Latvija</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
-    <ns1:hasOfficialLanguage>Estonia</ns1:hasOfficialLanguage>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1257921</ns1:hasPopulation>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Latvia"/>
-    <ns1:hasCapital>Tallinn</ns1:hasCapital>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45228</ns1:hasArea>
-    <ns1:hasOfficialLanguage>Eesti</ns1:hasOfficialLanguage>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/France">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Switzerland"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Italy"/>
-    <ns1:hasOfficialLanguage>French</ns1:hasOfficialLanguage>
-    <ns1:hasName>France</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66259012</ns1:hasPopulation>
-    <ns1:hasCapital>Paris</ns1:hasCapital>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belgium"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Luxembourg"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Monaco"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Andorra"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">643801</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Spain"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Italy">
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">301340</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Switzerland"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovenia"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61680122</ns1:hasPopulation>
-    <ns1:hasName>Italia</ns1:hasName>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
-    <ns1:hasCapital>Rome</ns1:hasCapital>
-    <ns1:hasOfficialLanguage>Italian</ns1:hasOfficialLanguage>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Kosovo">
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10887</ns1:hasArea>
-    <ns1:hasName>Kosovo</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Montenegro"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
-    <ns1:hasOfficialLanguage>Serbian</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Macedonia"/>
-    <ns1:hasCapital>Prishtine</ns1:hasCapital>
-    <ns1:hasCapital>Pristina</ns1:hasCapital>
-    <ns1:hasOfficialLanguage>Albanian</ns1:hasOfficialLanguage>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1859203</ns1:hasPopulation>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Albania"/>
-    <ns1:hasCapital>Prishtina</ns1:hasCapital>
-    <ns1:hasName>Kosova</ns1:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Albania">
-    <ns1:hasOfficialLanguage>Tirana</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Montenegro"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Macedonia"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Greece"/>
-    <ns1:hasName>Albania</ns1:hasName>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3020209</ns1:hasPopulation>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28748</ns1:hasArea>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasCapital>Tirane</ns1:hasCapital>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Kosovo"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasName>Shqiperia</ns1:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/United_Kingdom">
-    <ns1:hasOfficialLanguage>English</ns1:hasOfficialLanguage>
-    <ns1:hasName>United Kingdom</ns1:hasName>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243610</ns1:hasArea>
-    <ns1:hasName>UK</ns1:hasName>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63742977</ns1:hasPopulation>
-    <ns1:hasCapital>London</ns1:hasCapital>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ireland"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Netherlands">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasName>Nederland</ns1:hasName>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belgium"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16877351</ns1:hasPopulation>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41543</ns1:hasArea>
-    <ns1:hasOfficialLanguage>Dutch</ns1:hasOfficialLanguage>
-    <ns1:hasCapital>Amsterdam</ns1:hasCapital>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Sweden">
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Finland"/>
-    <ns1:hasName>Sweden</ns1:hasName>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450295</ns1:hasArea>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9723809</ns1:hasPopulation>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Norway"/>
-    <ns1:hasOfficialLanguage>Swedish</ns1:hasOfficialLanguage>
-    <ns1:hasName>Sverige</ns1:hasName>
-    <ns1:hasCapital>Stockholm</ns1:hasCapital>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Slovakia">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
-    <ns1:hasCapital>Bratislava</ns1:hasCapital>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/CzechRepublic"/>
-    <ns1:hasName>Slovakia</ns1:hasName>
-    <ns1:hasOfficialLanguage>Slovak</ns1:hasOfficialLanguage>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5443583</ns1:hasPopulation>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Poland"/>
-    <ns1:hasName>Slovensko</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49035</ns1:hasArea>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Turkey">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Georgia"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81619392</ns1:hasPopulation>
-    <ns1:hasName>Turkiye</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bulgaria"/>
-    <ns1:hasCapital>Ankara</ns1:hasCapital>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasOfficialLanguage>Turkish</ns1:hasOfficialLanguage>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Iraq"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Armenia"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">783562</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Greece"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Azerbaijan"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Syria"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Iran"/>
-    <ns1:hasName>Turkey</ns1:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Liechtenstein">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Switzerland"/>
-    <ns1:hasOfficialLanguage>German</ns1:hasOfficialLanguage>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37313</ns1:hasPopulation>
-    <ns1:hasCapital>Vaduz</ns1:hasCapital>
-    <ns1:hasName>Liechtenstein</ns1:hasName>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</ns1:hasArea>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Bulgaria">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Turkey"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110879</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Greece"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Macedonia"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
-    <ns1:hasCapital>Sofia</ns1:hasCapital>
-    <ns1:hasName>Balgariya</ns1:hasName>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6924716</ns1:hasPopulation>
+  <rdf:Description rdf:about="http://www.example.org/geography/Georgia">
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Serbia">
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77474</ns1:hasArea>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Macedonia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Montenegro"/>
+    <ns1:hasName>Serbia</ns1:hasName>
+    <ns1:hasCapital>Belgrade</ns1:hasCapital>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Romania"/>
-    <ns1:hasOfficialLanguage>Bulgarian</ns1:hasOfficialLanguage>
-    <ns1:hasName>Bulgaria</ns1:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/CzechRepublic">
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Kosovo"/>
+    <ns1:hasOfficialLanguage>Serbian</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78867</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Poland"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10627448</ns1:hasPopulation>
+    <ns1:hasName>Srbija</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Croatia"/>
+    <ns1:hasCapital>Beograd</ns1:hasCapital>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7209764</ns1:hasPopulation>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasName>Cesko</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
-    <ns1:hasOfficialLanguage>Czech</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovakia"/>
-    <ns1:hasName>Czech Republic</ns1:hasName>
-    <ns1:hasCapital>Prague</ns1:hasCapital>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bosnia_Hertzogovena"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bulgaria"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Germany">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Denmark"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/France"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+  <rdf:Description rdf:about="http://www.example.org/geography/Austria">
+    <ns1:hasCapital>Vienna</ns1:hasCapital>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Switzerland"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80996685</ns1:hasPopulation>
-    <ns1:hasOfficialLanguage>German</ns1:hasOfficialLanguage>
+    <ns1:hasName>Oesterreich</ns1:hasName>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/CzechRepublic"/>
-    <ns1:hasCapital>Berlin</ns1:hasCapital>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">357022</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Poland"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belgium"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Luxembourg"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Netherlands"/>
-    <ns1:hasName>Deutschland</ns1:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Lithuania">
-    <ns1:hasName>Lithuania</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Latvia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Poland"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65300</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belorus"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
-    <ns1:hasOfficialLanguage>Belarusian</ns1:hasOfficialLanguage>
-    <ns1:hasName>Lietuva</ns1:hasName>
-    <ns1:hasOfficialLanguage>Lithuanian</ns1:hasOfficialLanguage>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3505738</ns1:hasPopulation>
-    <ns1:hasCapital>Vilnius</ns1:hasCapital>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Monaco">
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasOfficialLanguage>French</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Switzerland"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasArea>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30508</ns1:hasPopulation>
-    <ns1:hasCapital>Monaco</ns1:hasCapital>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Liechtenstein"/>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovenia"/>
-    <ns1:hasName>Monaco</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Italy"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovakia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8223062</ns1:hasPopulation>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83871</ns1:hasArea>
+    <ns1:hasOfficialLanguage>German</ns1:hasOfficialLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Slovenia">
+    <ns1:hasName>Slovenija</ns1:hasName>
+    <ns1:hasName>Slovenia</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Croatia"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Italy"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20273</ns1:hasArea>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20273</ns1:hasPopulation>
+    <ns1:hasOfficialLanguage>Slovenian</ns1:hasOfficialLanguage>
+    <ns1:hasOfficialLanguage>Hungarian</ns1:hasOfficialLanguage>
+    <ns1:hasCapital>Ljubljana</ns1:hasCapital>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Hungary">
+    <ns1:hasCapital>Budapest</ns1:hasCapital>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9919128</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasName>Magyarorszag</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Romania"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93028</ns1:hasArea>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovakia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovenia"/>
+    <ns1:hasName>Hungary</ns1:hasName>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasOfficialLanguage>Hungarian</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Croatia"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/geography/Latvia">
-    <ns1:hasCapital>Riga</ns1:hasCapital>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Lithuania"/>
     <ns1:hasName>Latvia</ns1:hasName>
-    <ns1:hasName>Latvija</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belorus"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
     <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64589</ns1:hasArea>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2165165</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belorus"/>
+    <ns1:hasCapital>Riga</ns1:hasCapital>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
+    <ns1:hasName>Latvija</ns1:hasName>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Estonia"/>
     <ns1:hasOfficialLanguage>Latvian</ns1:hasOfficialLanguage>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2165165</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Lithuania"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Luxembourg">
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+  <rdf:Description rdf:about="http://www.example.org/geography/Russia">
+    <ns1:hasCapital>Moscow</ns1:hasCapital>
+    <ns1:hasName>Rossiya</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/North_Korea"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Mongolia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Poland"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Lithuania"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Norway"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Georgia"/>
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Europe">
-    <rdf:type rdf:resource="http://www.example.org/geography/continent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Norway">
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17098242</ns1:hasArea>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142470272</ns1:hasPopulation>
+    <ns1:hasOfficialLanguage>Russian</ns1:hasOfficialLanguage>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Finland"/>
-    <ns1:hasOfficialLanguage>Bokmal Norwegian</ns1:hasOfficialLanguage>
-    <ns1:hasOfficialLanguage>Nynorsk Norwegian</ns1:hasOfficialLanguage>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5147792</ns1:hasPopulation>
-    <ns1:hasCapital>Oslo</ns1:hasCapital>
-    <ns1:hasName>Norge</ns1:hasName>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">323802</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasName>Norway</ns1:hasName>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Sweden"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Azerbaijan"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Estonia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/China"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Kazakhstan"/>
+    <ns1:hasName>Russia</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belorus"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Denmark">
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+  <rdf:Description rdf:about="http://www.example.org/geography/Portugal">
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92090</ns1:hasArea>
+    <ns1:hasCapital>Lisbon</ns1:hasCapital>
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Bosnia_Hertzogovena">
+    <ns1:hasName>Portugal</ns1:hasName>
+    <ns1:hasOfficialLanguage>Portuguese</ns1:hasOfficialLanguage>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10813834</ns1:hasPopulation>
+    <ns1:hasOfficialLanguage>Mirandese</ns1:hasOfficialLanguage>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasCapital>Sarajevo</ns1:hasCapital>
-    <ns1:hasName>Bosnia and Herzegovina</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Croatia"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Montenegro"/>
-    <ns1:hasName>Bosna i Hercegovina</ns1:hasName>
-    <ns1:hasOfficialLanguage>Croatian</ns1:hasOfficialLanguage>
-    <ns1:hasOfficialLanguage>Bosnian</ns1:hasOfficialLanguage>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51197</ns1:hasArea>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3871643</ns1:hasPopulation>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
-    <ns1:hasOfficialLanguage>Serbian</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Spain"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/geography/Belorus">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Latvia"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasOfficialLanguage>Russian</ns1:hasOfficialLanguage>
+    <ns1:hasCapital>Minsk</ns1:hasCapital>
     <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207600</ns1:hasArea>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Poland"/>
     <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9608058</ns1:hasPopulation>
-    <ns1:hasCapital>Minsk</ns1:hasCapital>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
+    <ns1:hasName>Belarus</ns1:hasName>
+    <ns1:hasName>Belarus'</ns1:hasName>
+    <ns1:hasOfficialLanguage>Belarusian</ns1:hasOfficialLanguage>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
     <ns1:hasName>Byelarus'</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
-    <ns1:hasName>Belarus</ns1:hasName>
-    <ns1:hasOfficialLanguage>Belarusian</ns1:hasOfficialLanguage>
-    <ns1:hasOfficialLanguage>Russian</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Lithuania"/>
-    <ns1:hasName>Belarus'</ns1:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Montenegro">
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13812</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bosnia_Hertzogovena"/>
-    <ns1:hasName>Montenegro</ns1:hasName>
-    <ns1:hasOfficialLanguage>Montenegrin</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Kosovo"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Croatia"/>
-    <ns1:hasName>Crna Gora</ns1:hasName>
-    <ns1:hasCapital>Podgorica</ns1:hasCapital>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Albania"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650036</ns1:hasPopulation>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Slovenia">
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasOfficialLanguage>Slovenian</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20273</ns1:hasPopulation>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasName>Slovenija</ns1:hasName>
-    <ns1:hasCapital>Ljubljana</ns1:hasCapital>
-    <ns1:hasName>Slovenia</ns1:hasName>
-    <ns1:hasOfficialLanguage>Hungarian</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Croatia"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Italy"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20273</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Gibraltar">
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29185</ns1:hasPopulation>
-    <ns1:hasOfficialLanguage>English</ns1:hasOfficialLanguage>
-    <ns1:hasName>Gibraltar</ns1:hasName>
-    <ns1:hasCapital>Gibraltar</ns1:hasCapital>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Spain"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.5</ns1:hasArea>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/North_Korea">
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Ireland">
-    <ns1:hasOfficialLanguage>Gaelic</ns1:hasOfficialLanguage>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4832765</ns1:hasPopulation>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasName>Eire</ns1:hasName>
-    <ns1:hasOfficialLanguage>English</ns1:hasOfficialLanguage>
-    <ns1:hasName>Ireland</ns1:hasName>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70273</ns1:hasArea>
-    <ns1:hasCapital>Dublin</ns1:hasCapital>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/United_Kingdom"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Serbia">
-    <ns1:hasCapital>Beograd</ns1:hasCapital>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Kosovo"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasName>Srbija</ns1:hasName>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77474</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bosnia_Hertzogovena"/>
-    <ns1:hasCapital>Belgrade</ns1:hasCapital>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Romania"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bulgaria"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Croatia"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Montenegro"/>
-    <ns1:hasName>Serbia</ns1:hasName>
-    <ns1:hasOfficialLanguage>Serbian</ns1:hasOfficialLanguage>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7209764</ns1:hasPopulation>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Macedonia"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Finland">
-    <ns1:hasName>Suomi</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Sweden"/>
-    <ns1:hasName>Finland</ns1:hasName>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5268799</ns1:hasPopulation>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">338145</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Norway"/>
-    <ns1:hasOfficialLanguage>Finnish</ns1:hasOfficialLanguage>
-    <ns1:hasCapital>Helsinki</ns1:hasCapital>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Iraq">
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Russia">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/North_Korea"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Estonia"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17098242</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Georgia"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Norway"/>
-    <ns1:hasCapital>Moscow</ns1:hasCapital>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Finland"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/China"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Latvia"/>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Lithuania"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Poland"/>
-    <ns1:hasName>Russia</ns1:hasName>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Kazakhstan"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142470272</ns1:hasPopulation>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Azerbaijan"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belorus"/>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
-    <ns1:hasName>Rossiya</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Mongolia"/>
-    <ns1:hasOfficialLanguage>Russian</ns1:hasOfficialLanguage>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Greece">
-    <ns1:hasName>Ellada</ns1:hasName>
-    <ns1:hasOfficialLanguage>Greek</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bulgaria"/>
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Albania"/>
-    <ns1:hasName>Greece</ns1:hasName>
-    <ns1:hasName>Ellas</ns1:hasName>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10775557</ns1:hasPopulation>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Turkey"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Macedonia"/>
-    <ns1:hasCapital>Athens</ns1:hasCapital>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131957</ns1:hasArea>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Iran">
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
+  <rdf:Description rdf:about="http://www.example.org/geography/Turkey">
+    <ns1:hasName>Turkey</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bulgaria"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">783562</ns1:hasArea>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Syria"/>
+    <ns1:hasOfficialLanguage>Turkish</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Iran"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Armenia"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81619392</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Greece"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Iraq"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasCapital>Ankara</ns1:hasCapital>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Azerbaijan"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Georgia"/>
+    <ns1:hasName>Turkiye</ns1:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Moldova">
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Romania"/>
+    <ns1:hasName>Moldova</ns1:hasName>
+    <ns1:hasOfficialLanguage>Moldovan</ns1:hasOfficialLanguage>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3583288</ns1:hasPopulation>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33851</ns1:hasArea>
+    <ns1:hasCapital>Chisinau</ns1:hasCapital>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/geography/Macedonia">
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bulgaria"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Albania"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Kosovo"/>
-    <ns1:hasOfficialLanguage>Macedonian</ns1:hasOfficialLanguage>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2091719</ns1:hasPopulation>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasCapital>Skopje</ns1:hasCapital>
-    <ns1:hasName>Makedonija</ns1:hasName>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25713</ns1:hasArea>
-    <ns1:hasOfficialLanguage>Albanian</ns1:hasOfficialLanguage>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Greece"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2091719</ns1:hasPopulation>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25713</ns1:hasArea>
+    <ns1:hasCapital>Skopje</ns1:hasCapital>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasOfficialLanguage>Albanian</ns1:hasOfficialLanguage>
     <ns1:hasName>Macedonia</ns1:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Iceland">
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">317351</ns1:hasPopulation>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103000</ns1:hasArea>
-    <ns1:hasName>Island</ns1:hasName>
-    <ns1:hasOfficialLanguage>Icelandic</ns1:hasOfficialLanguage>
-    <ns1:hasCapital>Reykjavik</ns1:hasCapital>
-    <ns1:hasName>Iceland</ns1:hasName>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Moldova">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33851</ns1:hasArea>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Romania"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasOfficialLanguage>Moldovan</ns1:hasOfficialLanguage>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3583288</ns1:hasPopulation>
-    <ns1:hasName>Moldova</ns1:hasName>
-    <ns1:hasCapital>Chisinau</ns1:hasCapital>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Romania">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21729871</ns1:hasPopulation>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Moldova"/>
+    <ns1:hasName>Makedonija</ns1:hasName>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
-    <ns1:hasCapital>Bucharest</ns1:hasCapital>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238391</ns1:hasArea>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasOfficialLanguage>Macedonian</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Kosovo"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Albania"/>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bulgaria"/>
-    <ns1:hasName>Romania</ns1:hasName>
-    <ns1:hasOfficialLanguage>Romanian</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Austria">
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8223062</ns1:hasPopulation>
-    <ns1:hasOfficialLanguage>German</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Italy"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/CzechRepublic"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovakia"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovenia"/>
-    <ns1:hasCapital>Vienna</ns1:hasCapital>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+  <rdf:Description rdf:about="http://www.example.org/geography/Greece">
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Albania"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Macedonia"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131957</ns1:hasArea>
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasName>Oesterreich</ns1:hasName>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83871</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Liechtenstein"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Switzerland"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Switzerland">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Italy"/>
-    <ns1:hasCapital>Bern</ns1:hasCapital>
-    <ns1:hasName>Schweiz</ns1:hasName>
-    <ns1:hasName>Svizzera</ns1:hasName>
-    <ns1:hasName>Suisse</ns1:hasName>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41277</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/France"/>
-    <ns1:hasOfficialLanguage>Romansch</ns1:hasOfficialLanguage>
-    <ns1:hasName>Svizra</ns1:hasName>
-    <ns1:hasOfficialLanguage>French</ns1:hasOfficialLanguage>
-    <ns1:hasOfficialLanguage>German</ns1:hasOfficialLanguage>
-    <ns1:hasOfficialLanguage>Italian</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8061516</ns1:hasPopulation>
+    <ns1:hasOfficialLanguage>Greek</ns1:hasOfficialLanguage>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10775557</ns1:hasPopulation>
+    <ns1:hasName>Ellada</ns1:hasName>
+    <ns1:hasCapital>Athens</ns1:hasCapital>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasName>Ellas</ns1:hasName>
+    <ns1:hasName>Greece</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Turkey"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bulgaria"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/geography/Belgium">
-    <ns1:hasCapital>Brussels</ns1:hasCapital>
-    <ns1:hasOfficialLanguage>German</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
-    <ns1:hasOfficialLanguage>Dutch</ns1:hasOfficialLanguage>
-    <ns1:hasName>Belgie</ns1:hasName>
-    <ns1:hasOfficialLanguage>French</ns1:hasOfficialLanguage>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/France"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30528</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Luxembourg"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10449361</ns1:hasPopulation>
-    <ns1:hasName>Belgien</ns1:hasName>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Netherlands"/>
-    <ns1:hasName>Belgique</ns1:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Croatia">
+    <ns1:hasOfficialLanguage>Dutch</ns1:hasOfficialLanguage>
+    <ns1:hasOfficialLanguage>French</ns1:hasOfficialLanguage>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bosnia_Hertzogovena"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovenia"/>
-    <ns1:hasCapital>Zagreb</ns1:hasCapital>
-    <ns1:hasName>Hrvatska</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Montenegro"/>
-    <ns1:hasOfficialLanguage>Croatian</ns1:hasOfficialLanguage>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4470534</ns1:hasPopulation>
-    <ns1:hasName>Croatia</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Luxembourg"/>
+    <ns1:hasName>Belgie</ns1:hasName>
+    <ns1:hasOfficialLanguage>German</ns1:hasOfficialLanguage>
+    <ns1:hasName>Belgique</ns1:hasName>
+    <ns1:hasCapital>Brussels</ns1:hasCapital>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10449361</ns1:hasPopulation>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30528</ns1:hasArea>
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56594</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/France"/>
+    <ns1:hasName>Belgien</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Kazakhstan">
+  <rdf:Description rdf:about="http://www.example.org/geography/Bulgaria">
+    <ns1:hasCapital>Sofia</ns1:hasCapital>
+    <ns1:hasName>Balgariya</ns1:hasName>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110879</ns1:hasArea>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Macedonia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Greece"/>
+    <ns1:hasOfficialLanguage>Bulgarian</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Turkey"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6924716</ns1:hasPopulation>
+    <ns1:hasName>Bulgaria</ns1:hasName>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Romania"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Iran">
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Hungary">
-    <ns1:hasName>Hungary</ns1:hasName>
-    <ns1:hasName>Magyarorszag</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Romania"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+  <rdf:Description rdf:about="http://www.example.org/geography/Poland">
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9919128</ns1:hasPopulation>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovenia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Lithuania"/>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Croatia"/>
     <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovakia"/>
-    <ns1:hasCapital>Budapest</ns1:hasCapital>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93028</ns1:hasArea>
-    <ns1:hasOfficialLanguage>Hungarian</ns1:hasOfficialLanguage>
+    <ns1:hasOfficialLanguage>Polish</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38346279</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
+    <ns1:hasCapital>Warsaw</ns1:hasCapital>
+    <ns1:hasName>Polska</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belorus"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">312685</ns1:hasArea>
+    <ns1:hasName>Poland</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/CzechRepublic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Monaco">
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:hasArea>
+    <ns1:hasOfficialLanguage>French</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovenia"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasName>Monaco</ns1:hasName>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30508</ns1:hasPopulation>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasCapital>Monaco</ns1:hasCapital>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Switzerland"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Slovakia">
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49035</ns1:hasArea>
+    <ns1:hasCapital>Bratislava</ns1:hasCapital>
+    <ns1:hasOfficialLanguage>Slovak</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
+    <ns1:hasName>Slovensko</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Poland"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5443583</ns1:hasPopulation>
+    <ns1:hasName>Slovakia</ns1:hasName>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/CzechRepublic"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Montenegro">
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bosnia_Hertzogovena"/>
+    <ns1:hasCapital>Podgorica</ns1:hasCapital>
+    <ns1:hasName>Montenegro</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Kosovo"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650036</ns1:hasPopulation>
+    <ns1:hasName>Crna Gora</ns1:hasName>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasOfficialLanguage>Montenegrin</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Albania"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Croatia"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13812</ns1:hasArea>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Romania">
+    <ns1:hasCapital>Bucharest</ns1:hasCapital>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ukraine"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238391</ns1:hasArea>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
+    <ns1:hasOfficialLanguage>Romanian</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bulgaria"/>
+    <ns1:hasName>Romania</ns1:hasName>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21729871</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Moldova"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Switzerland">
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41277</ns1:hasArea>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Italy"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasName>Svizzera</ns1:hasName>
+    <ns1:hasName>Schweiz</ns1:hasName>
+    <ns1:hasCapital>Bern</ns1:hasCapital>
+    <ns1:hasOfficialLanguage>German</ns1:hasOfficialLanguage>
+    <ns1:hasName>Suisse</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/France"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8061516</ns1:hasPopulation>
+    <ns1:hasOfficialLanguage>French</ns1:hasOfficialLanguage>
+    <ns1:hasOfficialLanguage>Italian</ns1:hasOfficialLanguage>
+    <ns1:hasName>Svizra</ns1:hasName>
+    <ns1:hasOfficialLanguage>Romansch</ns1:hasOfficialLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Ireland">
+    <ns1:hasName>Eire</ns1:hasName>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasCapital>Dublin</ns1:hasCapital>
+    <ns1:hasOfficialLanguage>English</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/United_Kingdom"/>
+    <ns1:hasOfficialLanguage>Gaelic</ns1:hasOfficialLanguage>
+    <ns1:hasName>Ireland</ns1:hasName>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70273</ns1:hasArea>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4832765</ns1:hasPopulation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/United_Kingdom">
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">63742977</ns1:hasPopulation>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasOfficialLanguage>English</ns1:hasOfficialLanguage>
+    <ns1:hasCapital>London</ns1:hasCapital>
+    <ns1:hasName>UK</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Ireland"/>
+    <ns1:hasName>United Kingdom</ns1:hasName>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243610</ns1:hasArea>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Germany">
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Poland"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Netherlands"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80996685</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/CzechRepublic"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">357022</ns1:hasArea>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/France"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Denmark"/>
+    <ns1:hasOfficialLanguage>German</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belgium"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Switzerland"/>
+    <ns1:hasName>Deutschland</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Luxembourg"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
+    <ns1:hasCapital>Berlin</ns1:hasCapital>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/CzechRepublic">
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Poland"/>
+    <ns1:hasName>Cesko</ns1:hasName>
+    <ns1:hasName>Czech Republic</ns1:hasName>
+    <ns1:hasOfficialLanguage>Czech</ns1:hasOfficialLanguage>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78867</ns1:hasArea>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovakia"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10627448</ns1:hasPopulation>
+    <ns1:hasCapital>Prague</ns1:hasCapital>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Spain">
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/France"/>
+    <ns1:hasOfficialLanguage>Castilian Spanish</ns1:hasOfficialLanguage>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">505370</ns1:hasArea>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Andorra"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasName>Deutschland</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Portugal"/>
+    <ns1:hasCapital>Madrid</ns1:hasCapital>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47737941</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Gibraltar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Norway">
+    <ns1:hasOfficialLanguage>Nynorsk Norwegian</ns1:hasOfficialLanguage>
+    <ns1:hasCapital>Oslo</ns1:hasCapital>
+    <ns1:hasName>Norge</ns1:hasName>
+    <ns1:hasOfficialLanguage>Bokmal Norwegian</ns1:hasOfficialLanguage>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">323802</ns1:hasArea>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Finland"/>
+    <ns1:hasName>Norway</ns1:hasName>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Sweden"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5147792</ns1:hasPopulation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Croatia">
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Bosnia_Hertzogovena"/>
+    <ns1:hasName>Croatia</ns1:hasName>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4470534</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Montenegro"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasName>Hrvatska</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovenia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Hungary"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56594</ns1:hasArea>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
+    <ns1:hasOfficialLanguage>Croatian</ns1:hasOfficialLanguage>
+    <ns1:hasCapital>Zagreb</ns1:hasCapital>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Liechtenstein">
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37313</ns1:hasPopulation>
+    <ns1:hasCapital>Vaduz</ns1:hasCapital>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Switzerland"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</ns1:hasArea>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasOfficialLanguage>German</ns1:hasOfficialLanguage>
+    <ns1:hasName>Liechtenstein</ns1:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Estonia">
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasOfficialLanguage>Estonia</ns1:hasOfficialLanguage>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45228</ns1:hasArea>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Latvia"/>
+    <ns1:hasOfficialLanguage>Eesti</ns1:hasOfficialLanguage>
+    <ns1:hasName>Latvija</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
+    <ns1:hasCapital>Tallinn</ns1:hasCapital>
+    <ns1:hasName>Latvia</ns1:hasName>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1257921</ns1:hasPopulation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Kosovo">
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Albania"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Montenegro"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Macedonia"/>
+    <ns1:hasCapital>Prishtina</ns1:hasCapital>
+    <ns1:hasName>Kosovo</ns1:hasName>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10887</ns1:hasArea>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1859203</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
+    <ns1:hasName>Kosova</ns1:hasName>
+    <ns1:hasCapital>Pristina</ns1:hasCapital>
+    <ns1:hasOfficialLanguage>Serbian</ns1:hasOfficialLanguage>
+    <ns1:hasCapital>Prishtine</ns1:hasCapital>
+    <ns1:hasOfficialLanguage>Albanian</ns1:hasOfficialLanguage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Iceland">
+    <ns1:hasOfficialLanguage>Icelandic</ns1:hasOfficialLanguage>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">317351</ns1:hasPopulation>
+    <ns1:hasName>Iceland</ns1:hasName>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasCapital>Reykjavik</ns1:hasCapital>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103000</ns1:hasArea>
+    <ns1:hasName>Island</ns1:hasName>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Gibraltar">
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasCapital>Gibraltar</ns1:hasCapital>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.5</ns1:hasArea>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Spain"/>
+    <ns1:hasName>Gibraltar</ns1:hasName>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasOfficialLanguage>English</ns1:hasOfficialLanguage>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29185</ns1:hasPopulation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/France">
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Switzerland"/>
+    <ns1:hasCapital>Paris</ns1:hasCapital>
+    <ns1:hasOfficialLanguage>French</ns1:hasOfficialLanguage>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">643801</ns1:hasArea>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Andorra"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66259012</ns1:hasPopulation>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Luxembourg"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Spain"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Italy"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
+    <ns1:hasName>France</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Monaco"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belgium"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Sweden">
+    <ns1:hasOfficialLanguage>Swedish</ns1:hasOfficialLanguage>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Finland"/>
+    <ns1:hasCapital>Stockholm</ns1:hasCapital>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Norway"/>
+    <ns1:hasName>Sweden</ns1:hasName>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9723809</ns1:hasPopulation>
+    <ns1:hasName>Sverige</ns1:hasName>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450295</ns1:hasArea>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/geography/China">
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Spain">
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Portugal"/>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47737941</ns1:hasPopulation>
-    <ns1:hasCapital>Madrid</ns1:hasCapital>
-    <ns1:hasOfficialLanguage>Castilian Spanish</ns1:hasOfficialLanguage>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">505370</ns1:hasArea>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/France"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasName>Deutschland</ns1:hasName>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Andorra"/>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Gibraltar"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Syria">
+  <rdf:Description rdf:about="http://www.example.org/geography/Armenia">
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Portugal">
-    <ns1:hasName>Portugal</ns1:hasName>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:hasOfficialLanguage>Mirandese</ns1:hasOfficialLanguage>
-    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92090</ns1:hasArea>
-    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10813834</ns1:hasPopulation>
+  <rdf:Description rdf:about="http://www.example.org/geography/Albania">
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Greece"/>
+    <ns1:hasName>Albania</ns1:hasName>
+    <ns1:hasOfficialLanguage>Tirana</ns1:hasOfficialLanguage>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28748</ns1:hasArea>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-    <ns1:hasCapital>Lisbon</ns1:hasCapital>
-    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Spain"/>
-    <ns1:hasOfficialLanguage>Portuguese</ns1:hasOfficialLanguage>
+    <ns1:hasName>Shqiperia</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Montenegro"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3020209</ns1:hasPopulation>
+    <ns1:hasCapital>Tirane</ns1:hasCapital>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Kosovo"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Macedonia"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Mongolia">
+  <rdf:Description rdf:about="http://www.example.org/geography/Netherlands">
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belgium"/>
+    <ns1:hasOfficialLanguage>Dutch</ns1:hasOfficialLanguage>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Germany"/>
+    <ns1:hasName>Nederland</ns1:hasName>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41543</ns1:hasArea>
+    <ns1:hasCapital>Amsterdam</ns1:hasCapital>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16877351</ns1:hasPopulation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Kazakhstan">
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Asia">
-    <rdf:type rdf:resource="http://www.example.org/geography/continent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/geography/Azerbaijan">
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Bosnia_Hertzogovena">
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">51197</ns1:hasArea>
+    <ns1:hasOfficialLanguage>Serbian</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Croatia"/>
+    <ns1:hasCapital>Sarajevo</ns1:hasCapital>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Montenegro"/>
+    <ns1:hasName>Bosnia and Herzegovina</ns1:hasName>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasOfficialLanguage>Croatian</ns1:hasOfficialLanguage>
+    <ns1:hasOfficialLanguage>Bosnian</ns1:hasOfficialLanguage>
+    <ns1:hasName>Bosna i Hercegovina</ns1:hasName>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Serbia"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3871643</ns1:hasPopulation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Finland">
+    <ns1:hasOfficialLanguage>Finnish</ns1:hasOfficialLanguage>
+    <ns1:hasName>Finland</ns1:hasName>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasCapital>Helsinki</ns1:hasCapital>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Sweden"/>
+    <ns1:hasName>Suomi</ns1:hasName>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5268799</ns1:hasPopulation>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Norway"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">338145</ns1:hasArea>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Luxembourg">
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Italy">
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Slovenia"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <ns1:hasOfficialLanguage>Italian</ns1:hasOfficialLanguage>
+    <ns1:hasName>Italia</ns1:hasName>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">61680122</ns1:hasPopulation>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">301340</ns1:hasArea>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Austria"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Switzerland"/>
+    <ns1:hasCapital>Rome</ns1:hasCapital>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Syria">
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Andorra">
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Lithuania">
+    <ns1:hasName>Lietuva</ns1:hasName>
+    <ns1:hasName>Lithuania</ns1:hasName>
+    <ns1:hasArea rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65300</ns1:hasArea>
+    <ns1:hasPopulation rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3505738</ns1:hasPopulation>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Latvia"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Poland"/>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Belorus"/>
+    <ns1:hasCapital>Vilnius</ns1:hasCapital>
+    <ns1:hasOfficialLanguage>Lithuanian</ns1:hasOfficialLanguage>
+    <ns1:hasOfficialLanguage>Belarusian</ns1:hasOfficialLanguage>
+    <ns1:hasBorder rdf:resource="http://www.example.org/geography/Russia"/>
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Ukraine">
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Iraq">
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.example.org/geography/Rumania">
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Armenia">
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
+  <rdf:Description rdf:about="http://www.example.org/geography/Asia">
+    <rdf:type rdf:resource="http://www.example.org/geography/continent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Andorra">
+  <rdf:Description rdf:about="http://www.example.org/geography/North_Korea">
+    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
+    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Denmark">
     <rdf:type rdf:resource="http://www.example.org/geography/country"/>
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Ukraine">
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
-    <ns1:locatedIn rdf:resource="http://www.example.org/geography/Europe"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.example.org/geography/Georgia">
+  <rdf:Description rdf:about="http://www.example.org/geography/Mongolia">
     <ns1:locatedIn rdf:resource="http://www.example.org/geography/Asia"/>
-    <rdf:type rdf:resource="http://www.example.org/geography/country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/geography/Europe">
+    <rdf:type rdf:resource="http://www.example.org/geography/continent"/>
   </rdf:Description>
 </rdf:RDF>
