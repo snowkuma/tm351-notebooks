@@ -1,37 +1,35 @@
 @prefix ns1: <http://xmlns.com/foaf/0.1/> .
-@prefix ns2: <http://www.w3.org/2000/10/swap/pim/contact#> .
-@prefix ns3: <http://www.w3.org/2002/07/owl#> .
-@prefix ns4: <http://www.w3.org/ns/auth/acl#> .
-@prefix ns5: <http://www.w3.org/2006/vcard/ns#> .
-@prefix ns6: <http://rdfs.org/sioc/ns#> .
-@prefix ns7: <http://www.w3.org/ns/solid/terms#> .
-@prefix ns8: <http://www.w3.org/ns/pim/space#> .
-@prefix ns9: <http://www.w3.org/ns/ldp#> .
+@prefix ns2: <http://www.w3.org/ns/ldp#> .
+@prefix ns3: <http://rdfs.org/sioc/ns#> .
+@prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns5: <http://www.w3.org/ns/solid/terms#> .
+@prefix ns6: <http://www.w3.org/2000/10/swap/pim/contact#> .
+@prefix ns7: <http://www.w3.org/ns/pim/space#> .
+@prefix ns8: <http://www.w3.org/ns/auth/acl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://www.w3.org/People/Berners-Lee/card#i> a ns2:Male,
+<https://www.w3.org/People/Berners-Lee/card#i> a ns6:Male,
         ns1:Person ;
     rdfs:label "Tim Berners-Lee" ;
-    ns6:avatar <http://www.w3.org/People/Berners-Lee/images/timbl-image-by-Coz-cropped.jpg> ;
+    ns3:avatar <http://www.w3.org/People/Berners-Lee/images/timbl-image-by-Coz-cropped.jpg> ;
     rdfs:seeAlso <https://timbl.com/timbl/Public/friends.ttl> ;
-    ns2:assistant <https://www.w3.org/People/Berners-Lee/card#amy> ;
-    ns2:homePage <http://www.w3.org/People/Berners-Lee/> ;
-    ns2:office [ ] ;
-    ns2:preferredURI "https://www.w3.org/People/Berners-Lee/card#i" ;
-    ns2:publicHomePage <http://www.w3.org/People/Berners-Lee/> ;
-    ns3:sameAs <http://www.advogato.org/person/timbl/foaf.rdf#me> ;
-    ns5:fn "Tim Berners-Lee" ;
-    ns5:hasAddress [ ] ;
-    ns5:hasTelephone [ ] ;
-    ns4:delegates <https://databox.me:3200/webid#me> ;
-    ns9:inbox <https://timbl.com/timbl/Public/Inbox> ;
-    ns8:preferencesFile <https://timbl.com/timbl/Data/preferences.n3> ;
-    ns8:storage <https://timbl.databox.me/> ;
-    ns7:oidcIssuer <https://timbl.com> ;
-    ns7:publicTypeIndex <https://timbl.com/timbl/Public/PublicTypeIndex.ttl> ;
+    ns6:assistant <https://www.w3.org/People/Berners-Lee/card#amy> ;
+    ns6:homePage <http://www.w3.org/People/Berners-Lee/> ;
+    ns6:office [ ] ;
+    ns6:preferredURI "https://www.w3.org/People/Berners-Lee/card#i" ;
+    ns6:publicHomePage <http://www.w3.org/People/Berners-Lee/> ;
+    ns4:fn "Tim Berners-Lee" ;
+    ns4:hasAddress [ ] ;
+    ns4:hasTelephone [ ] ;
+    ns8:delegates <https://databox.me:3200/webid#me> ;
+    ns2:inbox <https://timbl.com/timbl/Public/Inbox> ;
+    ns7:preferencesFile <https://timbl.com/timbl/Data/preferences.n3> ;
+    ns7:storage <https://timbl.databox.me/> ;
+    ns5:oidcIssuer <https://timbl.com> ;
+    ns5:publicTypeIndex <https://timbl.com/timbl/Public/PublicTypeIndex.ttl> ;
     ns1:account <http://en.wikipedia.org/wiki/User:Timbl>,
         <http://twitter.com/timberners_lee>,
         <http://www.reddit.com/user/timbl/> ;

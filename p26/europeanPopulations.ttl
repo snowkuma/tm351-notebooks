@@ -1,0 +1,34 @@
+@prefix ns1: <http://www.example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.example.org/geography/Belgium> ns1:hasPopulation 10449361 .
+
+<http://www.example.org/geography/CzechRepublic> ns1:hasPopulation 10627448 .
+
+<http://www.example.org/geography/France> ns1:hasPopulation 66259012 .
+
+<http://www.example.org/geography/Germany> ns1:hasPopulation 80996685 .
+
+<http://www.example.org/geography/Greece> ns1:hasPopulation 10775557 .
+
+<http://www.example.org/geography/Italy> ns1:hasPopulation 61680122 .
+
+<http://www.example.org/geography/Netherlands> ns1:hasPopulation 16877351 .
+
+<http://www.example.org/geography/Poland> ns1:hasPopulation 38346279 .
+
+<http://www.example.org/geography/Portugal> ns1:hasPopulation 10813834 .
+
+<http://www.example.org/geography/Romania> ns1:hasPopulation 21729871 .
+
+<http://www.example.org/geography/Russia> ns1:hasPopulation 142470272 .
+
+<http://www.example.org/geography/Spain> ns1:hasPopulation 47737941 .
+
+<http://www.example.org/geography/Turkey> ns1:hasPopulation 81619392 .
+
+<http://www.example.org/geography/United_Kingdom> ns1:hasPopulation 63742977 .
+
