@@ -1,0 +1,35 @@
+Column,Field Name,Description
+1,URN,School unique reference number
+2,LA,Local Authority number
+3,ESTAB,Establishment number
+4,LAESTAB,DfE number
+5,SCHNAME,School name
+6,OTHERSCHNAME,Other institution name (if the school has opened or converted since 12th Sept 2015)
+7,STREET,School address (1)
+8,LOCALITY,School address (2)
+9,ADDRESS3,School address (3)
+10,TOWN,School town
+11,POSTCODE,School postcode
+12,TELNUM,School telephone number
+13,ICLOSE,"School open / closed status (1 = Open, 2 = Closed, 3 = Pending closure)"
+14,OPENDATE,Open date of school (if opened on or after 12th September 2015)
+15,CLOSEDATE,Date the school closed (if closed on or after 12th September 2015)
+16,ISNEW,"Is the school new? (opened on or after the 12th September 2015) ( 0 = No, 1 = Yes)"
+17,MINORGROUP,Type of school / college eg maintained school
+18,NFTYPE,School Type eg Voluntary Aided school
+19,OTHERNFTYPE,Other Institution type (if the school has opened or converted since 11th Sept 2015)
+20,ISPRIMARY,"Does the school provide primary education? ( 0 = No, 1 = Yes)"
+21,ISSECONDARY,"Does the school provide secondary education? ( 0 = No, 1 = Yes)"
+22,ISPOST16,"Does the school provide post 16 education? (  0 = No, 1 = Yes)"
+23,AGEL,Lowest age of entry
+24,AGEH,Highest age of entry
+25,GENDER,Indicates whether it's a mixed or single sex school
+26,SFGENDER,"Indicates whether the sixth form is mixed or single sex (0 = Not Applicable 1 = Boys, 2 = Girls, 3 = Mixed)"
+27,RELDENOM,Religious Denomination
+28,ADMPOL,Admission Policy
+29,OTHERURN,Other School unique reference number (if the school has opened or converted since 11th Sept 2015)
+30,NEWACFLAG,"School academy status (1 = newly converted academy, 2 = school prior to conversion, 3 = sponsored academy, 4 = school closed to become an academy, 5 = closed school (not related to academies), 6 = no change to school status, 7 = new school)"
+31,SPONSORCODE,Code of academy sponsor (If applicable)
+32,SPONSORNAME,Name of sponsor (If applicable)
+33,RE-BROKERED,Flag for academies that have changed sponsors (re-brokered) since September 2015
+34,CO-SPONSORED,Flag for academies that are co-sponsored
