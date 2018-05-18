@@ -1,0 +1,11 @@
+Variable,Label,Description
+LA,Local Authority Number,
+URN,Unique Reference Number,
+NTEA,Total Number of Classroom Teachers and Teachers in the Leadership Group (Headcount),Headcount of all teachers in a school
+NTEAAS,Total Number of Teaching Assistants (Headcount),Headcount of all teaching assistants in a school
+NNONTEA,"Total Number of Non Classroom-Based School Support Staff, Excluding Auxiliary Staff (Headcount)",Headcount of all support (exc. auxillary) staff in a school
+NFTETEA,Total Number of Classroom Teachers and Teachers in the Leadership Group (Full-time Equivalent),Full-time equivalent number of all teachers in a school
+NFTETEAAS,Total Number of Teaching Assistants (Full-time Equivalent),Full-time equivalent number of all teaching assistants in a school
+NFTENONTEA,"Total Number of Non Classroom-Based School Support Staff, Excluding Auxiliary Staff (Full-time Equivalent)",Full-time equivalent number of all support (exc. auxillary) staff in a school
+RATPUPTEA,Pupil:Teacher Ratio,Ratio of pupils to teachers in a school
+SALARY,Mean Gross FTE Salary of All Teachers (Classroom Teachers and Those in the Leadership Group) (£s),Average gross salary of all teachers in a school

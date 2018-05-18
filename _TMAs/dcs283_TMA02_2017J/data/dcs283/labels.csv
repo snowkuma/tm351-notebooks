@@ -1,0 +1,604 @@
+,Field Name,Label/Description
+0,RECTYPE,Record type (1=mainstream school; 2=special school; 3=Local Authority; 4=National (all schools); 5=National (maintained schools))
+1,ALPHAIND,Alphabetic index
+2,LEA,Local authority number
+3,ESTAB,Establishment number
+4,URN,School unique reference number
+5,SCHNAME,School/Local authority name
+6,ADDRESS1,School address (1)
+7,ADDRESS2,School address (2)
+8,ADDRESS3,School address (3)
+9,TOWN,School town
+10,PCODE,School postcode
+11,TELNUM,School telephone number 
+12,URN_AC,Converter academy: URN 
+13,SCHNAME_AC,Converter academy: name
+14,OPEN_AC,Converter academy: open date
+15,NFTYPE,School type
+16,ICLOSE,Closed Flag
+17,RELDENOM,Religious denomination
+18,AGERANGE,Age range
+19,CONFEXAM,Confirmation flag that core performance information has been checked
+20,TAB15,School published in secondary school (key stage 4) performance tables
+21,TAB1618,School published in school and college (key stage 5) performance tables
+22,TOTPUPS,Total number of pupils (including part-time pupils)
+23,TPUPYEAR,Number of pupils aged 11 
+24,TELIG,Published eligible pupil number
+25,BELIG,Eligible boys on school roll at time of tests
+26,GELIG,Eligible girls on school roll at time of tests
+27,PBELIG,Percentage of eligible boys on school roll at time of tests
+28,PGELIG,Percentage of eligible girls on school roll at time of tests
+29,TKS1AVERAGE,Cohort level key stage 1 average points score
+30,TKS1GROUP_L,Number of pupils in cohort with low KS1 attainment
+31,PTKS1GROUP_L,Percentage of pupils in cohort with low KS1 attainment
+32,TKS1GROUP_M,Number of pupils in cohort with medium KS1 attainment
+33,PTKS1GROUP_M,Percentage of pupils in cohort with medium KS1 attainment
+34,TKS1GROUP_H,Number of pupils in cohort high KS1 attainment
+35,PTKS1GROUP_H,Percentage of pupils in cohort with high KS1 attainment
+36,TKS1GROUP_NA,No. of pupils in KS1group not calculable
+37,PTKS1GROUP_NA,Percentage of pupils in KS1group not calculable
+38,TFSM6CLA1A,Number of key stage 2 disadvantaged pupils (those who were eligible for free school meals in last 6 years or are looked after by the LA for a day or more or who have been adopted from care)
+39,PTFSM6CLA1A,Percentage of key stage 2 disadvantaged pupils
+40,TNotFSM6CLA1A,Number of key stage 2 pupils who are not disadvantaged
+41,PTNotFSM6CLA1A,Percentage of key stage 2 pupils who are not disadvantaged
+42,TEALGRP2,Number of eligible pupils with English as additional language (EAL)
+43,PTEALGRP2,Percentage of eligible pupils with English as additional language (EAL)
+44,TMOBN,Number of eligible pupils classified as non-mobile
+45,PTMOBN,Percentage of eligible pupils classified as non-mobile
+46,TSENELSE,Number of eligible pupils with SEN with statement or EHC plan
+47,PSENELSE,Percentage of eligible pupils with SEN with Statement or EHC plan
+48,PTRWM_EXP,"Percentage of pupils reaching the expected standard in reading, writing and maths"
+49,PTRWM_HIGH,Percentage of pupils achieving a high score in reading and maths and working at greater depth in writing
+50,READPROG,Reading progress measure
+51,READPROG_LOWER,Reading progress measure - lower confidence limit
+52,READPROG_UPPER,Reading progress measure - upper confidence limit
+53,READCOV,Reading progress measure - coverage
+54,WRITPROG,Writing progress measure
+55,WRITPROG_LOWER,Writing progress measure - lower confidence limit
+56,WRITPROG_UPPER,Writing progress measure - upper confidence limit
+57,WRITCOV,Writing progress measure - coverage
+58,MATPROG,Maths progress measure
+59,MATPROG_LOWER,Maths progress measure - lower confidence limit
+60,MATPROG_UPPER,Maths progress measure - upper confidence limit
+61,MATCOV,Maths progress measure - coverage
+62,PTREAD_EXP,Percentage of pupils reaching the expected standard in reading
+63,PTREAD_HIGH,Percentage of pupils achieving a high score in reading
+64,PTREAD_AT,Percentage of pupils absent from or not able to access the test in reading
+65,READ_AVERAGE,Average scaled score in reading
+66,PTGPS_EXP,"Percentage of pupils reaching the expected standard in grammar, punctuation and spelling"
+67,PTGPS_HIGH,"Percentage of pupils achieving a high score in grammar, punctuation and spelling"
+68,PTGPS_AT,"Percentage of pupils absent from or not able to access the test in grammar, punctuation and spelling"
+69,GPS_AVERAGE,"Average scaled score in grammar, punctuation and spelling"
+70,PTMAT_EXP,Percentage of pupils reaching the expected standard in maths
+71,PTMAT_HIGH,Percentage of pupils achieving a high score in maths
+72,PTMAT_AT,Percentage of pupils absent from or not able to access the test in maths
+73,MAT_AVERAGE,Average scaled score in maths
+74,PTWRITTA_EXP,Percentage of pupils reaching the expected standard in writing
+75,PTWRITTA_HIGH,Percentage of pupils working at greater depth within the expected standard in writing
+76,PTWRITTA_WTS,Percentage of pupils working towards the expected standard in writing
+77,PTWRITTA_AD,Percentage of pupils absent or disapplied in writing TA
+78,PTSCITA_EXP,Percentage of pupils reaching the expected standard in science TA
+79,PTSCITA_AD,Percentage of pupils absent or disapplied in science TA
+80,PTREADTA_EXP,Percentage of pupils reaching the expected standard in reading TA
+81,PTREADTA_AD,Percentage of pupils absent or disapplied in reading TA
+82,PTMATTA_EXP,Percentage of pupils reaching the expected standard in maths TA
+83,PTMATTA_AD,Percentage of pupils absent or disapplied in maths TA
+84,PTRWM_EXP_B,"Percentage of boys reaching the expected standard in reading, writing and maths"
+85,PTRWM_EXP_G,"Percentage of girls reaching the expected standard in reading, writing and maths"
+86,PTRWM_EXP_L,"Percentage of pupils with low prior attainment reaching the expected standard in reading, writing and maths"
+87,PTRWM_EXP_M,"Percentage of pupils with medium prior attainment reaching the expected standard in reading, writing and maths"
+88,PTRWM_EXP_H,"Percentage of pupils with high prior attainment reaching the expected standard in reading, writing and maths"
+89,PTRWM_EXP_FSM6CLA1A,"Percentage of disadvantaged pupils reaching the expected standard in reading, writing and maths"
+90,PTRWM_EXP_NotFSM6CLA1A,"Percentage of non-disadvantaged pupils reaching the expected standard in reading, writing and maths"
+91,DIFFN_RWM_EXP,"Difference between school percentage of disavantaged pupils and national percentage of other pupils reaching the expected standard in reading, writing and maths "
+92,PTRWM_EXP_EAL,"Percentage of EAL pupils reaching the expected standard in reading, writing and maths"
+93,PTRWM_EXP_MOBN,"Percentage of non-mobile pupils reaching the expected standard in reading, writing and maths"
+94,PTRWM_HIGH_B,Percentage of boys achieving a high score in reading and maths and working at greater depth in writing
+95,PTRWM_HIGH_G,"Percentage of girls reaching the HIGHected standard in reading, writing and maths"
+96,PTRWM_HIGH_L,Percentage of pupils with low prior attainment achieving a high score in reading and maths and working at greater depth in writing
+97,PTRWM_HIGH_M,Percentage of pupils with medium prior attainment achieving a high score in reading and maths and working at greater depth in writing
+98,PTRWM_HIGH_H,Percentage of pupils with high prior attainment achieving a high score in reading and maths and working at greater depth in writing
+99,PTRWM_HIGH_FSM6CLA1A,Percentage of disadvantaged pupils achieving a high score in reading and maths and working at greater depth in writing
+100,PTRWM_HIGH_NotFSM6CLA1A,Percentage of non-disadvantaged pupils achieving a high score in reading and maths and working at greater depth in writing
+101,DIFFN_RWM_HIGH,"Difference between school percentage of disavantaged pupils and national percentage of other pupils achieving a high score in reading, writing and maths "
+102,PTRWM_HIGH_EAL,Percentage of EAL pupils achieving a high score in reading and maths and working at greater depth in writing
+103,PTRWM_HIGH_MOBN,Percentage of non-mobile pupils achieving a high score in reading and maths and working at greater depth in writing
+104,READPROG_B,Reading progress measure for boys
+105,READPROG_B_LOWER,Reading progress measure for boys - lower confidence limit
+106,READPROG_B_UPPER,Reading progress measure for boys - upper confidence limit
+107,READPROG_G,Reading progress measure for girls
+108,READPROG_G_LOWER,Reading progress measure for girls - lower confidence limit
+109,READPROG_G_UPPER,Reading progress measure for girls - upper confidence limit
+110,READPROG_L,Reading progress measure for pupils with low prior attainment
+111,READPROG_L_LOWER,Reading progress measure for pupils with low prior attainment - lower confidence limit
+112,READPROG_L_UPPER,Reading progress measure for pupils with low prior attainment - upper confidence limit
+113,READPROG_M,Reading progress measure for pupils with medium prior attainment
+114,READPROG_M_LOWER,Reading progress measure for pupils with medium prior attainment - lower confidence limit
+115,READPROG_M_UPPER,Reading progress measure for pupils with medium prior attainment - upper confidence limit
+116,READPROG_H,Reading progress measure for pupils with high prior attainment
+117,READPROG_H_LOWER,Reading progress measure for pupils with high prior attainment - lower confidence limit
+118,READPROG_H_UPPER,Reading progress measure for pupils with high prior attainment - upper confidence limit
+119,READPROG_FSM6CLA1A,Reading progress measure for disadvantaged pupils
+120,READPROG_FSM6CLA1A_LOWER,Reading progress measure for disadvantaged pupils - lower confidence limit
+121,READPROG_FSM6CLA1A_UPPER,Reading progress measure for disadvantaged pupils - upper confidence limit
+122,READPROG_NotFSM6CLA1A,Reading progress measure for non-disadvantaged pupils
+123,READPROG_NotFSM6CLA1A_LOWER,Reading progress measure for non-disadvantaged pupils - lower confidence limit
+124,READPROG_NotFSM6CLA1A_UPPER,Reading progress measure for non-disadvantaged pupils - upper confidence limit
+125,DIFFN_READPROG,Difference between reading progress measure for disadvantaged pupils in school and other pupils nationally
+126,READPROG_EAL,Reading progress measure for EAL pupils
+127,READPROG_EAL_LOWER,Reading progress measure for EAL pupils - lower confidence limit
+128,READPROG_EAL_UPPER,Reading progress measure for EAL pupils - upper confidence limit
+129,READPROG_MOBN,Reading progress measure for non-mobile pupils
+130,READPROG_MOBN_LOWER,Reading progress measure for non-mobile pupils - lower confidence limit
+131,READPROG_MOBN_UPPER,Reading progress measure for non-mobile pupils - upper confidence limit
+132,WRITPROG_B,Writing progress measure for boys
+133,WRITPROG_B_LOWER,Writing progress measure for boys - lower confidence limit
+134,WRITPROG_B_UPPER,Writing progress measure for boys - upper confidence limit
+135,WRITPROG_G,Wwriting progress measure for girls
+136,WRITPROG_G_LOWER,Writing progress measure for girls - lower confidence limit
+137,WRITPROG_G_UPPER,Writing progress measure for girls - upper confidence limit
+138,WRITPROG_L,Writing progress measure for pupils with low prior attainment
+139,WRITPROG_L_LOWER,Writing progress measure for pupils with low prior attainment - lower confidence limit
+140,WRITPROG_L_UPPER,Writing progress measure for pupils with low prior attainment - upper confidence limit
+141,WRITPROG_M,Writing progress measure for pupils with medium prior attainment
+142,WRITPROG_M_LOWER,Writing progress measure for pupils with medium prior attainment - lower confidence limit
+143,WRITPROG_M_UPPER,Writing progress measure for pupils with medium prior attainment - upper confidence limit
+144,WRITPROG_H,Writing progress measure for pupils with high prior attainment
+145,WRITPROG_H_LOWER,Writing progress measure for pupils with high prior attainment - lower confidence limit
+146,WRITPROG_H_UPPER,Writing progress measure for pupils with high prior attainment - upper confidence limit
+147,WRITPROG_FSM6CLA1A,Writing progress measure for disadvantaged pupils
+148,WRITPROG_FSM6CLA1A_LOWER,Writing progress measure for disadvantaged pupils - lower confidence limit
+149,WRITPROG_FSM6CLA1A_UPPER,Writing progress measure for disadvantaged pupils - upper confidence limit
+150,WRITPROG_NotFSM6CLA1A,Writing progress measure for non-disadvantaged pupils
+151,WRITPROG_NotFSM6CLA1A_LOWER,Writing progress measure for non-disadvantaged pupils - lower confidence limit
+152,WRITPROG_NotFSM6CLA1A_UPPER,Writing progress measure for non-disadvantaged pupils - upper confidence limit
+153,DIFFN_WRITPROG,Difference between writing progress measure for disadvantaged pupils in school and other pupils nationally
+154,WRITPROG_EAL,Writing progress measure for EAL pupils
+155,WRITPROG_EAL_LOWER,Writing progress measure for EAL pupils - lower confidence limit
+156,WRITPROG_EAL_UPPER,Writing progress measure for EAL pupils - upper confidence limit
+157,WRITPROG_MOBN,Writing progress measure for non-mobile pupils
+158,WRITPROG_MOBN_LOWER,Writing progress measure for non-mobile pupils - lower confidence limit
+159,WRITPROG_MOBN_UPPER,Writing progress measure for non-mobile pupils - upper confidence limit
+160,MATPROG_B,Maths progress measure for boys
+161,MATPROG_B_LOWER,Maths progress measure for boys - lower confidence limit
+162,MATPROG_B_UPPER,Maths progress measure for boys - upper confidence limit
+163,MATPROG_G,Maths progress measure for girls
+164,MATPROG_G_LOWER,Maths progress measure for girls - lower confidence limit
+165,MATPROG_G_UPPER,Maths progress measure for girls - upper confidence limit
+166,MATPROG_L,Maths progress measure for pupils with low prior attainment
+167,MATPROG_L_LOWER,Maths progress measure for pupils with low prior attainment - lower confidence limit
+168,MATPROG_L_UPPER,Maths progress measure for pupils with low prior attainment - upper confidence limit
+169,MATPROG_M,Maths progress measure for pupils with medium prior attainment
+170,MATPROG_M_LOWER,Maths progress measure for pupils with medium prior attainment - lower confidence limit
+171,MATPROG_M_UPPER,Maths progress measure for pupils with medium prior attainment - upper confidence limit
+172,MATPROG_H,Maths progress measure for pupils with high prior attainment
+173,MATPROG_H_LOWER,Maths progress measure for pupils with high prior attainment - lower confidence limit
+174,MATPROG_H_UPPER,Maths progress measure for pupils with high prior attainment - upper confidence limit
+175,MATPROG_FSM6CLA1A,Maths progress measure for disadvantaged pupils
+176,MATPROG_FSM6CLA1A_LOWER,Maths progress measure for disadvantaged pupils - lower confidence limit
+177,MATPROG_FSM6CLA1A_UPPER,Maths progress measure for disadvantaged pupils - upper confidence limit
+178,MATPROG_NotFSM6CLA1A,Maths progress measure for non-disadvantaged pupils
+179,MATPROG_NotFSM6CLA1A_LOWER,Maths progress measure for non-disadvantaged pupils - lower confidence limit
+180,MATPROG_NotFSM6CLA1A_UPPER,Maths progress measure for non-disadvantaged pupils - upper confidence limit
+181,DIFFN_MATPROG,Difference between maths progress measure for disadvantaged pupils in school and other pupils nationally
+182,MATPROG_EAL,Maths progress measure for EAL pupils
+183,MATPROG_EAL_LOWER,Maths progress measure for EAL pupils - lower confidence limit
+184,MATPROG_EAL_UPPER,Maths progress measure for EAL pupils - upper confidence limit
+185,MATPROG_MOBN,Maths progress measure for non-mobile pupils
+186,MATPROG_MOBN_LOWER,Maths progress measure for non-mobile pupils - lower confidence limit
+187,MATPROG_MOBN_UPPER,Maths progress measure for non-mobile pupils - upper confidence limit
+188,READ_AVERAGE_L,Average scaled score in reading for pupils with low prior attainment
+189,READ_AVERAGE_M,Average scaled score in reading for pupils with medium prior attainment
+190,READ_AVERAGE_H,Average scaled score in reading for pupils with high prior attainment
+191,READ_AVERAGE_FSM6CLA1A,Average scaled score in reading for disadvantaged pupils
+192,READ_AVERAGE_NotFSM6CLA1A,Average scaled score in reading for non-disadvantaged pupils
+193,MAT_AVERAGE_L,Average scaled score in maths for pupils with low prior attainment
+194,MAT_AVERAGE_M,Average scaled score in maths for pupils with medium prior attainment
+195,MAT_AVERAGE_H,Average scaled score in maths for pupils with high prior attainment
+196,MAT_AVERAGE_FSM6CLA1A,Average scaled score in maths for disadvantaged pupils
+197,MAT_AVERAGE_NotFSM6CLA1A,Average scaled score in maths for non-disadvantaged pupils
+198,GPS_AVERAGE_L,Average scaled score in GPS for pupils with low prior attainment
+199,GPS_AVERAGE_M,Average scaled score in GPS for pupils with medium prior attainment
+200,GPS_AVERAGE_H,Average scaled score in GPS for pupils with high prior attainment
+201,GPS_AVERAGE_FSM6CLA1A,Average scaled score in GPS for disadvantaged pupils
+202,GPS_AVERAGE_NotFSM6CLA1A,Average scaled score in GPS for non-disadvantaged pupils
+203,PTREAD_EXP_L,Percentage of pupils with low prior attainment reaching the expected standard in reading
+204,PTREAD_EXP_M,Percentage of pupils with medium prior attainment reaching the expected standard in reading
+205,PTREAD_EXP_H,Percentage of pupils with high prior attainment reaching the expected standard in reading
+206,PTREAD_EXP_FSM6CLA1A,Percentage of disadvantaged pupils reaching the expected standard in reading
+207,PTREAD_EXP_NotFSM6CLA1A,Percentage of non-disadvantaged pupils reaching the expected standard in reading
+208,PTGPS_EXP_L,"Percentage of pupils with low prior attainment reaching the expected standard in grammar, punctuation and spelling"
+209,PTGPS_EXP_M,"Percentage of pupils with medium prior attainment reaching the expected standard in grammar, punctuation and spelling"
+210,PTGPS_EXP_H,"Percentage of pupils with high prior attainment reaching the expected standard in grammar, punctuation and spelling"
+211,PTGPS_EXP_FSM6CLA1A,"Percentage of disadvantaged pupils reaching the expected standard in grammar, punctuation and spelling"
+212,PTGPS_EXP_NotFSM6CLA1A,"Percentage of non-disadvantaged pupils reaching the expected standard in grammar, punctuation and spelling"
+213,PTMAT_EXP_L,Percentage of pupils with low prior attainment reaching the expected standard in maths
+214,PTMAT_EXP_M,Percentage of pupils with medium prior attainment reaching the expected standard in maths
+215,PTMAT_EXP_H,Percentage of pupils with high prior attainment reaching the expected standard in maths
+216,PTMAT_EXP_FSM6CLA1A,Percentage of disadvantaged pupils reaching the expected standard in maths
+217,PTMAT_EXP_NotFSM6CLA1A,Percentage of non-disadvantaged pupils reaching the expected standard in maths
+218,PTWRITTA_EXP_L,Percentage of pupils with low prior attainment reaching the expected standard in writing
+219,PTWRITTA_EXP_M,Percentage of pupils with medium prior attainment reaching the expected standard in writing
+220,PTWRITTA_EXP_H,Percentage of pupils with high prior attainment reaching the expected standard in writing
+221,PTWRITTA_EXP_FSM6CLA1A,Percentage of disadvantaged pupils reaching the expected standard in writing
+222,PTWRITTA_EXP_NotFSM6CLA1A,Percentage of non-disadvantaged pupils reaching the expected standard in writing
+223,PTREAD_HIGH_L,Percentage of pupils with low prior attainment achieving a high score in reading
+224,PTREAD_HIGH_M,Percentage of pupils with medium prior attainment achieving a high score in reading
+225,PTREAD_HIGH_H,Percentage of pupils with high prior attainment achieving a high score in reading
+226,PTREAD_HIGH_FSM6CLA1A,Percentage of disadvantaged pupils achieving a high score in reading
+227,PTREAD_HIGH_NotFSM6CLA1A,Percentage of non-disadvantaged pupils achieving a high score in reading
+228,PTGPS_HIGH_L,"Percentage of pupils with low prior attainment achieving a high score in grammar, punctuation and spelling"
+229,PTGPS_HIGH_M,"Percentage of pupils with medium prior attainment achieving a high score in grammar, punctuation and spelling"
+230,PTGPS_HIGH_H,"Percentage of pupils with high prior attainment achieving a high score in grammar, punctuation and spelling"
+231,PTGPS_HIGH_FSM6CLA1A,"Percentage of disadvantaged pupils achieving a high score in grammar, punctuation and spelling"
+232,PTGPS_HIGH_NotFSM6CLA1A,"Percentage of non-disadvantaged pupils achieving a high score in grammar, punctuation and spelling"
+233,PTMAT_HIGH_L,Percentage of pupils with low prior attainment achieving a high score in maths
+234,PTMAT_HIGH_M,Percentage of pupils with medium prior attainment achieving a high score in maths
+235,PTMAT_HIGH_H,Percentage of pupils with high prior attainment achieving a high score in maths
+236,PTMAT_HIGH_FSM6CLA1A,Percentage of disadvantaged pupils achieving a high score in maths
+237,PTMAT_HIGH_NotFSM6CLA1A,Percentage of non-disadvantaged pupils achieving a high score in maths
+238,PTWRITTA_HIGH_L,Percentage of pupils with low prior attainment working at greater depth in writing
+239,PTWRITTA_HIGH_M,Percentage of pupils with medium prior attainment working at greater depth in writing
+240,PTWRITTA_HIGH_H,Percentage of pupils with high prior attainment working at greater depth in writing
+241,PTWRITTA_HIGH_FSM6CLA1A,Percentage of disadvantaged pupils working at greater depth in writing
+242,PTWRITTA_HIGH_NotFSM6CLA1A,Percentage of non-disadvantaged pupils working at greater depth in writing
+243,TEALGRP1,Number of eligible pupils with English as first language
+244,PTEALGRP1,Percentage of eligible pupils with English as first language
+245,TEALGRP3,Number of eligible pupils with unclassified language
+246,PTEALGRP3,Percentage of eligible pupils with unclassified language
+247,TSENELAPK,Number of eligible pupils with SEN without statement or EHC plan
+248,PSENELSAPK,Percentage of eligible pupils with SEN without statement or EHC plan
+249,TSENELE,Number of eligible pupils with EHC plan
+250,PSENELE,Percentage of eligible pupils with EHC plan
+251,TSENELK,Number of eligible pupils with SEN support
+252,PSENELK,Percentage of eligible pupils with SEN support
+253,TSENELST,Number of eligible pupils with SEN (Special Educational Needs) statements
+254,PSENELST,Percentage of eligible pupils with SEN (Special Educational Needs) statements
+255,TSENELSAP,Number of eligible pupils with School Action Plus
+256,PSENELSAP,Percentage of eligible pupils with School Action Plus
+257,SENELN,Number of eligible pupils with SEN (Special Educational Needs) supported at School Action
+258,PSENELN,Percentage of eligible pupils with SEN (Special Educational Needs) supported at School Action
+13,CONTFLAG,Contingency flag - school results 'significantly affected'. This field is zero for all schools.
+17,ADMPOL,School admissions policy (self-declared by schools on Edubase)
+18,EGENDER,School gender of entry
+19,FEEDER,Indicates whether school is a feeder school for sixth form centre/consortia (0=No; 1=Yes)
+20,TABKS2,Indicates whether school is published in the primary school (key stage 2) performance tables (0=No; 1=Yes)
+25,NUMBOYS,Total boys on roll (including part-time pupils)
+26,NUMGIRLS,Total girls on roll (including part-time pupils)
+27,TPUP,Number of pupils at the end of key stage 4
+28,BPUP,Number of boys at the end of key stage 4
+29,PBPUP,Percentage of pupils at the end of key stage 4 who are boys
+30,GPUP,Number of girls at the end of key stage 4
+31,PGPUP,Percentage of pupils at the end key stage 4 who are girls
+32,KS2APS,Key stage 2 Average Points Score of the cohort at the end of key stage 4
+33,TPRIORLO,Number of pupils at the end of key stage 4 with low prior attainment at the end of key stage 2
+34,PTPRIORLO,Percentage of pupils at the end of key stage 4 with low prior attainment at the end of key stage 2
+35,TPRIORAV,Number of pupils at the end of key stage 4 with middle prior attainment at the end of key stage 2
+36,PTPRIORAV,Percentage of pupils at the end of key stage 4 with middle prior attainment at the end of key stage 2
+37,TPRIORHI,Number of pupils at the end of key stage 4 with high prior attainment at the end of key stage 2
+38,PTPRIORHI,Percentage of pupils at the end of key stage 4 with high prior attainment at the end of key stage 2
+41,TNOTFSM6CLA1A,Number of non-disadvantaged pupils at the end of key stage 4
+42,PTNOTFSM6CLA1A,Percentage of pupils at the end of key stage 4 who are not disadvantaged
+49,TNMOB,Number of pupils at the end of key stage 4 who are non-mobile
+50,PTNMOB,Percentage of pupils at the end of key stage 4 who are non-mobile
+51,SENSE4,"Number of pupils at the end of key stage 4 with special educational needs (SEN) with a statement or Education, health and care (EHC) plan"
+52,PSENSE4,"Percentage of pupils at the end of key stage 4 with special educational needs (SEN) with a statement or Education, health and care (EHC) plan"
+53,SENAPK4,"Number of pupils at the end of key stage 4 with special educational needs (SEN) without a statement or Education, health and care (EHC) plan"
+54,PSENAPK4,"Percentage of pupils at the end of key stage 4 with special educational needs (SEN) without a statement or Education, health and care (EHC) plan"
+55,TOTATT8,Total sum of Attainment 8 scores
+56,ATT8SCR,Average Attainment 8 score per pupil
+57,TOTATT8ENG,Total sum of Attainment 8 scores for English element
+58,ATT8SCRENG,Average Attainment 8 score per pupil for English element
+59,TOTATT8MAT,Total sum of Attainment 8 scores for mathematics element
+60,ATT8SCRMAT,Average Attainment 8 score per pupil for mathematics element
+61,TOTATT8EBAC,Total sum of Attainment 8 scores for EBacc element
+62,ATT8SCREBAC,Average Attainment 8 score per pupil for EBacc element
+63,TOTATT8OPEN,Total sum of Attainment 8 scores for open element
+64,ATT8SCROPEN,Average Attainment 8 score per pupil for open element
+65,TOTATT8OPENG,Total sum of Attainment 8 scores for open element - GCSE only
+66,ATT8SCROPENG,Average Attainment 8 score per pupil for open element - GCSE only
+67,TOTATT8OPENNG,Total sum of Attainment 8 scores for open element - non-GCSE only
+68,ATT8SCROPENNG,Average Attainment 8 score per pupil for open element - non-GCSE only
+69,P8PUP,Number of pupils included in Progress 8 measure
+70,P8MEACOV,Percentage of pupils at the end of key stage 4 included in Progress 8 measure
+71,P8MEA,Progress 8 measure
+72,P8CILOW,Lower 95% confidence interval for Progress 8 measure
+73,P8CIUPP,Upper 95% confidence interval for Progress 8 measure
+74,P8MEAENG,Progress 8 measure for English element
+75,P8MEAENG_CILOW,Lower 95% confidence interval for Progress 8 English element
+76,P8MEAENG_CIUPP,Upper 95% confidence interval for Progress 8 English element
+77,P8MEAMAT,Progress 8 measure for mathematics element
+78,P8MEAMAT_CILOW,Lower 95% confidence interval for Progress 8 maths element
+79,P8MEAMAT_CIUPP,Upper 95% confidence interval for Progress 8 maths element
+80,P8MEAEBAC,Progress 8 measure for EBacc element
+81,P8MEAEBAC_CILOW,Lower 95% confidence interval for Progress 8 EBacc element
+82,P8MEAEBAC_CIUPP,Upper 95% confidence interval for Progress 8 EBacc element
+83,P8MEAOPEN,Progress 8 measure for open element
+84,P8MEAOPEN_CILOW,Lower 95% confidence interval for Progress 8 open element
+85,P8MEAOPEN_CIUPP,Upper 95% confidence interval for Progress 8 open element
+86,PTL2BASICS_LL_PTQ_EE,Percentage of pupils achieving grades A*-C in both English and mathematics GCSEs
+87,PTL2BASICS_3YR_PTQ_EE,"Three year percentage of pupils achieving A*-C in both English and mathematics GCSEs over 2014, 2015 and 2016"
+88,TEBACC_E_PTQ_EE,Number of key stage 4 pupils with entries in all English Baccalaureate subject areas
+89,PTEBACC_E_PTQ_EE,Percentage of key stage 4 pupils with entries in all English Baccalaureate subject areas
+90,PTEBACC_PTQ_EE,Percentage of key stage 4 pupils achieving the English Baccalaureate
+91,TEBACENG_E_PTQ_EE,Number of pupils entering the English Baccalaureate English subject area
+92,PTEBACENG_E_PTQ_EE,Percentage of pupils entering the English Baccalaureate English subject area
+93,TEBACMAT_E_PTQ_EE,Number of pupils entering the English Baccalaureate Maths subject area
+94,PTEBACMAT_E_PTQ_EE,Percentage of pupils entering the English Baccalaureate Maths subject area
+95,TEBAC2SCI_E_PTQ_EE,Number of pupils entering the English Baccalaureate Science subject area
+96,PTEBAC2SCI_E_PTQ_EE,Percentage of pupils entering the English Baccalaureate Science subject area
+97,TEBACHUM_E_PTQ_EE,Number of pupils entering the English Baccalaureate Humanities subject area
+98,PTEBACHUM_E_PTQ_EE,Percentage of pupils entering the English Baccalaureate Humanities subject area
+99,TEBACLAN_E_PTQ_EE,Number of pupils entering the English Baccalaureate Language subject area
+100,PTEBACLAN_E_PTQ_EE,Percentage of pupils entering the English Baccalaureate Language subject area
+101,PTEBACENG_LL_PTQ_EE,Percentage of pupils achieving the English Baccalaureate English subject area 
+102,PTEBACMAT_PTQ_EE,Percentage of pupils achieving the English Baccalaureate Maths subject area
+103,PTEBAC2SCI_PTQ_EE,Percentage of entered pupils achieving the English Baccalaureate Science subject area
+104,PTEBACHUM_PTQ_EE,Percentage of entered pupils achieving the English Baccalaureate Humanities subject area
+105,PTEBACLAN_PTQ_EE,Percentage of entered pupils achieving the English Baccalaureate Language subject area
+106,SCIVACOV_PTQ_EE,Coverage of the English Baccalaureate Science Value Added indicators of those who entered for science
+107,HUMVACOV_PTQ_EE,Coverage of the English Baccalaureate Humanities Value Added indicators of those who entered for humanities
+108,LANVACOV_PTQ_EE,Coverage of the English Baccalaureate Language Value Added indicators of those who entered for languages
+109,SCIVAMEA_PTQ_EE,English Baccalaureate Science Value Added measure
+110,SCIVALOW_PTQ_EE,English Baccalaureate Science Value Added lower 95% confidence limit
+111,SCIVAUPP_PTQ_EE,English Baccalaureate Science Value Added upper 95% confidence limit
+112,HUMVAMEA_PTQ_EE,English Baccalaureate Humanities Value Added measure
+113,HUMVALOW_PTQ_EE,English Baccalaureate Humanities Value Added lower 95% confidence limit
+114,HUMVAUPP_PTQ_EE,English Baccalaureate Humanities Value Added upper 95% confidence limit
+115,LANVAMEA_PTQ_EE,English Baccalaureate Languages Value Added measure
+116,LANVALOW_PTQ_EE,English Baccalaureate Languages Value Added lower 95% confidence limit
+117,LANVAUPP_PTQ_EE,English Baccalaureate Languages Value Added upper 95% confidence limit
+118,TEBACENG_LL_PTQ_EE,Number of pupils achieving EBacc English subject area
+119,TEBACMAT_PTQ_EE,Number of pupils achieving the English Baccalaureate Maths subject area
+120,TEBAC2SCI_PTQ_EE,Number of pupils achieving the English Baccalaureate Science subject area
+121,TEBACHUM_PTQ_EE,Number of pupils achieving the English Baccalaureate Humanities subject area
+122,TEBACLAN_PTQ_EE,Number of pupils achieving the English Baccalaureate Language subject area
+123,TEBACCAG_PTQ_EE,Number of pupils achieving the English Baccalaureate at grades A*-G
+124,PTEBACCAG_PTQ_EE,Percentage of pupils achieving the English Baccalaureate at grades A*-G
+125,TEBACENGAG_LL_PTQ_EE,Number of pupils achieving the English Baccalaureate English subject area at grade A*-G
+126,PTEBACENGAG_LL_PTQ_EE,Percentage of pupils achieving the English Baccalaureate English subject area at grade A*-G
+127,TEBACMATAG_PTQ_EE,Number of pupils achieving the English Baccalaureate Maths subject area at grade A*-G
+128,PTEBACMATAG_PTQ_EE,Percentage of pupils achieving the English Baccalaureate Maths subject area at grade A*-G
+129,TEBAC2SCIAG_PTQ_EE,Number of pupils achieving the English Baccalaureate Science subject area at grades A*-G
+130,PTEBAC2SCIAG_PTQ_EE,Percentage of entered pupils achieving the English Baccalaureate Science subject area at grades A*-G
+131,TEBACHUMAG_PTQ_EE,Number of pupils achieving the English Baccalaureate Humanities subject area at grade A*-G
+132,PTEBACHUMAG_PTQ_EE,Percentage of entered pupils achieving the English Baccalaureate Humanities subject area at grades A*-G
+133,TEBACLANAG_PTQ_EE,Number of pupils achieving the English Baccalaureate Language subject area at grade A*-G
+134,PTEBACLANAG_PTQ_EE,Percentage of entered pupils achieving the English Baccalaureate Language subject area at grade A*-G
+135,ATT8SCR_FSM6CLA1A,Average Attainment 8 score per disadvantaged pupil
+136,P8PUP_FSM6CLA1A,Number of disadvantaged pupils in Progress 8 measure
+137,P8MEA_FSM6CLA1A,Progress 8 measure - disadvantaged pupils
+138,P8CILOW_FSM6CLA1A,Progress 8 lower 95% confidence interval - disadvantaged pupils
+139,P8CIUPP_FSM6CLA1A,Progress 8 upper 95% confidence interval - disadvantaged pupils
+140,ATT8SCR_NFSM6CLA1A,Average Attainment 8 score per non-disadvantaged pupil
+141,P8PUP_NFSM6CLA1A,Number of non-disadvantaged pupils in Progress 8 measure
+142,P8MEA_NFSM6CLA1A,Progress 8 measure - non-disadvantaged pupils
+143,P8CILOW_NFSM6CLA1A,Progress 8 lower 95% confidence interval - non-disadvantaged pupils
+144,P8CIUPP_NFSM6CLA1A,Progress 8 upper 95% confidence interval - non-disadvantaged pupils
+145,ATT8SCRENG_FSM6CLA1A,Average Attainment 8 score per disadvantaged pupil for English element
+146,P8MEAENG_FSM6CLA1A,Progress 8 measure for English element - disadvantaged pupils
+147,P8MEAENG_CILOW_FSM6CLA1A,Lower 95% confidence interval for Progress 8 English element for disadvantaged pupils
+148,P8MEAENG_CIUPP_FSM6CLA1A,Upper 95% confidence interval for Progress 8 English element for disadvantaged pupils
+149,ATT8SCRMAT_FSM6CLA1A,Average Attainment 8 score per disadvantaged pupil for mathematics element
+150,P8MEAMAT_FSM6CLA1A,Progress 8 measure for maths element - disadvantaged pupils
+151,P8MEAMAT_CILOW_FSM6CLA1A,Lower 95% confidence interval for Progress 8 maths element for disadvantaged pupils
+152,P8MEAMAT_CIUPP_FSM6CLA1A,Upper 95% confidence interval for Progress 8 maths element for disadvantaged pupils
+153,ATT8SCREBAC_FSM6CLA1A,Average Attainment 8 score per disadvantaged pupil for EBacc element
+154,P8MEAEBAC_FSM6CLA1A,Progress 8 measure for EBacc element - disadvantaged pupils
+155,P8MEAEBAC_CILOW_FSM6CLA1A,Lower 95% confidence interval for Progress 8 EBacc element for disadvantaged pupils
+156,P8MEAEBAC_CIUPP_FSM6CLA1A,Upper 95% confidence interval for Progress 8 EBacc element for disadvantaged pupils
+157,ATT8SCROPEN_FSM6CLA1A,Average Attainment 8 score per disadvantaged pupil for open element
+158,P8MEAOPEN_FSM6CLA1A,Progress 8 measure for open element - disadvantaged pupils
+159,P8MEAOPEN_CILOW_FSM6CLA1A,Lower 95% confidence interval for Progress 8 open element for disadvantaged pupils
+160,P8MEAOPEN_CIUPP_FSM6CLA1A,Upper 95% confidence interval for Progress 8 open element for disadvantaged pupils
+161,ATT8SCRENG_NFSM6CLA1A,Average Attainment 8 score per non-disadvantaged pupil for English element
+162,P8MEAENG_NFSM6CLA1A,Progress 8 measure for English element - non-disadvantaged pupils
+163,P8MEAENG_CILOW_NFSM6CLA1A,Lower 95% confidence interval for Progress 8 English element for non-disadvantaged pupils
+164,P8MEAENG_CIUPP_NFSM6CLA1A,Upper 95% confidence interval for Progress 8 English element for non-disadvantaged pupils
+165,ATT8SCRMAT_NFSM6CLA1A,Average Attainment 8 score per non-disadvantaged pupil for mathematics element
+166,P8MEAMAT_NFSM6CLA1A,Progress 8 measure for maths element - non-disadvantaged pupils
+167,P8MEAMAT_CILOW_NFSM6CLA1A,Lower 95% confidence interval for Progress 8 maths element for non-disadvantaged pupils
+168,P8MEAMAT_CIUPP_NFSM6CLA1A,Upper 95% confidence interval for Progress 8 maths element for non-disadvantaged pupils
+169,ATT8SCREBAC_NFSM6CLA1A,Average Attainment 8 score per non-disadvantaged pupil for EBacc element
+170,P8MEAEBAC_NFSM6CLA1A,Progress 8 measure for EBacc element - non-disadvantaged pupils
+171,P8MEAEBAC_CILOW_NFSM6CLA1A,Lower 95% confidence interval for Progress 8 EBacc element for non-disadvantaged pupils
+172,P8MEAEBAC_CIUPP_NFSM6CLA1A,Upper 95% confidence interval for Progress 8 EBacc element for non-disadvantaged pupils
+173,ATT8SCROPEN_NFSM6CLA1A,Average Attainment 8 score per non-disadvantaged pupil for open element
+174,P8MEAOPEN_NFSM6CLA1A,Progress 8 measure for open element - non-disadvantaged pupils
+175,P8MEAOPEN_CILOW_NFSM6CLA1A,Lower 95% confidence interval for Progress 8 open element for non-disadvantaged pupils
+176,P8MEAOPEN_CIUPP_NFSM6CLA1A,Upper 95% confidence interval for Progress 8 open element for non-disadvantaged pupils
+177,ATT8SCROPENG_FSM6CLA1A,Average Attainment 8 score per disadvantaged pupil for open element - GCSE only
+178,ATT8SCROPENNG_FSM6CLA1A,Average Attainment 8 score per disadvantaged pupil for open element - non-GCSE only
+179,ATT8SCROPENG_NFSM6CLA1A,Average Attainment 8 score per non-disadvantaged pupil for open element - GCSE only
+180,ATT8SCROPENNG_NFSM6CLA1A,Average Attainment 8 score per non-disadvantaged pupil for open element - non-GCSE only
+181,DIFFN_ATT8,Difference between Attainment 8 for disadvantaged pupils in school/LA and non-disadvantaged pupils nationally
+182,DIFFN_P8MEA,Difference between Progress 8 measure for disadvantaged pupils in school/LA and non-disadvantaged pupils nationally
+183,ATT8SCR_LO,Average Attainment 8 score per pupil with low prior attainment
+184,P8PUP_LO,Number of pupils with low prior attainment included in Progress 8 measure
+185,P8MEA_LO,Progress 8 measure - pupils with low prior attainment
+186,P8CILOW_LO,Progress 8 lower 95% confidence interval - pupils with low prior attainment
+187,P8CIUPP_LO,Progress 8 upper 95% confidence interval - pupils with low prior attainment
+188,ATT8SCR_AV,Average Attainment 8 score per pupil with middle prior attainment
+189,P8PUP_AV,Number of pupils with middle prior attainment included in Progress 8 measure
+190,P8MEA_AV,Progress 8 measure - pupils with middle prior attainment
+191,P8CILOW_AV,Progress 8 lower 95% confidence interval - pupils with middle prior attainment
+192,P8CIUPP_AV,Progress 8 upper 95% confidence interval - pupils with middle prior attainment
+193,ATT8SCR_HI,Average Attainment 8 score per pupil with high prior attainment
+194,P8PUP_HI,Number of pupils with high prior attainment included in Progress 8 measure
+195,P8MEA_HI,Progress 8 measure - pupils with high prior attainment
+196,P8CILOW_HI,Progress 8 lower 95% confidence interval - pupils with high prior attainment
+197,P8CIUPP_HI,Progress 8 upper 95% confidence interval - pupils with high prior attainment
+198,ATT8SCR_EAL,Average Attainment 8 score per pupil for whom English is an additional language
+199,P8PUP_EAL,Number of pupils for whom English is an additional language included in Progress 8 measure
+200,P8MEA_EAL,Progress 8 measure - pupils for whom English is an additional language
+201,P8CILOW_EAL,Progress 8 lower 95% confidence interval - pupils for whom English is an additional language
+202,P8CIUPP_EAL,Progress 8 upper 95% confidence interval - pupils for whom English is an additional language
+203,ATT8SCR_GIRLS,Average Attainment 8 score per girl
+204,P8PUP_GIRLS,Number of girls included in Progress 8 measure
+205,P8MEA_GIRLS,Progress 8 measure - girls
+206,P8CILOW_GIRLS,Progress 8 lower 95% confidence interval - girls
+207,P8CIUPP_GIRLS,Progress 8 upper 95% confidence interval - girls
+208,ATT8SCR_BOYS,Average Attainment 8 score per boy
+209,P8PUP_BOYS,Number of boys included in Progress 8 measure
+210,P8MEA_BOYS,Progress 8 measure - boys
+211,P8CILOW_BOYS,Progress 8 lower 95% confidence interval - boys
+212,P8CIUPP_BOYS,Progress 8 upper 95% confidence interval - boys
+213,ATT8SCR_NMOB,Average Attainment 8 score per non-mobile pupil
+214,P8PUP_NMOB,Number of non-mobile pupils included in Progress 8 measure
+215,P8MEA_NMOB,Progress 8 measure - non-mobile pupils
+216,P8CILOW_NMOB,Progress 8 lower 95% confidence interval - non-mobile pupils
+217,P8CIUPP_NMOB,Progress 8 upper 95% confidence interval - non-mobile pupils
+218,ATT8SCR_15,Average Attainment 8 score per pupil  - 2015 opt-in schools only
+219,P8PUP_15,Number of pupils included in Progress 8 measure - 2015 opt-in schools only
+220,P8MEA_15,Progress 8 measure - 2015 opt-in schools only
+221,P8CILOW_15,Progress 8 lower 95% confidence interval - 2015 opt-in schools only
+222,P8CIUPP_15,Progress 8 upper 95% confidence interval - 2015 opt-in schools only
+223,TEBACC_ELO_PTQ_EE,Number of pupils with low prior attainment with entries in all English Baccalaureate subject areas
+224,PTEBACC_ELO_PTQ_EE,Percentage of pupils with low prior attainment with entries in all English Baccalaureate subject areas
+225,PTEBACCLO_PTQ_EE,Percentage of pupils with low prior attainment achieving the English Baccalaureate
+226,TEBACC_EAV_PTQ_EE,Number of pupils with middle prior attainment with entries in all English Baccalaureate subject areas
+227,PTEBACC_EAV_PTQ_EE,Percentage of pupils with middle prior attainment with entries in all English Baccalaureate subject areas
+228,PTEBACCAV_PTQ_EE,Percentage of pupils with middle prior attainment achieving the English Baccalaureate
+229,TEBACC_EHI_PTQ_EE,Number of pupils with high prior attainment with entries in all English Baccalaureate subject areas
+230,PTEBACC_EHI_PTQ_EE,Percentage of pupils with high prior attainment with entries in all English Baccalaureate subject areas
+231,PTEBACCHI_PTQ_EE,Percentage of pupils with high prior attainment achieving the English Baccalaureate
+232,PTEBACC_EFSM6CLA1A_PTQ_EE,Percentage of disadvantaged pupils with entries in all English Baccalaureate subject areas
+233,PTEBACC_ENFSM6CLA1A_PTQ_EE,Percentage of non-disadvantaged pupils with entries in all English Baccalaureate subject areas
+234,PTEBACC_FSM6CLA1A_PTQ_EE,Percentage of disadvantaged pupils achieving the English Baccalaureate
+235,PTEBACC_NFSM6CLA1A_PTQ_EE,Percentage of non-disadvantaged pupils achieving the English Baccalaureate
+236,SCIVAMEA_LO_PTQ_EE,English Baccalaureate Science Value Added measure for pupils with low prior attainment
+237,SCIVAMEA_AV_PTQ_EE,English Baccalaureate Science Value Added measure for pupils with middle prior attainment
+238,SCIVAMEA_HI_PTQ_EE,English Baccalaureate Science Value Added measure for pupils with high prior attainment
+239,SCIVAMEA_FSM6CLA1A_PTQ_EE,English Baccalaureate Science Value Added measure for disadvantaged pupils
+240,SCIVAMEA_NFSM6CLA1A_PTQ_EE,English Baccalaureate Science Value Added measure for non-disadvantaged pupils
+241,HUMVAMEA_LO_PTQ_EE,English Baccalaureate Humanities Value Added measure for pupils with low prior attainment
+242,HUMVAMEA_AV_PTQ_EE,English Baccalaureate Humanities Value Added measure for pupils with middle prior attainment
+243,HUMVAMEA_HI_PTQ_EE,English Baccalaureate Humanities Value Added measure for pupils with high prior attainment
+244,HUMVAMEA_FSM6CLA1A_PTQ_EE,English Baccalaureate Humanities Value Added measure for disadvantaged pupils
+245,HUMVAMEA_NFSM6CLA1A_PTQ_EE,English Baccalaureate Humanities Value Added measure for non-disadvantaged pupils
+246,LANVAMEA_LO_PTQ_EE,English Baccalaureate Languages Value Added measure for pupils with low prior attainment
+247,LANVAMEA_AV_PTQ_EE,English Baccalaureate Languages Value Added measure for pupils with middle prior attainment
+248,LANVAMEA_HI_PTQ_EE,English Baccalaureate Languages Value Added measure for pupils with high prior attainment
+249,LANVAMEA_FSM6CLA1A_PTQ_EE,English Baccalaureate Languages Value Added measure for disadvantaged pupils
+250,LANVAMEA_NFSM6CLA1A_PTQ_EE,English Baccalaureate Languages Value Added measure for non-disadvantaged pupils
+251,SCIVAUPP_FSM6CLA1A_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Science Value Added measure for disadvantaged pupils
+252,SCIVALOW_FSM6CLA1A_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Science Value Added measure for disadvantaged pupils
+253,SCIVAUPP_NFSM6CLA1A_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Science Value Added measure for non-disadvantaged pupils
+254,SCIVALOW_NFSM6CLA1A_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Science Value Added measure for non-disadvantaged pupils
+255,SCIVAUPP_LO_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Science Value Added measure for pupils with low prior attainment
+256,SCIVALOW_LO_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Science Value Added measure for pupils with low prior attainment
+257,SCIVAUPP_AV_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Science Value Added measure for pupils with middle prior attainment
+258,SCIVALOW_AV_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Science Value Added measure for pupils with middle prior attainment
+259,SCIVAUPP_HI_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Science Value Added measure for pupils with high prior attainment
+260,SCIVALOW_HI_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Science Value Added measure for pupils with high prior attainment
+261,HUMVAUPP_FSM6CLA1A_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Humanities Value Added measure for disadvantaged pupils
+262,HUMVALOW_FSM6CLA1A_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Humanities Value Added measure for disadvantaged pupils
+263,HUMVAUPP_NFSM6CLA1A_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Humanities Value Added measure for non-disadvantaged pupils
+264,HUMVALOW_NFSM6CLA1A_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Humanities Value Added measure for non-disadvantaged pupils
+265,HUMVAUPP_LO_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Humanities Value Added measure for pupils with low prior attainment
+266,HUMVALOW_LO_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Humanities Value Added measure for pupils with low prior attainment
+267,HUMVAUPP_AV_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Humanities Value Added measure for pupils with middle prior attainment
+268,HUMVALOW_AV_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Humanities Value Added measure for pupils with middle prior attainment
+269,HUMVAUPP_HI_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Humanities Value Added measure for pupils with high prior attainment
+270,HUMVALOW_HI_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Humanities Value Added measure for pupils with high prior attainment
+271,LANVAUPP_FSM6CLA1A_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Languages Value Added measure for disadvantaged pupils
+272,LANVALOW_FSM6CLA1A_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Languages Value Added measure for disadvantaged pupils
+273,LANVAUPP_NFSM6CLA1A_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Languages Value Added measure for non-disadvantaged pupils
+274,LANVALOW_NFSM6CLA1A_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Languages Value Added measure for non-disadvantaged pupils
+275,LANVAUPP_LO_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Languages Value Added measure for pupils with low prior attainment
+276,LANVALOW_LO_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Languages Value Added measure for pupils with low prior attainment
+277,LANVAUPP_AV_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Languages Value Added measure for pupils with middle prior attainment
+278,LANVALOW_AV_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Languages Value Added measure for pupils with middle prior attainment
+279,LANVAUPP_HI_PTQ_EE,Upper 95% confidence limit for English Baccalaureate Languages Value Added measure for pupils with high prior attainment
+280,LANVALOW_HI_PTQ_EE,Lower 95% confidence limit for English Baccalaureate Languages Value Added measure for pupils with high prior attainment
+281,PTEBACC_E_13,Percentage of pupils entering all English Baccalaureate subject areas in 2013
+282,PTEBACC_13,Percentage of pupils achieving the English Baccalaureate in 2013
+283,PTEBACC_E_14_PTQ,Percentage of pupils entering all English Baccalaureate subject areas in 2014
+284,PTEBACC_14_PTQ,Percentage of pupils achieving the English Baccalaureate in 2014
+285,PTEBACC_E_15_PTQ_EE,Percentage of pupils entering all English Baccalaureate subject areas in 2015
+286,PTEBACC_15_PTQ_EE,Percentage of pupils achieving the English Baccalaureate in 2015
+287,PBEBACC_E_PTQ_EE,Percentage of boys with entries in all English Baccalaureate subject areas
+288,PBEBACC_PTQ_EE,Percentage of boys achieving the English Baccalaureate
+289,PGEBACC_E_PTQ_EE,Percentage of girls with entries in all English Baccalaureate subject areas
+290,PGEBACC_PTQ_EE,Percentage of girls achieving the English Baccalaureate
+291,PTEBACC_ENMOB_PTQ_EE,Percentage of non-mobile pupils with entries in all English Baccalaureate subject areas
+292,PTEBACCNMOB_PTQ_EE,Percentage of non-mobile pupils achieving the English Baccalaureate
+293,PTEBACC_EEAL_PTQ_EE,Percentage of pupils for whom English is an additional language with entries in all English Baccalaureate subject areas
+294,PTEBACCEAL_PTQ_EE,Percentage of pupils for whom English is an additional language achieving the English Baccalaureate
+295,PTEBACC_EFSM_13,Percentage of disadvantaged pupils with entries in all English Baccalaureate subject areas in 2013
+296,PTEBACC_FSM_13,Percentage of disadvantaged pupils achieving the English Baccalaureate in 2013
+297,PTEBACC_ENFSM_13,Percentage of non-disadvantaged pupils with entries in all English Baccalaureate subject areas in 2013
+298,PTEBACC_NFSM_13,Percentage of non-disadvantaged pupils achieving the English Baccalaureate in 2013
+299,PTEBACC_EFSM_14_PTQ,Percentage of disadvantaged pupils entering all English Baccalaureate subject areas in 2014
+300,PTEBACC_FSM_14_PTQ,Percentage of disadvantaged pupils achieving the English Baccalaureate in 2014
+301,PTEBACC_ENFSM_14_PTQ,Percentage of non-disadvantaged pupils entering all English Baccalaureate subject areas in 2014
+302,PTEBACC_NFSM_14_PTQ,Percentage  non-disadvantaged pupils achieving the English Baccalaureate in 2014
+303,PTEBACC_EFSM6CLA1A_15_PTQ_EE,Percentage of disadvantaged pupils entering all English Baccalaureate subject areas in 2015
+304,PTEBACC_FSM6CLA1A_15_PTQ_EE,Percentage of disadvantaged pupils achieving the English Baccalaureate in 2015
+305,PTEBACC_ENFSM6CLA1A_15_PTQ_EE,Percentage of non-disadvantaged pupils entering all English Baccalaureate subject areas in 2015
+306,PTEBACC_NFSM6CLA1A_15_PTQ_EE,Percentage of non-disadvantaged pupils achieving the English Baccalaureate in 2015
+307,PTAC5EM_PTQ_EE,Percentage of pupils achieving 5+ A*-C or equivalents including A*-C in both English and mathematics GCSEs
+308,AC5EM13,Percentage of pupils achieving 5+ A*-C or equivalents including A*-C in both English and mathematics GCSEs - 2013
+309,AC5EM14_PTQ,Percentage of pupils achieving 5+ A*-C or equivalents including A*-C in both English and mathematics GCSEs - 2014
+310,AC5EM15_PTQ_EE,Percentage of pupils achieving 5+ A*-C or equivalents including A*-C in both English and mathematics GCSEs - 2015
+311,AC5EM16_PTQ_EE,Percentage of pupils achieving 5+ A*-C or equivalents including A*-C in both English and mathematics GCSEs - 2016
+312,PTANYQ_PTQ_EE,Percentage of pupils achieving any qualifications
+313,PTL2BASICS_13,Percentage of pupils achieving grades A*-C in both English and mathematics GCSEs in 2013
+314,PTL2BASICS_14_PTQ,Percentage of pupils achieving grades A*-C in both English and mathematics GCSEs in 2014
+315,PTL2BASICS_15_PTQ_EE,Percentage of pupils achieving grades A*-C in both English and mathematics GCSEs in 2015
+316,PTFSM6CLA1ABASICS_LL_PTQ_EE,Percentage of disadvantaged pupils achieving grades A*-C in both English and mathematics GCSEs
+317,PTNOTFSM6CLA1ABASICS_LL_PTQ_EE,Percentage of non-disadvantaged pupils achieving grades A*-C in both English and mathematics GCSEs
+318,TBASICS_LL_LO_PTQ_EE,Number of pupils in low prior attainment band achieving grades A*-C in both English and mathematics GCSEs
+319,PTBASICS_LL_LO_PTQ_EE,Percentage of pupils in low prior attainment band achieving grades A*-C in both English and mathematics GCSEs
+320,TBASICS_LL_AV_PTQ_EE,Number of pupils in middle prior attainment band achieving grades A*-C in both English and mathematics GCSEs
+321,PTBASICS_LL_AV_PTQ_EE,Percentage pupils in middle prior attainment band achieving grades A*-C in both English and mathematics GCSEs
+322,TBASICS_LL_HI_PTQ_EE,Number of pupils in high prior attainment band achieving grades A*-C in both English and mathematics GCSEs
+323,PTBASICS_LL_HI_PTQ_EE,Percentage pupils in high prior attainment band achieving grades A*-C in both English and mathematics GCSEs
+324,PBL2BASICS_LL_PTQ_EE,Percentage of boys achieving grades A*-C in both English and mathematics GCSEs
+325,PGL2BASICS_LL_PTQ_EE,Percentage of girls achieving grades A*-C in both English and mathematics GCSEs
+326,PTL2BASICS_LL_EAL_PTQ_EE,Percentage of pupils for whom English is an additional language achieving grades A*-C in both English and mathematics GCSEs
+327,PTL2BASICS_LL_NMOB_PTQ_EE,Percentage of non-mobile pupils achieving grades A*-C in both English and mathematics GCSEs
+328,PTFSMBASICS_13,Percentage of disadvantaged pupils achieving grades A*-C in both English and mathematics GCSEs in 2013
+329,PTNOTFSMBASICS_13,Percentage of non-disadvantaged pupils achieving grades A*-C in both English and mathematics GCSEs in 2013
+330,PTFSMBASICS_14_PTQ,Percentage of disadvantaged pupils achieving grades A*-C in both English and mathematics GCSEs in 2014
+331,PTNOTFSMBASICS_14_PTQ,Percentage of non-disadvantaged pupils achieving grades A*-C in both English and mathematics GCSEs in 2014
+332,PTFSM6CLA1ABASICS_15_PTQ_EE,Percentage of disadvantaged pupils achieving grades A*-C in both English and mathematics GCSEs in 2015
+333,PTNOTFSM6CLA1ABASICS_15_PTQ_EE,Percentage of non-disadvantaged pupils achieving grades A*-C in both English and mathematics GCSEs in 2015
+334,PTmultiLan_E,Percentage of pupils entering more than one language
+335,PTtripleSci_E,"Percentage of pupils entering biology, chemistry and physics"
+336,TFSMCLA_13,Number of disadvantaged pupils at the end of key stage 4 in 2013
+337,PTFSMCLA_13,Percentage of pupils at the end of key stage 4 who were disadvantaged in 2013
+338,TNOTFSMCLA_13,Number of non-disadvantaged pupils at the end of key stage 4 in 2013
+339,PTNOTFSMCLA_13,Percentage of pupils at the end of key stage 4 who were not disadvantaged in 2013
+340,TFSMCLA_14,Number of disadvantaged pupils at the end of key stage 4 in 2014
+341,PTFSMCLA_14,Percentage of pupils at the end of key stage 4 who were disadvantaged in 2014
+342,TNOTFSMCLA_14,Number of non-disadvantaged pupils at the end of key stage 4 in 2014
+343,PTNOTFSMCLA_14,Percentage of pupils at the end of key stage 4 who were not disadvantaged in 2014
+344,TFSM6CLA1A_15,Number of disadvantaged pupils at the end of key stage 4 in 2015
+345,PTFSM6CLA1A_15,Percentage of pupils at the end of key stage 4 who were disadvantaged in 2015
+346,TNOTFSM6CLA1A_15,Number of non-disadvantaged pupils at the end of key stage 4 in 2015
+347,PTNOTFSM6CLA1A_15,Percentage of pupils at the end of key stage 4 who were not disadvantaged in 2015
+348,TAVENT_E_3NG_PTQ_EE,Average number of GCSE and equivalents entries per pupil
+349,TAVENT_E_3NG_LO_PTQ_EE,Average number of GCSE and equivalents entries per pupil with low prior attainment
+350,TAVENT_E_3NG_AV_PTQ_EE,Average number of GCSE and equivalents entries per pupil with middle prior attainment
+351,TAVENT_E_3NG_HI_PTQ_EE,Average number of GCSE and equivalents entries per pupil with high prior attainment
+352,TAVENT_E_3NG_FSM6CLA1A_PTQ_EE,Average number of GCSE and equivalents entries per disadvantaged pupil
+353,TAVENT_E_3NG_NFSM6CLA1A_PTQ_EE,Average number of GCSE and equivalents entries per non-disadvantaged pupil
+354,TAVENT_EFSM_13,Average number of GCSE and equivalents entries per disadvantaged pupil in 2013
+355,TAVENT_ENFSM_13,Average number of GCSE and equivalents entries per non-disadvantaged pupil in 2013
+356,TAVENT_EFSM_14_PTQ,Average number of GCSE and equivalents entries per disadvantaged pupil in 2014
+357,TAVENT_ENFSM_14_PTQ,Average number of GCSE and equivalents entries per non-disadvantaged pupil in 2014
+358,TAVENT_EFSM6CLA1A_15_PTQ_EE,Average number of GCSE and equivalents entries per disadvantaged pupil in 2015
+359,TAVENT_ENFSM6CLA1A_15_PTQ_EE,Average number of GCSE and equivalents entries per non-disadvantaged pupil in 2015
+360,TAVENT_G_PTQ_EE,Average number of GCSE entries per pupil
+361,TAVENT_GLO_PTQ_EE,Average number of GCSE entries per pupil with low prior attainment
+362,TAVENT_GAV_PTQ_EE,Average number of GCSE entries per pupil with middle prior attainment
+363,TAVENT_GHI_PTQ_EE,Average number of GCSE entries per pupil with high prior attainment
+364,TAVENT_GFSM6CLA1A_PTQ_EE,Average number of GCSE entries per disadvantaged pupil
+365,TAVENT_GNFSM6CLA1A_PTQ_EE,Average number of GCSE entries per non-disadvantaged pupil
+366,TAVENT_GFSM_13,Average number of GCSE entries per disadvantaged pupil in 2013
+367,TAVENT_GNFSM_13,Average number of GCSE entries per non-disadvantaged pupil in 2013
+368,TAVENT_GFSM_14_PTQ,Average number of GCSE entries per disadvantaged pupil in 2014
+369,TAVENT_GNFSM_14_PTQ,Average number of GCSE entries per non-disadvantaged pupil in 2014
+370,TAVENT_GFSM6CLA1A_15_PTQ_EE,Average number of GCSE entries per disadvantaged pupil in 2015
+371,TAVENT_GNFSM6CLA1A_15_PTQ_EE,Average number of GCSE entries per non-disadvantaged pupil in 2015
