@@ -1,0 +1,305 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PTPRIORLO using expression grel:toNumber(value.replace('%',''))/100.0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "NP",
+                "l": "NP"
+              }
+            },
+            {
+              "v": {
+                "v": "SUPP",
+                "l": "SUPP"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": true,
+          "name": "PTPRIORLO",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PTPRIORLO"
+        }
+      ]
+    },
+    "columnName": "PTPRIORLO",
+    "expression": "grel:toNumber(value.replace('%',''))/100.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PTPRIORAV using expression grel:toNumber(value.replace('%',''))/100.0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "NP",
+                "l": "NP"
+              }
+            },
+            {
+              "v": {
+                "v": "SUPP",
+                "l": "SUPP"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": true,
+          "name": "PTPRIORAV",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PTPRIORAV"
+        }
+      ]
+    },
+    "columnName": "PTPRIORAV",
+    "expression": "grel:toNumber(value.replace('%',''))/100.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PTPRIORHI using expression grel:toNumber(value.replace('%',''))/100.0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "NP",
+                "l": "NP"
+              }
+            },
+            {
+              "v": {
+                "v": "SUPP",
+                "l": "SUPP"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": true,
+          "name": "PTPRIORHI",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PTPRIORHI"
+        }
+      ]
+    },
+    "columnName": "PTPRIORHI",
+    "expression": "grel:toNumber(value.replace('%',''))/100.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PTL2BASICS_LL_PTQ_EE using expression grel:toNumber(value.replace('%',''))/100.0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "NE",
+                "l": "NE"
+              }
+            },
+            {
+              "v": {
+                "v": "SUPP",
+                "l": "SUPP"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": true,
+          "name": "PTL2BASICS_LL_PTQ_EE",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PTL2BASICS_LL_PTQ_EE"
+        }
+      ]
+    },
+    "columnName": "PTL2BASICS_LL_PTQ_EE",
+    "expression": "grel:toNumber(value.replace('%',''))/100.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PTL2BASICS_3YR_PTQ_EE using expression grel:toNumber(value.replace('%',''))/100.0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "NE",
+                "l": "NE"
+              }
+            },
+            {
+              "v": {
+                "v": "SUPP",
+                "l": "SUPP"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": true,
+          "name": "PTL2BASICS_3YR_PTQ_EE",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PTL2BASICS_3YR_PTQ_EE"
+        }
+      ]
+    },
+    "columnName": "PTL2BASICS_3YR_PTQ_EE",
+    "expression": "grel:toNumber(value.replace('%',''))/100.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "ALPHAIND",
+      "LEA",
+      "ESTAB",
+      "URN",
+      "SCHNAME",
+      "SCHNAME_AC",
+      "NFTYPE",
+      "TABKS2",
+      "PTPRIORLO",
+      "PTPRIORAV",
+      "PTPRIORHI",
+      "PTL2BASICS_LL_PTQ_EE",
+      "PTEBACC_15_PTQ_EE",
+      "PTL2BASICS_3YR_PTQ_EE",
+      "PTAC5EM_PTQ_EE",
+      "ATT8SCR",
+      "ATT8SCRENG",
+      "ATT8SCRMAT",
+      "ATT8SCREBAC",
+      "ATT8SCROPENG",
+      "ATT8SCR_LO",
+      "ATT8SCR_AV",
+      "ATT8SCR_HI",
+      "ATT8SCR_15"
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PTEBACC_15_PTQ_EE using expression grel:toNumber(value.replace('%',''))/100.0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "NA",
+                "l": "NA"
+              }
+            },
+            {
+              "v": {
+                "v": "SUPP",
+                "l": "SUPP"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": true,
+          "name": "PTEBACC_15_PTQ_EE",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PTEBACC_15_PTQ_EE"
+        }
+      ]
+    },
+    "columnName": "PTEBACC_15_PTQ_EE",
+    "expression": "grel:toNumber(value.replace('%',''))/100.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PTAC5EM_PTQ_EE using expression grel:toNumber(value.replace('%',''))/100.0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "NE",
+                "l": "NE"
+              }
+            },
+            {
+              "v": {
+                "v": "SUPP",
+                "l": "SUPP"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": true,
+          "name": "PTAC5EM_PTQ_EE",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "PTAC5EM_PTQ_EE"
+        }
+      ]
+    },
+    "columnName": "PTAC5EM_PTQ_EE",
+    "expression": "grel:toNumber(value.replace('%',''))/100.0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
